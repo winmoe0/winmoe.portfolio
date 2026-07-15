@@ -385,9 +385,14 @@
   background: linear-gradient(135deg, #a855f7 0%, #7e22ce 100%);
   color: white;
   text-align: center;
-  padding: 60px 20px 100px 20px;
-  position: relative; /* Fixed: allows z-index layering */
-  z-index: 5;        /* Fixed: lifts the text on top of the white slant line */
+  padding: 80px 20px 140px 20px; /* Restored the original beautiful deep size */
+}
+
+/* Fixes the text visibility without breaking the slant layout */
+.contact-main-title,
+.contact-subtitle {
+  position: relative;
+  z-index: 2; /* Lifts just the text over the white slant line */
 }
 
     .contact-main-title {
