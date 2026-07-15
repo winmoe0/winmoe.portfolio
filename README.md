@@ -380,12 +380,17 @@
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
     }
 
-    /* Purple Top Header Section */
+   /* Purple Top Header Section */
 .contact-header-bg {
   background: linear-gradient(135deg, #a855f7 0%, #7e22ce 100%);
   color: white;
   text-align: center;
-  padding: 80px 20px 140px 20px; /* Restored the original beautiful deep size */
+  padding: 60px 20px 120px 20px;
+  position: relative; 
+  z-index: 5; 
+  border-bottom-left-radius: 40px;  /* Smooth modern curve */
+  border-bottom-right-radius: 40px; /* Smooth modern curve */
+  box-shadow: 0 10px 30px rgba(126, 34, 206, 0.15); /* Soft purple depth shadow */
 }
 
 /* Fixes the text visibility without breaking the slant layout */
@@ -410,28 +415,19 @@
       line-height: 1.6;
     }
 
-    .contact-split-container {
-      background-color: var(--card-bg);
-      position: relative;
-      margin-top: -80px; 
-      z-index: 2;
-      padding: 0 50px 80px 50px;
-      transition: background var(--transition-speed);
-    }
+    /* White Bottom Background Container */
+.contact-split-container {
+  background-color: var(--card-bg);
+  position: relative;
+  margin-top: -60px; /* Shifting it perfectly to balance the curve spacing */
+  z-index: 2;
+  padding: 0 50px 80px 50px;
+  transition: background var(--transition-speed);
+}
 
     .picto-contact-section::before {
-      content: '';
-      position: absolute;
-      top: 150px;
-      left: 0;
-      width: 100%;
-      height: 300px;
-      background: var(--card-bg);
-      transform: skewY(-6deg);
-      transform-origin: top left;
-      z-index: 1;
-      transition: background var(--transition-speed);
-    }
+  content: none;
+}
 
     .contact-grid-wrapper {
       position: relative;
