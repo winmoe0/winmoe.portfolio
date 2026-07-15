@@ -412,70 +412,109 @@
       line-height: 1.6;
     }
 
-   /* White Bottom Background Container */
+  /* Container Box right below the purple title banner */
 .contact-split-container {
   background-color: var(--card-bg);
   position: relative;
-  margin-top: 0; /* Fixed: Removes the awkward overlap layout bug */
+  margin-top: 0; 
   z-index: 2;
-  padding: 40px 50px 60px 50px; /* Cleaner spacing balance */
+  padding: 50px 40px 70px 40px;
   transition: background var(--transition-speed);
 }
-    .picto-contact-section::before {
-  content: none;
-}
 
-    ..contact-grid-wrapper {
+/* Controls the side-by-side spacing balance */
+.contact-grid-wrapper {
   position: relative;
   z-index: 3;
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
+  grid-template-columns: 1.1fr 0.9fr; /* Perfect balanced sizing */
   gap: 50px;
-  align-items: start; /* Fixed: Aligns top of form with top of contact info links */
-  max-width: 1100px;
+  align-items: start; 
+  max-width: 1050px;
   margin: 0 auto;
 }
 
-    .mock-browser-window {
-      background: var(--card-bg);
-      border: 2px solid var(--text-main);
-      border-radius: 16px;
-      overflow: hidden;
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
-      transition: border-color var(--transition-speed), background var(--transition-speed);
-    }
+    /* Modern Elegant Float Card on the Left Side */
+.mock-browser-window {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  padding: 40px 35px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.03);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
 
-    .browser-header {
-      background-color: rgba(147, 51, 234, 0.15);
-      border-bottom: 2px solid var(--text-main);
-      padding: 12px 24px;
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      transition: border-color var(--transition-speed);
-    }
+[data-theme="dark"] .mock-browser-window {
+  background: rgba(15, 23, 42, 0.4);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
 
-    .browser-controls {
-      display: flex;
-      gap: 12px;
-      font-size: 1.2em;
-      font-weight: 600;
-      color: var(--text-main);
-      cursor: default;
-    }
+/* Cleaner form layout labels and inputs alignment */
+.form-row {
+  display: flex;
+  flex-direction: column; /* Stacks label on top for a cleaner digital tool look */
+  gap: 8px;
+  align-items: flex-start;
+}
 
-    .browser-controls span {
-      display: inline-block;
-      line-height: 1;
-    }
+.form-row label {
+  font-size: 0.92em;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  width: auto;
+}
 
-    .browser-body {
-      padding: 35px 40px;
-      display: flex;
-      flex-direction: column;
-      gap: 25px;
-    }
+.form-row input, .message-row textarea {
+  width: 100%;
+  padding: 14px 20px;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 0.95em;
+  color: var(--text-main) !important;
+  background-color: rgba(0, 0, 0, 0.02);
+  transition: all 0.25s ease;
+}
 
+[data-theme="dark"] .form-row input, 
+[data-theme="dark"] .message-row textarea {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.form-row input:focus, .message-row textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  background-color: var(--card-bg);
+  box-shadow: 0 0 0 3px rgba(147, 51, 234, 0.1);
+}
+
+/* Modern Rounded Pill Button */
+.btn-browser-send {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  padding: 12px 40px;
+  border-radius: 50px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 0.95em;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(147, 51, 234, 0.2);
+  transition: all 0.25s ease;
+  width: 100%; /* Spans full card width cleanly */
+}
+
+.btn-browser-send:hover {
+  background-color: var(--primary-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(147, 51, 234, 0.3);
+}
     .form-row {
       display: flex;
       align-items: center;
