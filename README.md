@@ -434,66 +434,81 @@
   margin: 0 auto;
 }
 
-    /* Modern Elegant Float Card on the Left Side */
+   /* Mock Browser Container Style */
 .mock-browser-window {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid var(--border-color);
-  border-radius: 20px;
-  padding: 40px 35px;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.03);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: var(--card-bg);
+  border: 2px solid var(--text-main);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+  transition: border-color var(--transition-speed), background var(--transition-speed);
+}
+
+/* Browser Window Top Bar */
+.browser-header {
+  background-color: rgba(147, 51, 234, 0.12);
+  border-bottom: 2px solid var(--text-main);
+  padding: 12px 24px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  transition: border-color var(--transition-speed);
+}
+
+/* Browser Window Form Content Box */
+.browser-body {
+  padding: 40px; /* Balanced internal breathing room */
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-[data-theme="dark"] .mock-browser-window {
-  background: rgba(15, 23, 42, 0.4);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-}
-
-/* Cleaner form layout labels and inputs alignment */
+/* Form Input Layout Fields */
 .form-row {
   display: flex;
-  flex-direction: column; /* Stacks label on top for a cleaner digital tool look */
-  gap: 8px;
-  align-items: flex-start;
+  align-items: center;
+  gap: 20px;
 }
 
 .form-row label {
-  font-size: 0.92em;
+  font-size: 1.05em;
   font-weight: 600;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  color: var(--text-muted);
-  width: auto;
+  color: var(--text-main);
+  width: 110px; /* Standardized fixed width to keep things perfectly aligned */
+  flex-shrink: 0;
 }
 
 .form-row input, .message-row textarea {
   width: 100%;
-  padding: 14px 20px;
-  border: 1px solid var(--border-color);
+  padding: 12px 18px;
+  border: 1.5px solid var(--border-color);
   border-radius: 10px;
   font-family: inherit;
   font-size: 0.95em;
-  color: var(--text-main) !important;
-  background-color: rgba(0, 0, 0, 0.02);
-  transition: all 0.25s ease;
-}
-
-[data-theme="dark"] .form-row input, 
-[data-theme="dark"] .message-row textarea {
-  background-color: rgba(255, 255, 255, 0.03);
+  color: #1e2530; /* Crispy clear text in light mode */
+  background-color: #fff;
+  transition: border-color 0.25s ease;
 }
 
 .form-row input:focus, .message-row textarea:focus {
   outline: none;
   border-color: var(--primary-color);
-  background-color: var(--card-bg);
   box-shadow: 0 0 0 3px rgba(147, 51, 234, 0.1);
 }
 
+/* Dark mode overrides for internal form elements */
+[data-theme="dark"] .form-row input, 
+[data-theme="dark"] .message-row textarea {
+  background-color: #0f172a;
+  border-color: rgba(255, 255, 255, 0.15);
+  color: #f8fafc; /* Beautiful clean silver-white text in dark mode */
+}
+
+[data-theme="dark"] .form-row input::placeholder, 
+[data-theme="dark"] .message-row textarea::placeholder {
+  color: #64748b; 
+}
+    
 /* Modern Rounded Pill Button */
 .btn-browser-send {
   background-color: var(--primary-color);
