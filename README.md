@@ -385,7 +385,7 @@
   background: linear-gradient(135deg, #a855f7 0%, #7e22ce 100%);
   color: white;
   text-align: center;
-  padding: 50px 20px; /* Balanced, clean padding */
+  padding: 60px 20px 60px 20px; /* Balanced padding without deep bottom space */
   position: relative; 
   z-index: 2; 
 }
@@ -412,25 +412,25 @@
       line-height: 1.6;
     }
 
-  /* Container Box right below the purple title banner */
+  /* White Bottom Background Container */
 .contact-split-container {
   background-color: var(--card-bg);
   position: relative;
-  margin-top: 0; 
+  margin-top: 0; /* Fixed: Removes the awkward overlap layout bug */
   z-index: 2;
-  padding: 50px 40px 70px 40px;
+  padding: 50px 50px 80px 50px; /* Generous padding for clean breathing room */
   transition: background var(--transition-speed);
 }
 
-/* Controls the side-by-side spacing balance */
+/* Controls Side-by-Side Grid Layout balance */
 .contact-grid-wrapper {
   position: relative;
   z-index: 3;
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr; /* Perfect balanced sizing */
+  grid-template-columns: 1.15fr 0.85fr; /* Sized perfectly so left side isn't too large or small */
   gap: 50px;
-  align-items: start; 
-  max-width: 1050px;
+  align-items: start; /* Fixed: Aligns the top of the browser window perfectly with the right text */
+  max-width: 1100px;
   margin: 0 auto;
 }
 
