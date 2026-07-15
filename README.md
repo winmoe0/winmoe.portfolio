@@ -496,7 +496,7 @@
       <div class="picto-hero-right">
         <div class="picto-img-container">
           <!-- Configured directly to your provided filename -->
-          <img src="./assets/images/winmoeprofile2.jpg" alt="Win Moe Portrait" onerror="this.src='https://via.placeholder.com/430x500'">
+          <img src="winmoeprofile2.jpg" alt="Win Moe Portrait" onerror="this.src='https://via.placeholder.com/430x500'">
         </div>
       </div>
     </header>
