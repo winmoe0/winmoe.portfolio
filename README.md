@@ -662,7 +662,8 @@
         </div>
       </div>
 
-
+</div>
+    </div>
       <!-- Leadership & Volunteer Timeline Content -->
 <div id="leadership-timeline" class="timeline-content">
   <div class="timeline">
@@ -730,6 +731,8 @@
           Create free educational resources, English learning content, and digital materials to support lifelong learning and improve access to quality education through online platforms and social media.
         </p>
       </div>
+    </div>
+    </div>
     </div>
     
     <!-- Skills Matrix Grid Section -->
