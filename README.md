@@ -724,14 +724,87 @@
     .modal-card { background: #fff; padding: 40px; border-radius: 16px; max-width: 500px; width: 90%; position: relative; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
     .close-modal { position: absolute; top: 20px; right: 25px; font-size: 2em; cursor: pointer; color: var(--text-muted); }
 
-    /* --- Footer Area --- */
-    .footer-section { background-color: #0b132b; color: #adbac7; padding: 60px 20px 20px; border-top: 1px solid rgba(255,255,255,0.05); border-radius: 0 0 32px 32px; margin-top: 40px; }
-    .footer-grid { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 40px; padding-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.05); }
-    .footer-info h3 { color: white; margin-bottom: 10px; }
-    .footer-links h4 { color: white; margin-bottom: 15px; }
-    .footer-links a { display: block; color: #adbac7; text-decoration: none; margin-bottom: 8px; font-size: 0.9em; }
-    .footer-links a:hover { color: var(--secondary-color); }
-    .footer-bottom { text-align: center; padding-top: 20px; font-size: 0.85em; }
+   /* --- Premium Picto Footer Styles --- */
+.picto-footer {
+  margin-top: 80px;
+  width: 100%;
+}
+
+.footer-divider {
+  width: 100%;
+  height: 1px;
+  background-color: var(--border-color);
+  margin-bottom: 40px;
+}
+
+.picto-footer-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+.picto-footer-info h3 {
+  font-size: 1.4em;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 5px;
+}
+
+.picto-footer-info p {
+  font-size: 0.9em;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.picto-footer-links {
+  display: flex;
+  gap: 30px;
+}
+
+.picto-footer-links a {
+  text-decoration: none;
+  color: #5c677d;
+  font-weight: 500;
+  font-size: 0.92em;
+  transition: color 0.25s ease;
+}
+
+.picto-footer-links a:hover {
+  color: var(--primary-color);
+}
+
+.picto-footer-bottom {
+  border-top: 1px solid rgba(0, 0, 0, 0.03);
+  padding-top: 20px;
+  text-align: center;
+}
+
+.picto-footer-bottom p {
+  font-size: 0.85em;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* Dark mode compatibility */
+[data-theme="dark"] .picto-footer-bottom {
+  border-top-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .picto-footer-grid {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  .picto-footer-links {
+    justify-content: center;
+    gap: 20px;
+  }
+}
 
     /* --- Global Scroll Components --- */
     .scroll-top-btn { position: fixed; bottom: 30px; right: 30px; width: 45px; height: 45px; border-radius: 50%; background-color: var(--primary-color); color: white; border: none; cursor: pointer; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 10px rgba(0,0,0,0.1); opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 99; }
