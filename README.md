@@ -868,20 +868,110 @@
 </section>
 
     <!-- Professional Certifications Grid -->
-    <section class="container-box scroll-reveal">
-      <div class="section-title">
-        <h2>Certifications</h2>
-        <div class="title-line"></div>
-      </div>
-      <div class="certs-grid">
-        <div class="cert-item-card"><i class="fas fa-medal gold-icon"></i> <span>TEFL/TESOL Professional (2026)</span></div>
-        <div class="cert-item-card"><i class="fas fa-child"></i> <span>Teaching Young Learners (2026)</span></div>
-        <div class="cert-item-card"><i class="fab fa-google text-blue"></i> <span>Google Digital Marketing & E-Commerce</span></div>
-        <div class="cert-item-card"><i class="fas fa-language"></i> <span>English Four Skills Certification</span></div>
-        <div class="cert-item-card"><i class="fas fa-globe"></i> <span>Localization in Humanitarian Aid</span></div>
-        <div class="cert-item-card"><i class="fas fa-chalkboard-teacher"></i> <span>Mastering E-Learning Designs</span></div>
-      </div>
-    </section>
+<section id="certifications" class="container-box scroll-reveal">
+  <div class="section-title">
+    <h2>Professional Certifications</h2>
+    <div class="title-line"></div>
+  </div>
+
+  <div class="certs-grid">
+
+    <!-- Teaching -->
+    <div class="cert-item-card">
+      <i class="fas fa-medal gold-icon"></i>
+      <span>TEFL/TESOL Certification (2026)</span>
+    </div>
+
+    <div class="cert-item-card">
+      <i class="fas fa-child"></i>
+      <span>Teaching English to Young Learners (2026)</span>
+    </div>
+
+    <div class="cert-item-card">
+      <i class="fas fa-hands-helping"></i>
+      <span>Teaching English to Refugees and Displaced Learners</span>
+    </div>
+
+    <div class="cert-item-card">
+      <i class="fas fa-volume-up"></i>
+      <span>Teaching English: How to Teach Pronunciation</span>
+    </div>
+
+    <div class="cert-item-card">
+      <i class="fas fa-clipboard-check"></i>
+      <span>Teaching English: Assessing Learning</span>
+    </div>
+
+    <div class="cert-item-card">
+      <i class="fas fa-book-open"></i>
+      <span>Teaching English: How to Adapt Resources</span>
+    </div>
+
+    <div class="cert-item-card">
+      <i class="fas fa-laptop-house"></i>
+      <span>Teaching Online</span>
+    </div>
+
+    <!-- Education -->
+    <div class="cert-item-card">
+      <i class="fas fa-graduation-cap"></i>
+      <span>English Four Skills (2018)</span>
+    </div>
+
+    <div class="cert-item-card">
+      <i class="fas fa-brain"></i>
+      <span>Exploring Learning Disabilities</span>
+    </div>
+
+    <div class="cert-item-card">
+      <i class="fas fa-users"></i>
+      <span>Introduction to Social Sciences</span>
+    </div>
+
+    <div class="cert-item-card">
+      <i class="fas fa-user-friends"></i>
+      <span>Diversity and Inclusion in the Workplace</span>
+    </div>
+
+    <!-- Technology -->
+    <div class="cert-item-card">
+      <i class="fab fa-google text-blue"></i>
+      <span>Google Digital Marketing & E-Commerce (2025)</span>
+    </div>
+
+    <div class="cert-item-card">
+      <i class="fas fa-laptop-code"></i>
+      <span>I-Office Computer (2019)</span>
+    </div>
+
+    <div class="cert-item-card">
+      <i class="fas fa-chalkboard-teacher"></i>
+      <span>Mastering E-Learning Designs for Modern Educators (2025)</span>
+    </div>
+
+    <!-- Professional Development -->
+    <div class="cert-item-card">
+      <i class="fas fa-chart-line"></i>
+      <span>Career Advancement (2024)</span>
+    </div>
+
+    <div class="cert-item-card">
+      <i class="fas fa-heart"></i>
+      <span>Stress Management and Self-Care (2025)</span>
+    </div>
+
+    <div class="cert-item-card">
+      <i class="fas fa-globe"></i>
+      <span>Localization in Humanitarian Aid (2025)</span>
+    </div>
+
+    <div class="cert-item-card">
+      <i class="fas fa-coins"></i>
+      <span>Financial Literacy (2018)</span>
+    </div>
+
+  </div>
+</section>
 
     <!-- Portfolio Filter Showcase Grid -->
     <section id="portfolio" class="container-box scroll-reveal">
