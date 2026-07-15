@@ -1672,9 +1672,25 @@
 
             <!-- Horizontal Social Icons Row -->
             <div class="info-social-row">
-              <a href="https://www.linkedin.com/in/win-moe-73b006395" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-              <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-              <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+  <a href="https://www.linkedin.com/in/win-moe-73b006395" target="_blank" aria-label="LinkedIn">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+
+  <a href="https://facebook.com/winmoe.wmwm" target="_blank" aria-label="Facebook Personal">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+
+<a href="https://www.facebook.com/share/1DCQUzoTtw/?mibextid=wwXIfr" target="_blank" aria-label="Facebook Page">
+    <i class="fab fa-facebook"></i>
+  </a>
+  
+  <a href="https://tiktok.com/@poyenglish" target="_blank" aria-label="TikTok">
+    <i class="fab fa-tiktok"></i>
+  </a>
+
+  <a href="https://www.youtube.com/@hongsarpoy" target="_blank" aria-label="YouTube">
+    <i class="fab fa-youtube"></i>
+  </a>
             </div>
           </div>
 
