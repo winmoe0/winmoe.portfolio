@@ -378,11 +378,345 @@
     .testimonial-slide .quote { font-size: 1.2em; font-style: italic; line-height: 1.7; margin-bottom: 15px; }
     .testimonial-slide h4 { color: var(--primary-color); font-weight: 600; }
 
-    /* --- Contact Block & Elements --- */
-    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
-    .contact-form { display: flex; flex-direction: column; gap: 15px; }
-    .form-group input, .form-group textarea { width: 100%; padding: 14px 20px; border-radius: 8px; background: #fff; border: 1px solid var(--border-color); color: var(--text-main); font-family: inherit; font-size: 0.95em; transition: border-color var(--transition-speed); }
-    .form-group input:focus, .form-group textarea:focus { outline: none; border-color: var(--primary-color); }
+    /* --- Premium Picto Contact Section Styles --- */
+.picto-contact-section {
+  position: relative;
+  width: 100%;
+  margin-top: 60px;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+}
+
+/* Purple Top Header Section */
+.contact-header-bg {
+  background: linear-gradient(135deg, #a855f7 0%, #7e22ce 100%);
+  color: white;
+  text-align: center;
+  padding: 80px 20px 140px 20px;
+}
+
+.contact-main-title {
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #fff !important;
+}
+
+.contact-subtitle {
+  font-size: 1.1em;
+  max-width: 650px;
+  margin: 0 auto;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+/* White Bottom Background with Diagonal Split Overlay */
+.contact-split-container {
+  background-color: #ffffff;
+  position: relative;
+  margin-top: -80px; /* Pulls content up over the header background */
+  z-index: 2;
+  padding: 0 50px 80px 50px;
+}
+
+/* Diagonal split background simulation */
+.picto-contact-section::before {
+  content: '';
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background: #ffffff;
+  transform: skewY(-6deg);
+  transform-origin: top left;
+  z-index: 1;
+}
+
+.contact-grid-wrapper {
+  position: relative;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 60px;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Mock Browser Container Style */
+.mock-browser-window {
+  background: #ffffff;
+  border: 2px solid #111827;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+}
+
+/* Browser Window Top Bar */
+.browser-header {
+  background-color: rgba(147, 51, 234, 0.15);
+  border-bottom: 2px solid #111827;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.browser-controls {
+  display: flex;
+  gap: 12px;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #111827;
+  cursor: default;
+}
+
+.browser-controls span {
+  display: inline-block;
+  line-height: 1;
+}
+
+/* Browser Window Form Content */
+.browser-body {
+  padding: 35px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* Aligns the labels to the left of the input boxes */
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.form-row label {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #111827;
+  width: 100px;
+  flex-shrink: 0;
+}
+
+.form-row input {
+  width: 100%;
+  padding: 12px 20px;
+  border: 1.5px solid #d1d5db;
+  border-radius: 12px;
+  font-family: inherit;
+  font-size: 0.95em;
+  color: #111827;
+  background-color: #fff;
+  transition: border-color 0.25s ease;
+}
+
+.form-row input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+/* Fix alignment for multiline Message fields */
+.message-row {
+  align-items: flex-start;
+}
+
+.message-row label {
+  margin-top: 10px;
+}
+
+.message-row textarea {
+  width: 100%;
+  padding: 15px 20px;
+  border: 1.5px solid #d1d5db;
+  border-radius: 12px;
+  font-family: inherit;
+  font-size: 0.95em;
+  color: #111827;
+  background-color: #fff;
+  resize: none;
+  transition: border-color 0.25s ease;
+}
+
+.message-row textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+/* Custom Curved Send Button Centering */
+.form-submit-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.btn-browser-send {
+  background-color: rgba(147, 51, 234, 0.2);
+  color: var(--primary-color);
+  border: 1.5px solid var(--primary-color);
+  padding: 10px 45px;
+  border-radius: 30px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.btn-browser-send:hover {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  transform: scale(1.03);
+}
+
+/* Right Side: Contact details list */
+.contact-info-panel {
+  padding-left: 20px;
+}
+
+.info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 1.1em;
+}
+
+.info-item i {
+  font-size: 1.4em;
+  color: var(--primary-color);
+  width: 30px;
+  text-align: center;
+}
+
+.info-item span, .info-item a {
+  color: #111827;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.info-item a:hover {
+  color: var(--primary-color);
+}
+
+/* Social icons layout */
+.info-social-row {
+  display: flex;
+  gap: 20px;
+  padding-left: 8px;
+}
+
+.info-social-row a {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #f3f4f6;
+  color: #111827;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  font-size: 1.2em;
+}
+
+.info-social-row a:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: translateY(-3px);
+}
+
+/* Dark mode configurations */
+[data-theme="dark"] .contact-split-container {
+  background-color: #1e293b;
+}
+
+[data-theme="dark"] .picto-contact-section::before {
+  background: #1e293b;
+}
+
+[data-theme="dark"] .mock-browser-window {
+  background: #1e293b;
+  border-color: #fff;
+}
+
+[data-theme="dark"] .browser-header {
+  border-bottom-color: #fff;
+}
+
+[data-theme="dark"] .browser-controls {
+  color: #fff;
+}
+
+[data-theme="dark"] .form-row label {
+  color: #fff;
+}
+
+[data-theme="dark"] .form-row input, [data-theme="dark"] .message-row textarea {
+  background-color: #0f172a;
+  border-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+[data-theme="dark"] .info-item span, [data-theme="dark"] .info-item a {
+  color: #fff;
+}
+
+[data-theme="dark"] .info-social-row a {
+  background-color: #0f172a;
+  color: #fff;
+}
+
+[data-theme="dark"] .info-social-row a:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 992px) {
+  .contact-grid-wrapper {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .contact-split-container {
+    padding: 0 20px 60px 20px;
+  }
+  .contact-info-panel {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .info-list {
+    align-items: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .browser-body {
+    padding: 25px 20px;
+  }
+  .form-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .form-row label {
+    width: auto;
+  }
+  .contact-main-title {
+    font-size: 2.2em;
+  }
+}
 
     /* --- Modal Overlay Design --- */
     .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); backdrop-filter: blur(4px); z-index: 2000; display: flex; justify-content: center; align-items: center; opacity: 0; visibility: hidden; transition: all 0.3s ease; }
@@ -1099,7 +1433,7 @@
         </div>
       </div>
     </section>
-
+    
     <!-- Unified Footer Construction -->
     <footer class="footer-section">
       <div class="footer-grid">
