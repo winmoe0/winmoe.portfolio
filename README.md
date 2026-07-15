@@ -1,4 +1,5 @@
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -60,7 +61,6 @@
     body {
       font-family: 'Poppins', sans-serif;
       background: var(--bg-main);
-      background-color: #f0f4f8; /* Dark mode fallback */
       color: var(--text-main);
       transition: background var(--transition-speed), color var(--transition-speed);
       overflow-x: hidden;
@@ -75,9 +75,10 @@
       background: var(--card-bg);
       border-radius: 32px;
       box-shadow: var(--glass-shadow);
-      border: 1px solid rgba(255, 255, 255, 0.7);
+      border: 1px solid var(--border-color);
       padding: 30px 50px 60px 50px;
       overflow: hidden;
+      transition: background var(--transition-speed);
     }
 
     .container-box {
@@ -95,11 +96,7 @@
     .section-title h2 {
       font-size: 2.2em;
       font-weight: 700;
-      color: #111827;
-    }
-    
-    [data-theme="dark"] .section-title h2 {
-      color: #fff;
+      color: var(--text-main);
     }
 
     .title-line {
@@ -114,7 +111,7 @@
     .loader-container {
       position: fixed;
       top: 0; left: 0; width: 100%; height: 100%;
-      background-color: #f3f4f6;
+      background-color: var(--bg-main);
       display: flex; justify-content: center; align-items: center;
       z-index: 9999;
       transition: opacity 0.5s ease, visibility 0.5s;
@@ -168,7 +165,7 @@
 
     .picto-nav-links a {
       text-decoration: none;
-      color: #5c677d;
+      color: var(--text-muted);
       font-weight: 500;
       font-size: 0.92em;
       transition: color 0.25s ease;
@@ -232,7 +229,7 @@
       max-width: 520px;
     }
 
-    .highlight-purple { color: #7e22ce; border-bottom: 1px dashed #c084fc; font-weight: 500; }
+    .highlight-purple { color: #9333ea; border-bottom: 1px dashed #c084fc; font-weight: 500; }
     .highlight-pink { color: #db2777; border-bottom: 1px dashed #f472b6; font-weight: 500; }
 
     .btn-picto-purple {
@@ -271,8 +268,8 @@
       width: 100%; max-width: 430px;
       border-radius: 24px; overflow: hidden;
       box-shadow: 0 20px 50px rgba(0, 0, 0, 0.04);
-      background-color: #f3f4f6;
-      border: 4px solid #fff;
+      background-color: var(--border-color);
+      border: 4px solid var(--card-bg);
     }
     .picto-img-container img { width: 100%; height: auto; display: block; object-fit: cover; }
 
@@ -286,17 +283,18 @@
     .about-box p { color: var(--text-muted); line-height: 1.7; margin-bottom: 20px; }
     .about-tags { display: flex; flex-wrap: wrap; gap: 15px; margin-top: 25px; }
     .about-tags span {
-      background: #fff; border: 1px solid var(--border-color);
+      background: var(--card-bg); border: 1px solid var(--border-color);
       padding: 8px 16px; border-radius: 30px; font-size: 0.9em;
+      color: var(--text-main);
     }
     .about-tags span i { color: var(--accent-color); margin-right: 5px; }
 
     /* --- Qualifications Cards --- */
     .qual-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 25px; }
     .qual-card {
-      background-color: #fff; border: 1px solid var(--border-color);
+      background-color: var(--card-bg); border: 1px solid var(--border-color);
       border-radius: 16px; padding: 30px; position: relative;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      transition: transform 0.3s ease, box-shadow 0.3s ease, background var(--transition-speed);
     }
     .qual-card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(0,0,0,0.03); }
     .qual-icon { font-size: 1.8em; color: var(--primary-color); margin-bottom: 20px; }
@@ -314,7 +312,7 @@
     .timeline-tabs { display: flex; justify-content: center; gap: 20px; margin-bottom: 50px; }
     .tab-btn {
       padding: 10px 24px; border-radius: 30px; border: 1px solid var(--border-color);
-      background: #fff; color: var(--text-main); font-weight: 600; cursor: pointer;
+      background: var(--card-bg); color: var(--text-main); font-weight: 600; cursor: pointer;
       transition: all var(--transition-speed);
     }
     .tab-btn.active, .tab-btn:hover { background-color: var(--primary-color); color: white; border-color: var(--primary-color); }
@@ -327,27 +325,27 @@
     .timeline-item.right { left: 50%; }
     .timeline-dot {
       position: absolute; width: 16px; height: 16px; right: -8px;
-      background-color: #fff; border: 4px solid var(--primary-color); top: 25px; border-radius: 50%; z-index: 1;
+      background-color: var(--card-bg); border: 4px solid var(--primary-color); top: 25px; border-radius: 50%; z-index: 1;
     }
     .timeline-item.right .timeline-dot { left: -8px; }
     .timeline-date { font-weight: 700; color: var(--accent-color); margin-bottom: 8px; }
-    .timeline-card { padding: 24px; background-color: #fff; border-radius: 12px; border: 1px solid var(--border-color); }
+    .timeline-card { padding: 24px; background-color: var(--card-bg); border-radius: 12px; border: 1px solid var(--border-color); transition: background var(--transition-speed); }
     .timeline-card h3 { font-size: 1.2em; margin-bottom: 4px; }
     .timeline-card h4 { font-size: 0.95em; color: var(--secondary-color); font-weight: 500; margin-bottom: 10px; }
     .timeline-card p { font-size: 0.9em; color: var(--text-muted); line-height: 1.5; }
 
     /* --- Skills Matrix Mechanics --- */
     .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; }
-    .skills-category { background: #fff; border: 1px solid var(--border-color); border-radius: 16px; padding: 30px; }
+    .skills-category { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 16px; padding: 30px; transition: background var(--transition-speed); }
     .skills-category h3 { font-size: 1.3em; margin-bottom: 25px; color: var(--primary-color); display: flex; align-items: center; gap: 10px; }
     .skill-item { margin-bottom: 20px; }
     .skill-info { display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 0.9em; font-weight: 500; }
-    .progress-bar { width: 100%; height: 6px; background-color: #f3f4f6; border-radius: 3px; overflow: hidden; }
+    .progress-bar { width: 100%; height: 6px; background-color: var(--border-color); border-radius: 3px; overflow: hidden; }
     .progress { height: 100%; background: linear-gradient(90deg, var(--primary-color), var(--secondary-color)); width: 0; transition: width 1.5s cubic-bezier(0.1, 1, 0.1, 1); }
 
     /* --- Certifications Strip --- */
     .certs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 15px; }
-    .cert-item-card { background: #fff; border: 1px solid var(--border-color); padding: 16px 20px; border-radius: 8px; display: flex; align-items: center; gap: 15px; font-size: 0.9em; font-weight: 500; }
+    .cert-item-card { background: var(--card-bg); border: 1px solid var(--border-color); padding: 16px 20px; border-radius: 8px; display: flex; align-items: center; gap: 15px; font-size: 0.9em; font-weight: 500; transition: background var(--transition-speed); }
     .cert-item-card i { color: var(--primary-color); font-size: 1.2em; }
     .cert-item-card i.gold-icon { color: var(--accent-color); }
 
@@ -365,7 +363,7 @@
     .portfolio-overlay p { color: rgba(255,255,255,0.8); font-size: 0.85em; }
 
     /* --- Research Section --- */
-    .research-card { background: #fff; border: 1px solid var(--border-color); border-radius: 16px; padding: 40px; }
+    .research-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 16px; padding: 40px; transition: background var(--transition-speed); }
     .research-header { display: flex; align-items: center; gap: 20px; margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 20px; }
     .research-header i { font-size: 2.5em; color: var(--primary-color); }
     .research-header h3 { font-size: 1.5em; line-height: 1.4; }
@@ -373,454 +371,402 @@
     .research-details { display: flex; flex-direction: column; gap: 12px; }
     .research-details span { font-size: 0.95em; line-height: 1.5; }
 
-    /* --- Testimonials Framework --- */
-    .slider-container { max-width: 800px; margin: 0 auto; text-align: center; padding: 20px; }
-    .testimonial-slide .quote { font-size: 1.2em; font-style: italic; line-height: 1.7; margin-bottom: 15px; }
-    .testimonial-slide h4 { color: var(--primary-color); font-weight: 600; }
-
     /* --- Premium Picto Contact Section Styles --- */
-.picto-contact-section {
-  position: relative;
-  width: 100%;
-  margin-top: 60px;
-  border-radius: 24px;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
-}
+    .picto-contact-section {
+      position: relative;
+      width: 100%;
+      margin-top: 60px;
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+    }
 
-/* Purple Top Header Section */
-.contact-header-bg {
-  background: linear-gradient(135deg, #a855f7 0%, #7e22ce 100%);
-  color: white;
-  text-align: center;
-  padding: 80px 20px 140px 20px;
-}
+    .contact-header-bg {
+      background: linear-gradient(135deg, #a855f7 0%, #7e22ce 100%);
+      color: white;
+      text-align: center;
+      padding: 80px 20px 140px 20px;
+    }
 
-.contact-main-title {
-  font-size: 3em;
-  font-weight: 700;
-  margin-bottom: 15px;
-  color: #fff !important;
-}
+    .contact-main-title {
+      font-size: 3em;
+      font-weight: 700;
+      margin-bottom: 15px;
+      color: #fff !important;
+    }
 
-.contact-subtitle {
-  font-size: 1.1em;
-  max-width: 650px;
-  margin: 0 auto;
-  opacity: 0.9;
-  line-height: 1.6;
-}
+    .contact-subtitle {
+      font-size: 1.1em;
+      max-width: 650px;
+      margin: 0 auto;
+      opacity: 0.9;
+      line-height: 1.6;
+    }
 
-/* White Bottom Background with Diagonal Split Overlay */
-.contact-split-container {
-  background-color: #ffffff;
-  position: relative;
-  margin-top: -80px; /* Pulls content up over the header background */
-  z-index: 2;
-  padding: 0 50px 80px 50px;
-}
+    .contact-split-container {
+      background-color: var(--card-bg);
+      position: relative;
+      margin-top: -80px; 
+      z-index: 2;
+      padding: 0 50px 80px 50px;
+      transition: background var(--transition-speed);
+    }
 
-/* Diagonal split background simulation */
-.picto-contact-section::before {
-  content: '';
-  position: absolute;
-  top: 150px;
-  left: 0;
-  width: 100%;
-  height: 300px;
-  background: #ffffff;
-  transform: skewY(-6deg);
-  transform-origin: top left;
-  z-index: 1;
-}
+    .picto-contact-section::before {
+      content: '';
+      position: absolute;
+      top: 150px;
+      left: 0;
+      width: 100%;
+      height: 300px;
+      background: var(--card-bg);
+      transform: skewY(-6deg);
+      transform-origin: top left;
+      z-index: 1;
+      transition: background var(--transition-speed);
+    }
 
-.contact-grid-wrapper {
-  position: relative;
-  z-index: 3;
-  display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: 60px;
-  align-items: center;
-  max-width: 1100px;
-  margin: 0 auto;
-}
+    .contact-grid-wrapper {
+      position: relative;
+      z-index: 3;
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 60px;
+      align-items: center;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
 
-/* Mock Browser Container Style */
-.mock-browser-window {
-  background: #ffffff;
-  border: 2px solid #111827;
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
-}
+    .mock-browser-window {
+      background: var(--card-bg);
+      border: 2px solid var(--text-main);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+      transition: border-color var(--transition-speed), background var(--transition-speed);
+    }
 
-/* Browser Window Top Bar */
-.browser-header {
-  background-color: rgba(147, 51, 234, 0.15);
-  border-bottom: 2px solid #111827;
-  padding: 12px 24px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
+    .browser-header {
+      background-color: rgba(147, 51, 234, 0.15);
+      border-bottom: 2px solid var(--text-main);
+      padding: 12px 24px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      transition: border-color var(--transition-speed);
+    }
 
-.browser-controls {
-  display: flex;
-  gap: 12px;
-  font-size: 1.2em;
-  font-weight: 600;
-  color: #111827;
-  cursor: default;
-}
+    .browser-controls {
+      display: flex;
+      gap: 12px;
+      font-size: 1.2em;
+      font-weight: 600;
+      color: var(--text-main);
+      cursor: default;
+    }
 
-.browser-controls span {
-  display: inline-block;
-  line-height: 1;
-}
+    .browser-controls span {
+      display: inline-block;
+      line-height: 1;
+    }
 
-/* Browser Window Form Content */
-.browser-body {
-  padding: 35px 40px;
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
+    .browser-body {
+      padding: 35px 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
 
-/* Aligns the labels to the left of the input boxes */
-.form-row {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
+    .form-row {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
 
-.form-row label {
-  font-size: 1.1em;
-  font-weight: 600;
-  color: #111827;
-  width: 100px;
-  flex-shrink: 0;
-}
+    .form-row label {
+      font-size: 1.1em;
+      font-weight: 600;
+      color: var(--text-main);
+      width: 100px;
+      flex-shrink: 0;
+    }
 
-.form-row input {
-  width: 100%;
-  padding: 12px 20px;
-  border: 1.5px solid #d1d5db;
-  border-radius: 12px;
-  font-family: inherit;
-  font-size: 0.95em;
-  color: #111827;
-  background-color: #fff;
-  transition: border-color 0.25s ease;
-}
+    .form-row input {
+      width: 100%;
+      padding: 12px 20px;
+      border: 1.5px solid var(--border-color);
+      border-radius: 12px;
+      font-family: inherit;
+      font-size: 0.95em;
+      color: #1e2530; 
+      background-color: #fff;
+      transition: border-color 0.25s ease;
+    }
 
-.form-row input:focus {
-  outline: none;
-  border-color: var(--primary-color);
-}
+    .form-row input:focus {
+      outline: none;
+      border-color: var(--primary-color);
+    }
 
-/* Fix alignment for multiline Message fields */
-.message-row {
-  align-items: flex-start;
-}
+    .message-row {
+      align-items: flex-start;
+    }
 
-.message-row label {
-  margin-top: 10px;
-}
+    .message-row label {
+      margin-top: 10px;
+    }
 
-.message-row textarea {
-  width: 100%;
-  padding: 15px 20px;
-  border: 1.5px solid #d1d5db;
-  border-radius: 12px;
-  font-family: inherit;
-  font-size: 0.95em;
-  color: #111827;
-  background-color: #fff;
-  resize: none;
-  transition: border-color 0.25s ease;
-}
+    .message-row textarea {
+      width: 100%;
+      padding: 15px 20px;
+      border: 1.5px solid var(--border-color);
+      border-radius: 12px;
+      font-family: inherit;
+      font-size: 0.95em;
+      color: #1e2530;
+      background-color: #fff;
+      resize: none;
+      transition: border-color 0.25s ease;
+    }
 
-.message-row textarea:focus {
-  outline: none;
-  border-color: var(--primary-color);
-}
+    .message-row textarea:focus {
+      outline: none;
+      border-color: var(--primary-color);
+    }
 
-/* Custom Curved Send Button Centering */
-.form-submit-row {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
+    .form-submit-row {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
 
-.btn-browser-send {
-  background-color: rgba(147, 51, 234, 0.2);
-  color: var(--primary-color);
-  border: 1.5px solid var(--primary-color);
-  padding: 10px 45px;
-  border-radius: 30px;
-  font-family: inherit;
-  font-weight: 600;
-  font-size: 1em;
-  cursor: pointer;
-  transition: all 0.25s ease;
-}
+    .btn-browser-send {
+      background-color: rgba(147, 51, 234, 0.2);
+      color: var(--primary-color);
+      border: 1.5px solid var(--primary-color);
+      padding: 10px 45px;
+      border-radius: 30px;
+      font-family: inherit;
+      font-weight: 600;
+      font-size: 1em;
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
 
-.btn-browser-send:hover {
-  background-color: var(--primary-color);
-  color: #ffffff;
-  transform: scale(1.03);
-}
+    .btn-browser-send:hover {
+      background-color: var(--primary-color);
+      color: #ffffff;
+      transform: scale(1.03);
+    }
 
-/* Right Side: Contact details list */
-.contact-info-panel {
-  padding-left: 20px;
-}
+    .contact-info-panel {
+      padding-left: 20px;
+    }
 
-.info-list {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  margin-bottom: 40px;
-}
+    .info-list {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      margin-bottom: 40px;
+    }
 
-.info-item {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  font-size: 1.1em;
-}
+    .info-item {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font-size: 1.1em;
+    }
 
-.info-item i {
-  font-size: 1.4em;
-  color: var(--primary-color);
-  width: 30px;
-  text-align: center;
-}
+    .info-item i {
+      font-size: 1.4em;
+      color: var(--primary-color);
+      width: 30px;
+      text-align: center;
+    }
 
-.info-item span, .info-item a {
-  color: #111827;
-  text-decoration: none;
-  font-weight: 500;
-}
+    .info-item span, .info-item a {
+      color: var(--text-main);
+      text-decoration: none;
+      font-weight: 500;
+    }
 
-.info-item a:hover {
-  color: var(--primary-color);
-}
+    .info-item a:hover {
+      color: var(--primary-color);
+    }
 
-/* Social icons layout */
-.info-social-row {
-  display: flex;
-  gap: 14px;
-  padding-left: 8px;
-}
+    .info-social-row {
+      display: flex;
+      gap: 14px;
+      padding-left: 8px;
+      flex-wrap: wrap;
+    }
 
-.info-social-row a {
-  width: 42px;
-  height: 42px;
-  font-size: 1.1em;
-}
+    .info-social-row a {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background-color: var(--border-color);
+      color: var(--text-main);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      transition: all 0.25s ease;
+      font-size: 1.2em;
+    }
 
-.info-social-row a {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  background-color: #f3f4f6;
-  color: #111827;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  transition: all 0.25s ease;
-  font-size: 1.2em;
-}
+    .info-social-row a:hover {
+      background-color: var(--primary-color);
+      color: white;
+      transform: translateY(-3px);
+    }
 
-.info-social-row a:hover {
-  background-color: var(--primary-color);
-  color: white;
-  transform: translateY(-3px);
-}
+    /* Dark mode configurations */
+    [data-theme="dark"] .contact-split-container,
+    [data-theme="dark"] .picto-contact-section::before,
+    [data-theme="dark"] .mock-browser-window {
+      background-color: #1e293b;
+    }
 
-/* Dark mode configurations */
-[data-theme="dark"] .contact-split-container {
-  background-color: #1e293b;
-}
+    [data-theme="dark"] .mock-browser-window {
+      border-color: #fff;
+    }
 
-[data-theme="dark"] .picto-contact-section::before {
-  background: #1e293b;
-}
+    [data-theme="dark"] .browser-header {
+      border-bottom-color: #fff;
+    }
 
-[data-theme="dark"] .mock-browser-window {
-  background: #1e293b;
-  border-color: #fff;
-}
+    [data-theme="dark"] .form-row input, 
+    [data-theme="dark"] .message-row textarea {
+      background-color: #0f172a;
+      border-color: rgba(255, 255, 255, 0.15);
+      color: #f8fafc; 
+    }
 
-[data-theme="dark"] .browser-header {
-  border-bottom-color: #fff;
-}
+    [data-theme="dark"] .form-row input::placeholder, 
+    [data-theme="dark"] .message-row textarea::placeholder {
+      color: #64748b; 
+    }
 
-[data-theme="dark"] .browser-controls {
-  color: #fff;
-}
+    /* --- Responsive Adjustments --- */
+    @media (max-width: 992px) {
+      .contact-grid-wrapper {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+      .contact-split-container {
+        padding: 0 20px 60px 20px;
+      }
+      .contact-info-panel {
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .info-list {
+        align-items: center;
+      }
+    }
 
-[data-theme="dark"] .form-row label {
-  color: #fff;
-}
-
-/* --- ADDED FIX HERE --- */
-/* This keeps input fields clean dark-slate and readable in dark mode */
-[data-theme="dark"] .form-row input, 
-[data-theme="dark"] .message-row textarea {
-  background-color: #0f172a;
-  border-color: rgba(255, 255, 255, 0.15);
-  color: #f8fafc !important; /* Forces text to show up clear bright white/silver */
-}
-
-/* Adjusts the placeholder text color so it doesn't blend in */
-[data-theme="dark"] .form-row input::placeholder, 
-[data-theme="dark"] .message-row textarea::placeholder {
-  color: #64748b; 
-}
-/* ---------------------- */
-
-[data-theme="dark"] .info-item span, [data-theme="dark"] .info-item a {
-  color: #fff;
-}
-
-[data-theme="dark"] .info-social-row a {
-  background-color: #0f172a;
-  color: #fff;
-}
-
-[data-theme="dark"] .info-social-row a:hover {
-  background-color: var(--primary-color);
-  color: white;
-}
-
-/* --- Responsive Adjustments --- */
-@media (max-width: 992px) {
-  .contact-grid-wrapper {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-  .contact-split-container {
-    padding: 0 20px 60px 20px;
-  }
-  .contact-info-panel {
-    padding-left: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .info-list {
-    align-items: center;
-  }
-}
-
-@media (max-width: 576px) {
-  .browser-body {
-    padding: 25px 20px;
-  }
-  .form-row {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-  }
-  .form-row label {
-    width: auto;
-  }
-  .contact-main-title {
-    font-size: 2.2em;
-  }
-}
+    @media (max-width: 576px) {
+      .browser-body {
+        padding: 25px 20px;
+      }
+      .form-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+      }
+      .form-row label {
+        width: auto;
+      }
+      .contact-main-title {
+        font-size: 2.2em;
+      }
+    }
 
     /* --- Modal Overlay Design --- */
     .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); backdrop-filter: blur(4px); z-index: 2000; display: flex; justify-content: center; align-items: center; opacity: 0; visibility: hidden; transition: all 0.3s ease; }
     .modal-overlay.active { opacity: 1; visibility: visible; }
-    .modal-card { background: #fff; padding: 40px; border-radius: 16px; max-width: 500px; width: 90%; position: relative; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+    .modal-card { background: var(--card-bg); padding: 40px; border-radius: 16px; max-width: 500px; width: 90%; position: relative; box-shadow: 0 10px 30px rgba(0,0,0,0.1); color: var(--text-main); }
     .close-modal { position: absolute; top: 20px; right: 25px; font-size: 2em; cursor: pointer; color: var(--text-muted); }
 
-   /* --- Premium Picto Footer Styles --- */
-.picto-footer {
-  margin-top: 80px;
-  width: 100%;
-}
+    /* --- Premium Picto Footer Styles --- */
+    .picto-footer {
+      margin-top: 80px;
+      width: 100%;
+    }
 
-.footer-divider {
-  width: 100%;
-  height: 1px;
-  background-color: var(--border-color);
-  margin-bottom: 40px;
-}
+    .footer-divider {
+      width: 100%;
+      height: 1px;
+      background-color: var(--border-color);
+      margin-bottom: 40px;
+    }
 
-.picto-footer-grid {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding-bottom: 30px;
-}
+    .picto-footer-grid {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding-bottom: 30px;
+    }
 
-.picto-footer-info h3 {
-  font-size: 1.4em;
-  font-weight: 700;
-  color: var(--text-main);
-  margin-bottom: 5px;
-}
+    .picto-footer-info h3 {
+      font-size: 1.4em;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 5px;
+    }
 
-.picto-footer-info p {
-  font-size: 0.9em;
-  color: var(--text-muted);
-  margin: 0;
-}
+    .picto-footer-info p {
+      font-size: 0.9em;
+      color: var(--text-muted);
+      margin: 0;
+    }
 
-.picto-footer-links {
-  display: flex;
-  gap: 30px;
-}
+    .picto-footer-links {
+      display: flex;
+      gap: 30px;
+    }
 
-.picto-footer-links a {
-  text-decoration: none;
-  color: #5c677d;
-  font-weight: 500;
-  font-size: 0.92em;
-  transition: color 0.25s ease;
-}
+    .picto-footer-links a {
+      text-decoration: none;
+      color: var(--text-muted);
+      font-weight: 500;
+      font-size: 0.92em;
+      transition: color 0.25s ease;
+    }
 
-.picto-footer-links a:hover {
-  color: var(--primary-color);
-}
+    .picto-footer-links a:hover {
+      color: var(--primary-color);
+    }
 
-.picto-footer-bottom {
-  border-top: 1px solid rgba(0, 0, 0, 0.03);
-  padding-top: 20px;
-  text-align: center;
-}
+    .picto-footer-bottom {
+      border-top: 1px solid var(--border-color);
+      padding-top: 20px;
+      text-align: center;
+    }
 
-.picto-footer-bottom p {
-  font-size: 0.85em;
-  color: var(--text-muted);
-  margin: 0;
-}
+    .picto-footer-bottom p {
+      font-size: 0.85em;
+      color: var(--text-muted);
+      margin: 0;
+    }
 
-/* Dark mode compatibility */
-[data-theme="dark"] .picto-footer-bottom {
-  border-top-color: rgba(255, 255, 255, 0.05);
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .picto-footer-grid {
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
-  }
-  .picto-footer-links {
-    justify-content: center;
-    gap: 20px;
-  }
-}
+    @media (max-width: 768px) {
+      .picto-footer-grid {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+      }
+      .picto-footer-links {
+        justify-content: center;
+        gap: 20px;
+      }
+    }
 
     /* --- Global Scroll Components --- */
     .scroll-top-btn { position: fixed; bottom: 30px; right: 30px; width: 45px; height: 45px; border-radius: 50%; background-color: var(--primary-color); color: white; border: none; cursor: pointer; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 10px rgba(0,0,0,0.1); opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 99; }
@@ -839,13 +785,12 @@
       .timeline-item { width: 100%; padding-left: 50px; padding-right: 0; }
       .timeline-item.right { left: 0; }
       .timeline-dot { left: 12px !important; }
-      .contact-grid { grid-template-columns: 1fr; }
     }
 
     @media (max-width: 768px) {
       .picto-nav-links {
         position: absolute; top: 100%; left: 0; width: 100%;
-        background-color: #fff; flex-direction: column; text-align: center;
+        background-color: var(--card-bg); flex-direction: column; text-align: center;
         padding: 20px 0; gap: 20px; border-bottom: 1px solid var(--border-color);
         display: none; z-index: 100;
       }
@@ -918,7 +863,6 @@
 
       <div class="picto-hero-right">
         <div class="picto-img-container">
-          <!-- Configured directly to your provided filename -->
           <img src="winmoeprofile2.jpg" alt="Win Moe Portrait" onerror="this.src='https://via.placeholder.com/330x400'">
         </div>
       </div>
@@ -933,18 +877,18 @@
       <div class="about-box">
         <h3>English Instructor & Content Creator</h3>
         <p>I am a dedicated and passionate English educator with over four years of teaching experience in both classroom and online learning environments. I am committed to creating engaging, student-centered lessons that foster confidence, critical thinking, and effective communication. I strive to build inclusive and supportive learning environments where students from diverse cultural backgrounds feel motivated to achieve their full potential.</p>
-<p>Beyond teaching, I have a strong interest in educational technology and digital innovation. I enjoy creating educational content through video editing, photography, graphic design, and social media, transforming learning materials into engaging digital experiences. My leadership and volunteer experience have strengthened my communication, teamwork, and project management skills, enabling me to collaborate effectively with colleagues and contribute to educational initiatives both inside and outside the classroom. I am committed to continuous professional development and aspire to make a meaningful impact on education through innovative teaching and lifelong learning.</p>
+        <p>Beyond teaching, I have a strong interest in educational technology and digital innovation. I enjoy creating educational content through video editing, photography, graphic design, and social media, transforming learning materials into engaging digital experiences. My leadership and volunteer experience have strengthened my communication, teamwork, and project management skills, enabling me to collaborate effectively with colleagues and contribute to educational initiatives both inside and outside the classroom. I am committed to continuous professional development and aspire to make a meaningful impact on education through innovative teaching and lifelong learning.</p>
         <div class="about-tags">
-        <span><i class="fas fa-check"></i> Onsite & Online Instruction</span>
-<span><i class="fas fa-check"></i> Lesson Planning</span>
-<span><i class="fas fa-check"></i> Curriculum Development</span>
-<span><i class="fas fa-check"></i> Classroom Management</span>
-<span><i class="fas fa-check"></i> Student Assessment</span>
-<span><i class="fas fa-check"></i> Young Learners Teaching</span>
-<span><i class="fas fa-check"></i> Adult English Instruction</span>
-<span><i class="fas fa-check"></i> English for Academic Purposes (EAP)</span>
-<span><i class="fas fa-check"></i> Grammar & Writing Instruction</span>
-<span><i class="fas fa-check"></i> Educational Technology</span>
+          <span><i class="fas fa-check"></i> Onsite & Online Instruction</span>
+          <span><i class="fas fa-check"></i> Lesson Planning</span>
+          <span><i class="fas fa-check"></i> Curriculum Development</span>
+          <span><i class="fas fa-check"></i> Classroom Management</span>
+          <span><i class="fas fa-check"></i> Student Assessment</span>
+          <span><i class="fas fa-check"></i> Young Learners Teaching</span>
+          <span><i class="fas fa-check"></i> Adult English Instruction</span>
+          <span><i class="fas fa-check"></i> English for Academic Purposes (EAP)</span>
+          <span><i class="fas fa-check"></i> Grammar & Writing Instruction</span>
+          <span><i class="fas fa-check"></i> Educational Technology</span>
           <span><i class="fas fa-check"></i> Content Creation</span>
           <span><i class="fas fa-check"></i> Social Media Management</span>
           <span><i class="fas fa-check"></i> Digital Marketing</span>
@@ -953,623 +897,617 @@
     </section>
 
     <!-- Qualifications Section -->
-<section id="qualifications" class="container-box scroll-reveal">
-  <div class="section-title">
-    <h2>Qualifications</h2>
-    <div class="title-line"></div>
-  </div>
+    <section id="qualifications" class="container-box scroll-reveal">
+      <div class="section-title">
+        <h2>Qualifications</h2>
+        <div class="title-line"></div>
+      </div>
 
-  <div class="qual-grid">
+      <div class="qual-grid">
+        <div class="qual-card">
+          <div class="qual-icon"><i class="fas fa-university"></i></div>
+          <span class="qual-status gold">Candidate</span>
+          <h3>Master of Arts in Public Affairs</h3>
+          <p>Currently pursuing advanced studies in public policy, governance, leadership, and sustainable community development.</p>
+        </div>
 
-    <div class="qual-card">
-      <div class="qual-icon"><i class="fas fa-university"></i></div>
-      <span class="qual-status gold">Candidate</span>
-      <h3>Master of Arts in Public Affairs</h3>
-      <p>Currently pursuing advanced studies in public policy, governance, leadership, and sustainable community development.</p>
-    </div>
+        <div class="qual-card">
+          <div class="qual-icon"><i class="fas fa-graduation-cap"></i></div>
+          <span class="qual-status">Current</span>
+          <h3>Bachelor of Arts in English Communication</h3>
+          <p>Payap University, Thailand. Developing expertise in English communication, intercultural communication, public speaking, and professional writing.</p>
+        </div>
 
-    <div class="qual-card">
-      <div class="qual-icon"><i class="fas fa-graduation-cap"></i></div>
-      <span class="qual-status">Current</span>
-      <h3>Bachelor of Arts in English Communication</h3>
-      <p>Payap University, Thailand. Developing expertise in English communication, intercultural communication, public speaking, and professional writing.</p>
-    </div>
+        <div class="qual-card">
+          <div class="qual-icon"><i class="fas fa-award"></i></div>
+          <span class="qual-status complete">Graduated</span>
+          <h3>Associate Degree in Education</h3>
+          <p>Mon National College, Myanmar. Studied teaching methodologies, curriculum development, educational psychology, classroom management, and student assessment.</p>
+        </div>
 
-    <div class="qual-card">
-      <div class="qual-icon"><i class="fas fa-award"></i></div>
-      <span class="qual-status complete">Graduated</span>
-      <h3>Associate Degree in Education</h3>
-      <p>Mon National College, Myanmar. Studied teaching methodologies, curriculum development, educational psychology, classroom management, and student assessment.</p>
-    </div>
+        <div class="qual-card">
+          <div class="qual-icon"><i class="fas fa-file-alt"></i></div>
+          <span class="qual-status complete">Graduated</span>
+          <h3>Diploma in Social Science</h3>
+          <p>National University of Zoland. Studied sociology, political science, community development, and social research.</p>
+        </div>
 
-    <div class="qual-card">
-      <div class="qual-icon"><i class="fas fa-file-alt"></i></div>
-      <span class="qual-status complete">Graduated</span>
-      <h3>Diploma in Social Science</h3>
-      <p>National University of Zoland. Studied sociology, political science, community development, and social research.</p>
-    </div>
+        <div class="qual-card">
+          <div class="qual-icon"><i class="fas fa-square-root-alt"></i></div>
+          <span class="qual-status complete">Completed</span>
+          <h3>Mathematics Studies (Second Year)</h3>
+          <p>Completed two years of undergraduate study in Mathematics at Hpa-An University, Myanmar, developing strong analytical, logical reasoning, and problem-solving skills.</p>
+        </div>
 
-    <div class="qual-card">
-  <div class="qual-icon"><i class="fas fa-square-root-alt"></i></div>
-  <span class="qual-status complete">Completed</span>
-  <h3>Mathematics Studies (Second Year)</h3>
-  <p>Completed two years of undergraduate study in Mathematics at Hpa-An University, Myanmar, developing strong analytical, logical reasoning, and problem-solving skills.</p>
-</div>
+        <div class="qual-card">
+          <div class="qual-icon"><i class="fas fa-school"></i></div>
+          <span class="qual-status complete">Graduated</span>
+          <h3>High School Education</h3>
+          <p>Completed Basic Education High School in Myanmar, building a strong academic foundation in mathematics, science, languages, and social studies.</p>
+        </div>
 
-<div class="qual-card">
-  <div class="qual-icon"><i class="fas fa-school"></i></div>
-  <span class="qual-status complete">Graduated</span>
-  <h3>High School Education</h3>
-  <p>Completed Basic Education High School in Myanmar, building a strong academic foundation in mathematics, science, languages, and social studies.</p>
-</div>
+        <div class="qual-card">
+          <div class="qual-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+          <span class="qual-status complete">Certified</span>
+          <h3>TEFL/TESOL Certification</h3>
+          <p>Certified to teach English as a Foreign Language with training in communicative teaching methods, lesson planning, classroom management, and learner assessment.</p>
+        </div>
 
-<div class="qual-card">
-  <div class="qual-icon"><i class="fas fa-chalkboard-teacher"></i></div>
-  <span class="qual-status complete">Certified</span>
-  <h3>TEFL/TESOL Certification</h3>
-  <p>Certified to teach English as a Foreign Language with training in communicative teaching methods, lesson planning, classroom management, and learner assessment.</p>
-</div>
-
-<div class="qual-card">
-  <div class="qual-icon"><i class="fab fa-google"></i></div>
-  <span class="qual-status complete">Certified</span>
-  <h3>Google Digital Marketing & E-Commerce</h3>
-  <p>Professional training in digital marketing, content creation, social media strategy, search engine optimization (SEO), analytics, and e-commerce.</p>
-</div>
+        <div class="qual-card">
+          <div class="qual-icon"><i class="fab fa-google"></i></div>
+          <span class="qual-status complete">Certified</span>
+          <h3>Google Digital Marketing & E-Commerce</h3>
+          <p>Professional training in digital marketing, content creation, social media strategy, search engine optimization (SEO), analytics, and e-commerce.</p>
+        </div>
       </div>
     </section>
 
     <!-- Experience & Leadership Tabbed Timelines -->
-<section id="experience" class="container-box scroll-reveal">
-  <div class="section-title">
-    <h2>Professional Experience</h2>
-    <div class="title-line"></div>
-  </div>
+    <section id="experience" class="container-box scroll-reveal">
+      <div class="section-title">
+        <h2>Professional Experience</h2>
+        <div class="title-line"></div>
+      </div>
 
-  <div class="timeline-tabs">
-    <button class="tab-btn active" data-tab="work">Teaching & Media</button>
-    <button class="tab-btn" data-tab="leadership">Leadership & Volunteering</button>
-  </div>
+      <div class="timeline-tabs">
+        <button class="tab-btn active" data-tab="work">Teaching & Media</button>
+        <button class="tab-btn" data-tab="leadership">Leadership & Volunteering</button>
+      </div>
 
-  <!-- Teaching Experience -->
-  <div id="work-timeline" class="timeline-content active">
-    <div class="timeline">
+      <!-- Teaching Experience -->
+      <div id="work-timeline" class="timeline-content active">
+        <div class="timeline">
+          <!-- English Teacher -->
+          <div class="timeline-item left">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2023 – 2024</div>
+            <div class="timeline-card">
+              <h3>English Teacher</h3>
+              <h4>Mon National Primary School, Myanmar</h4>
+              <p>
+                Taught English to primary school students through engaging, student-centered lessons that developed listening, speaking, reading, and writing skills. Planned lessons, prepared learning materials, assessed student progress, and created a positive classroom environment that encouraged active participation and confidence.
+              </p>
+            </div>
+          </div>
 
-      <!-- English Teacher -->
-      <div class="timeline-item left">
-        <div class="timeline-dot"></div>
-        <div class="timeline-date">2023 – 2024</div>
-        <div class="timeline-card">
-          <h3>English Teacher</h3>
-          <h4>Mon National Primary School, Myanmar</h4>
-          <p>
-            Taught English to primary school students through engaging, student-centered lessons that developed listening, speaking, reading, and writing skills. Planned lessons, prepared learning materials, assessed student progress, and created a positive classroom environment that encouraged active participation and confidence.
-          </p>
+          <!-- Online Teacher -->
+          <div class="timeline-item right">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2019 – Present</div>
+            <div class="timeline-card">
+              <h3>Online English Instructor</h3>
+              <h4>Poy English Program</h4>
+              <p>
+                Deliver online English lessons for young learners and adult students using Zoom and Google Meet. Design customized lesson plans, teach grammar, pronunciation, speaking, reading, and writing, and support learners in achieving their academic and personal language goals through interactive instruction.
+              </p>
+            </div>
+          </div>
+
+          <!-- Content Creator -->
+          <div class="timeline-item left">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2019 – Present</div>
+            <div class="timeline-card">
+              <h3>Educational Content Creator</h3>
+              <h4>Social Media Platforms</h4>
+              <p>
+                Produce educational videos, English learning resources, graphics, and social media content for online audiences. Utilize video editing, photography, Canva, and digital marketing strategies to create engaging learning experiences and promote educational programs.
+              </p>
+            </div>
+          </div>
+
+          <!-- Freelance -->
+          <div class="timeline-item right">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2022 – Present</div>
+            <div class="timeline-card">
+              <h3>Freelance English Tutor</h3>
+              <h4>All Scholars Educational Program</h4>
+              <p>
+                Provide one-on-one and small-group English lessons tailored to learners' individual goals, including conversational English, grammar, academic writing, pronunciation, and exam preparation.
+              </p>
+            </div>
+          </div>
+
+          <!-- AI Educational Content -->
+          <div class="timeline-item left">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2025 – Present</div>
+            <div class="timeline-card">
+              <h3>AI Educational Content Creator</h3>
+              <h4>EthnoVerse (Facebook & Digital Platforms)</h4>
+              <p>
+                Create AI-assisted educational content, including short-form videos, historical storytelling, English learning materials, and digital visuals. Utilize AI tools, Canva, video editing software, and multimedia design to transform complex topics into engaging and accessible content for diverse online audiences while promoting education through social media.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
-      <!-- Online Teacher -->
-      <div class="timeline-item right">
-        <div class="timeline-dot"></div>
-        <div class="timeline-date">2019 – Present</div>
-        <div class="timeline-card">
-          <h3>Online English Instructor</h3>
-          <h4>Poy English Program</h4>
-          <p>
-            Deliver online English lessons for young learners and adult students using Zoom and Google Meet. Design customized lesson plans, teach grammar, pronunciation, speaking, reading, and writing, and support learners in achieving their academic and personal language goals through interactive instruction.
-          </p>
-        </div>
-      </div>
-
-      <!-- Content Creator -->
-      <div class="timeline-item left">
-        <div class="timeline-dot"></div>
-        <div class="timeline-date">2019 – Present</div>
-        <div class="timeline-card">
-          <h3>Educational Content Creator</h3>
-          <h4>Social Media Plaforms</h4>
-          <p>
-            Produce educational videos, English learning resources, graphics, and social media content for online audiences. Utilize video editing, photography, Canva, and digital marketing strategies to create engaging learning experiences and promote educational programs.
-          </p>
-        </div>
-      </div>
-
-      <!-- Freelance -->
-      <div class="timeline-item right">
-        <div class="timeline-dot"></div>
-        <div class="timeline-date">2022 – Present</div>
-        <div class="timeline-card">
-          <h3>Freelance English Tutor</h3>
-          <h4>All Scholars Educational Program</h4>
-          <p>
-            Provide one-on-one and small-group English lessons tailored to learners' individual goals, including conversational English, grammar, academic writing, pronunciation, and exam preparation.
-          </p>
-        </div>
-      </div>
-
-      <!-- AI Educational Content -->
-<div class="timeline-item left">
-  <div class="timeline-dot"></div>
-  <div class="timeline-date">2025 – Present</div>
-  <div class="timeline-card">
-    <h3>AI Educational Content Creator</h3>
-    <h4>EthnoVerse (Facebook & Digital Platforms)</h4>
-    <p>
-      Create AI-assisted educational content, including short-form videos, historical storytelling, English learning materials, and digital visuals. Utilize AI tools, Canva, video editing software, and multimedia design to transform complex topics into engaging and accessible content for diverse online audiences while promoting education through social media.
-          </p>
-        </div>
-      </div>
-
-</div>
-    </div>
       <!-- Leadership & Volunteer Timeline Content -->
-<div id="leadership-timeline" class="timeline-content">
-  <div class="timeline">
+      <div id="leadership-timeline" class="timeline-content">
+        <div class="timeline">
+          <!-- Student Leader -->
+          <div class="timeline-item left">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2023 – 2024</div>
+            <div class="timeline-card">
+              <h3>Student Leader</h3>
+              <h4>Student Council, Hpa-An University, Myanmar</h4>
+              <p>
+                Led the Student Union by representing students' interests, organizing academic and community events, coordinating with faculty members, and promoting teamwork, leadership, and student engagement across the university.
+              </p>
+            </div>
+          </div>
 
-    <!-- Student Leader -->
-    <div class="timeline-item left">
-      <div class="timeline-dot"></div>
-      <div class="timeline-date">2023 – 2024</div>
-      <div class="timeline-card">
-        <h3>Student leader</h3>
-        <h4>Student Council, Hpa-An University, Myanmar</h4>
-        <p>
-          Led the Student Union by representing students' interests, organizing academic and community events, coordinating with faculty members, and promoting teamwork, leadership, and student engagement across the university.
-        </p>
-      </div>
-    </div>
+          <!-- Charity -->
+          <div class="timeline-item right">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Present</div>
+            <div class="timeline-card">
+              <h3>Chairman</h3>
+              <h4>G60–99 Mon Charity Group</h4>
+              <p>
+                Coordinate community service initiatives, organize fundraising activities, manage volunteer teams, and support charitable projects that provide educational and humanitarian assistance to local communities.
+              </p>
+            </div>
+          </div>
 
-    <!-- Charity -->
-    <div class="timeline-item right">
-      <div class="timeline-dot"></div>
-      <div class="timeline-date">Present</div>
-      <div class="timeline-card">
-        <h3>Chairman</h3>
-        <h4>G60–99 Mon Charity Group</h4>
-        <p>
-          Coordinate community service initiatives, organize fundraising activities, manage volunteer teams, and support charitable projects that provide educational and humanitarian assistance to local communities.
-        </p>
-      </div>
-    </div>
+          <!-- Volunteer Teacher -->
+          <div class="timeline-item left">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2024 – 2025</div>
+            <div class="timeline-card">
+              <h3>Volunteer English Teacher</h3>
+              <h4>Mon Intensive English Program</h4>
+              <p>
+                Taught English to refugee and migrant learners through interactive lessons designed to improve communication skills, confidence, and academic readiness in a supportive learning environment.
+              </p>
+            </div>
+          </div>
 
-    <!-- Volunteer Teacher -->
-    <div class="timeline-item left">
-      <div class="timeline-dot"></div>
-      <div class="timeline-date">2024 – 2025</div>
-      <div class="timeline-card">
-        <h3>Volunteer English Teacher</h3>
-        <h4>Mon Internsive English Program</h4>
-        <p>
-          Taught English to refugee and migrant learners through interactive lessons designed to improve communication skills, confidence, and academic readiness in a supportive learning environment.
-        </p>
-      </div>
-    </div>
+          <!-- University Volunteer -->
+          <div class="timeline-item right">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2024 – Present</div>
+            <div class="timeline-card">
+              <h3>University Volunteer</h3>
+              <h4>Payap University International College</h4>
+              <p>
+                Assisted in university events, orientation programs, intercultural activities, and student engagement projects while collaborating with students from diverse cultural backgrounds.
+              </p>
+            </div>
+          </div>
 
-    <!-- University Volunteer -->
-    <div class="timeline-item right">
-      <div class="timeline-dot"></div>
-      <div class="timeline-date">2024 – Present</div>
-      <div class="timeline-card">
-        <h3>University Volunteer</h3>
-        <h4>Payap University International College</h4>
-        <p>
-          Assisted in university events, orientation programs, intercultural activities, and student engagement projects while collaborating with students from diverse cultural backgrounds.
-        </p>
+          <!-- Educational Outreach -->
+          <div class="timeline-item left">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2025</div>
+            <div class="timeline-card">
+              <h3>Community Service Volunteer</h3>
+              <h4>Ban San San School, Chiang Mai</h4>
+              <p>
+                Participated in a community outreach program organized by Payap University. Supported young learners through educational activities, creative art sessions, and donations while promoting an engaging and inclusive learning environment.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-
-    <!-- Educational Outreach -->
-    <div class="timeline-item left">
-  <div class="timeline-dot"></div>
-  <div class="timeline-date">2025</div>
-  <div class="timeline-card">
-    <h3>Community Service Volunteer</h3>
-    <h4>Ban San San School, Chiang Mai</h4>
-    <p>
-      Participated in a community outreach program organized by Payap University. Supported young learners through educational activities, creative art sessions, and donations while promoting an engaging and inclusive learning environment.
-    </p>
-      </div>
-    </div>
-    </div>
-    </div>
-    
+    </section>
+      
     <!-- Skills Section -->
-<section id="skills" class="container-box scroll-reveal">
-  <div class="section-title">
-    <h2>Professional Skills</h2>
-    <div class="title-line"></div>
-  </div>
-
-  <div class="skills-grid">
-
-    <!-- Teaching Skills -->
-    <div class="skills-category">
-      <h3><i class="fas fa-chalkboard-teacher"></i> Teaching & Education</h3>
-
-      <div class="skill-item">
-        <div class="skill-info">
-          <span>Lesson Planning & Instruction</span>
-          <span>95%</span>
-        </div>
-        <div class="progress-bar">
-          <div class="progress" data-width="95%"></div>
-        </div>
+    <section id="skills" class="container-box scroll-reveal">
+      <div class="section-title">
+        <h2>Professional Skills</h2>
+        <div class="title-line"></div>
       </div>
 
-      <div class="skill-item">
-        <div class="skill-info">
-          <span>Classroom Management</span>
-          <span>92%</span>
+      <div class="skills-grid">
+        <!-- Teaching Skills -->
+        <div class="skills-category">
+          <h3><i class="fas fa-chalkboard-teacher"></i> Teaching & Education</h3>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Lesson Planning & Instruction</span>
+              <span>95%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" data-width="95%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Classroom Management</span>
+              <span>92%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" data-width="92%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Curriculum Development</span>
+              <span>90%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" data-width="90%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Online Teaching</span>
+              <span>96%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" data-width="96%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Student Assessment & Feedback</span>
+              <span>90%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" data-width="90%"></div>
+            </div>
+          </div>
         </div>
-        <div class="progress-bar">
-          <div class="progress" data-width="92%"></div>
+
+        <!-- Digital Skills -->
+        <div class="skills-category">
+          <h3><i class="fas fa-laptop-code"></i> Digital & Creative Skills</h3>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Canva & Graphic Design</span>
+              <span>95%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" data-width="95%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Video Editing (CapCut & Premiere Pro)</span>
+              <span>90%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" data-width="90%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Zoom & Google Workspace</span>
+              <span>95%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" data-width="95%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Content Creation & Social Media</span>
+              <span>94%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" data-width="94%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Photography</span>
+              <span>85%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" data-width="85%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>AI Tools for Education</span>
+              <span>90%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" data-width="90%"></div>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="skill-item">
-        <div class="skill-info">
-          <span>Curriculum Development</span>
-          <span>90%</span>
-        </div>
-        <div class="progress-bar">
-          <div class="progress" data-width="90%"></div>
-        </div>
-      </div>
-
-      <div class="skill-item">
-        <div class="skill-info">
-          <span>Online Teaching</span>
-          <span>96%</span>
-        </div>
-        <div class="progress-bar">
-          <div class="progress" data-width="96%"></div>
-        </div>
-      </div>
-
-      <div class="skill-item">
-        <div class="skill-info">
-          <span>Student Assessment & Feedback</span>
-          <span>90%</span>
-        </div>
-        <div class="progress-bar">
-          <div class="progress" data-width="90%"></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Digital Skills -->
-    <div class="skills-category">
-      <h3><i class="fas fa-laptop-code"></i> Digital & Creative Skills</h3>
-
-      <div class="skill-item">
-        <div class="skill-info">
-          <span>Canva & Graphic Design</span>
-          <span>95%</span>
-        </div>
-        <div class="progress-bar">
-          <div class="progress" data-width="95%"></div>
-        </div>
-      </div>
-
-      <div class="skill-item">
-        <div class="skill-info">
-          <span>Video Editing (CapCut & Premiere Pro)</span>
-          <span>90%</span>
-        </div>
-        <div class="progress-bar">
-          <div class="progress" data-width="90%"></div>
-        </div>
-      </div>
-
-      <div class="skill-item">
-        <div class="skill-info">
-          <span>Zoom & Google Workspace</span>
-          <span>95%</span>
-        </div>
-        <div class="progress-bar">
-          <div class="progress" data-width="95%"></div>
-        </div>
-      </div>
-
-      <div class="skill-item">
-        <div class="skill-info">
-          <span>Content Creation & Social Media</span>
-          <span>94%</span>
-        </div>
-        <div class="progress-bar">
-          <div class="progress" data-width="94%"></div>
-        </div>
-      </div>
-
-      <div class="skill-item">
-        <div class="skill-info">
-          <span>Photography</span>
-          <span>85%</span>
-        </div>
-        <div class="progress-bar">
-          <div class="progress" data-width="85%"></div>
-        </div>
-      </div>
-
-      <div class="skill-item">
-        <div class="skill-info">
-          <span>AI Tools for Education</span>
-          <span>90%</span>
-        </div>
-        <div class="progress-bar">
-          <div class="progress" data-width="90%"></div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
+    </section>
 
     <!-- Professional Certifications Grid -->
-<section id="certifications" class="container-box scroll-reveal">
-  <div class="section-title">
-    <h2>Professional Certifications</h2>
-    <div class="title-line"></div>
-  </div>
+    <section id="certifications" class="container-box scroll-reveal">
+      <div class="section-title">
+        <h2>Professional Certifications</h2>
+        <div class="title-line"></div>
+      </div>
 
-  <div class="certs-grid">
+      <div class="certs-grid">
+        <!-- Teaching -->
+        <div class="cert-item-card">
+          <i class="fas fa-medal gold-icon"></i>
+          <span>TEFL/TESOL Certification (2026)</span>
+        </div>
 
-    <!-- Teaching -->
-    <div class="cert-item-card">
-      <i class="fas fa-medal gold-icon"></i>
-      <span>TEFL/TESOL Certification (2026)</span>
-    </div>
+        <div class="cert-item-card">
+          <i class="fas fa-child"></i>
+          <span>Teaching English to Young Learners (2026)</span>
+        </div>
 
-    <div class="cert-item-card">
-      <i class="fas fa-child"></i>
-      <span>Teaching English to Young Learners (2026)</span>
-    </div>
+        <div class="cert-item-card">
+          <i class="fas fa-hands-helping"></i>
+          <span>Teaching English to Refugees and Displaced Learners</span>
+        </div>
 
-    <div class="cert-item-card">
-      <i class="fas fa-hands-helping"></i>
-      <span>Teaching English to Refugees and Displaced Learners</span>
-    </div>
+        <div class="cert-item-card">
+          <i class="fas fa-volume-up"></i>
+          <span>Teaching English: How to Teach Pronunciation</span>
+        </div>
 
-    <div class="cert-item-card">
-      <i class="fas fa-volume-up"></i>
-      <span>Teaching English: How to Teach Pronunciation</span>
-    </div>
+        <div class="cert-item-card">
+          <i class="fas fa-clipboard-check"></i>
+          <span>Teaching English: Assessing Learning</span>
+        </div>
 
-    <div class="cert-item-card">
-      <i class="fas fa-clipboard-check"></i>
-      <span>Teaching English: Assessing Learning</span>
-    </div>
+        <div class="cert-item-card">
+          <i class="fas fa-book-open"></i>
+          <span>Teaching English: How to Adapt Resources</span>
+        </div>
 
-    <div class="cert-item-card">
-      <i class="fas fa-book-open"></i>
-      <span>Teaching English: How to Adapt Resources</span>
-    </div>
+        <div class="cert-item-card">
+          <i class="fas fa-laptop-house"></i>
+          <span>Teaching Online</span>
+        </div>
 
-    <div class="cert-item-card">
-      <i class="fas fa-laptop-house"></i>
-      <span>Teaching Online</span>
-    </div>
+        <!-- Education -->
+        <div class="cert-item-card">
+          <i class="fas fa-graduation-cap"></i>
+          <span>English Four Skills (2018)</span>
+        </div>
 
-    <!-- Education -->
-    <div class="cert-item-card">
-      <i class="fas fa-graduation-cap"></i>
-      <span>English Four Skills (2018)</span>
-    </div>
+        <div class="cert-item-card">
+          <i class="fas fa-brain"></i>
+          <span>Exploring Learning Disabilities</span>
+        </div>
 
-    <div class="cert-item-card">
-      <i class="fas fa-brain"></i>
-      <span>Exploring Learning Disabilities</span>
-    </div>
+        <div class="cert-item-card">
+          <i class="fas fa-language"></i>
+          <span>Teaching English in Primary Classrooms</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-language"></i>
-  <span>Teaching English in Primary Classrooms</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-comments"></i>
+          <span>Teaching English: Communicative Tasks</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-comments"></i>
-  <span>Teaching English: Communicative Tasks</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-headphones"></i>
+          <span>Teaching English: How to Teach Listening</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-headphones"></i>
-  <span>Teaching English: How to Teach Listening</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-laptop"></i>
+          <span>Teaching English: Integrating Technology</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-laptop"></i>
-  <span>Teaching English: Integrating Technology</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-book-reader"></i>
+          <span>Teaching English: Understanding Language Systems</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-book-reader"></i>
-  <span>Teaching English: Understanding Language Systems</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-user-graduate"></i>
+          <span>Teaching English: Helping Teachers to Learn</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-user-graduate"></i>
-  <span>Teaching English: Helping Teachers to Learn</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-bullhorn"></i>
+          <span>Foundations of Digital Marketing & E-Commerce</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-bullhorn"></i>
-  <span>Foundations of Digital Marketing & E-Commerce</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-users"></i>
+          <span>Attract and Engage Customers with Digital Marketing</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-users"></i>
-  <span>Attract and Engage Customers with Digital Marketing</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-handshake"></i>
+          <span>Interact with Customers Online</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-handshake"></i>
-  <span>Interact with Customers Online</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-heart"></i>
+          <span>Develop Customer Loyalty Online</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-heart"></i>
-  <span>Develop Customer Loyalty Online</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-chart-line"></i>
+          <span>Marketing Analytics and Measurement</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-chart-line"></i>
-  <span>Marketing Analytics and Measurement</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-share-alt"></i>
+          <span>Social Media Marketing</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-share-alt"></i>
-  <span>Social Media Marketing</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-envelope"></i>
+          <span>Email Marketing</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-envelope"></i>
-  <span>Email Marketing</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-shopping-cart"></i>
+          <span>Make the Sale</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-shopping-cart"></i>
-  <span>Make the Sale</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-school"></i>
+          <span>Inclusive Education</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-school"></i>
-  <span>Inclusive Education</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-venus-mars"></i>
+          <span>Gender in Language Education</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-venus-mars"></i>
-  <span>Gender in Language Education</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-child"></i>
+          <span>Supporting Children's Mental Health and Well-being</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-child"></i>
-  <span>Supporting Children's Mental Health and Well-being</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-users-cog"></i>
+          <span>Leadership and Followership</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-users-cog"></i>
-  <span>Leadership and Followership</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-star"></i>
+          <span>Effective Leadership</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-star"></i>
-  <span>Effective Leadership</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-comments"></i>
+          <span>Effective Communication in the Workplace</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-comments"></i>
-  <span>Effective Communication in the Workplace</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-chalkboard"></i>
+          <span>Effective Presentations</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-chalkboard"></i>
-  <span>Effective Presentations</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-user-friends"></i>
+          <span>Professional Networking for Career Growth</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-user-friends"></i>
-  <span>Professional Networking for Career Growth</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-users"></i>
+          <span>Working in Teams</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-users"></i>
-  <span>Working in Teams</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-hands-helping"></i>
+          <span>Working in the Voluntary Sector</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-hands-helping"></i>
-  <span>Working in the Voluntary Sector</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-robot"></i>
+          <span>Job Search with AI</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-robot"></i>
-  <span>Job Search with AI</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-balance-scale"></i>
+          <span>Becoming an Ethical Researcher</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-balance-scale"></i>
-  <span>Becoming an Ethical Researcher</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-gavel"></i>
+          <span>Introduction to Human Rights Standards</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-gavel"></i>
-  <span>Introduction to Human Rights Standards</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-shield-alt"></i>
+          <span>Child Protection Advocacy</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-shield-alt"></i>
-  <span>Child Protection Advocacy</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-book"></i>
+          <span>Child Rights Toolkit</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-book"></i>
-  <span>Child Rights Toolkit</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-briefcase"></i>
+          <span>English for Career Development</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-briefcase"></i>
-  <span>English for Career Development</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-plane"></i>
+          <span>English for Tourism Professionals</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-plane"></i>
-  <span>English for Tourism Professionals</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-desktop"></i>
+          <span>Digital Skills: Succeeding in a Digital World</span>
+        </div>
 
-<div class="cert-item-card">
-  <i class="fas fa-desktop"></i>
-  <span>Digital Skills: Succeeding in a Digital World</span>
-</div>
+        <div class="cert-item-card">
+          <i class="fas fa-users"></i>
+          <span>Introduction to Social Sciences</span>
+        </div>
 
-    <div class="cert-item-card">
-      <i class="fas fa-users"></i>
-      <span>Introduction to Social Sciences</span>
-    </div>
+        <div class="cert-item-card">
+          <i class="fas fa-user-friends"></i>
+          <span>Diversity and Inclusion in the Workplace</span>
+        </div>
 
-    <div class="cert-item-card">
-      <i class="fas fa-user-friends"></i>
-      <span>Diversity and Inclusion in the Workplace</span>
-    </div>
+        <!-- Technology -->
+        <div class="cert-item-card">
+          <i class="fab fa-google text-blue"></i>
+          <span>Google Digital Marketing & E-Commerce (2025)</span>
+        </div>
 
-    <!-- Technology -->
-    <div class="cert-item-card">
-      <i class="fab fa-google text-blue"></i>
-      <span>Google Digital Marketing & E-Commerce (2025)</span>
-    </div>
+        <div class="cert-item-card">
+          <i class="fas fa-laptop-code"></i>
+          <span>I-Office Computer (2019)</span>
+        </div>
 
-    <div class="cert-item-card">
-      <i class="fas fa-laptop-code"></i>
-      <span>I-Office Computer (2019)</span>
-    </div>
+        <div class="cert-item-card">
+          <i class="fas fa-chalkboard-teacher"></i>
+          <span>Mastering E-Learning Designs for Modern Educators (2025)</span>
+        </div>
 
-    <div class="cert-item-card">
-      <i class="fas fa-chalkboard-teacher"></i>
-      <span>Mastering E-Learning Designs for Modern Educators (2025)</span>
-    </div>
+        <!-- Professional Development -->
+        <div class="cert-item-card">
+          <i class="fas fa-chart-line"></i>
+          <span>Career Advancement (2024)</span>
+        </div>
 
-    <!-- Professional Development -->
-    <div class="cert-item-card">
-      <i class="fas fa-chart-line"></i>
-      <span>Career Advancement (2024)</span>
-    </div>
+        <div class="cert-item-card">
+          <i class="fas fa-heart"></i>
+          <span>Stress Management and Self-Care (2025)</span>
+        </div>
 
-    <div class="cert-item-card">
-      <i class="fas fa-heart"></i>
-      <span>Stress Management and Self-Care (2025)</span>
-    </div>
+        <div class="cert-item-card">
+          <i class="fas fa-globe"></i>
+          <span>Localization in Humanitarian Aid (2025)</span>
+        </div>
 
-    <div class="cert-item-card">
-      <i class="fas fa-globe"></i>
-      <span>Localization in Humanitarian Aid (2025)</span>
-    </div>
-
-    <div class="cert-item-card">
-      <i class="fas fa-coins"></i>
-      <span>Financial Literacy (2018)</span>
-    </div>
-
-  </div>
-</section>
+        <div class="cert-item-card">
+          <i class="fas fa-coins"></i>
+          <span>Financial Literacy (2018)</span>
+        </div>
+      </div>
+    </section>
 
     <!-- Portfolio Filter Showcase Grid -->
     <section id="portfolio" class="container-box scroll-reveal">
@@ -1622,30 +1560,30 @@
       </div>
     </section>
 
-  <!-- Contact Section -->
-<section id="contact" class="picto-contact-section scroll-reveal">
-  
-  <!-- Top Title Block inside the Purple Background -->
-  <div class="contact-header-bg">
-    <h2 class="contact-main-title">Connect with Me</h2>
-    <p class="contact-subtitle">Have a project, a job opening, or just want to say hello? Drop me a message below!</p>
-  </div>
-
-  <!-- Lower Split Area containing Form and Info -->
-  <div class="contact-split-container">
-    <div class="contact-grid-wrapper">
+    <!-- Contact Section -->
+    <section id="contact" class="picto-contact-section scroll-reveal">
       
-      <!-- Left Side: Mock Browser Form Window -->
-      <form class="mock-browser-window" action="https://formspree.io/f/mqereerd" method="POST">
-        <!-- Window Control Header Bar -->
-        <div class="browser-header">
-          <div class="browser-controls">
-            <span>&minus;</span>
-            <span>&#9634;</span>
-            <span>&times;</span>
-          </div>
-        </div>
-        
+      <!-- Top Title Block inside the Purple Background -->
+      <div class="contact-header-bg">
+        <h2 class="contact-main-title">Connect with Me</h2>
+        <p class="contact-subtitle">Have a project, a job opening, or just want to say hello? Drop me a message below!</p>
+      </div>
+
+      <!-- Lower Split Area containing Form and Info -->
+      <div class="contact-split-container">
+        <div class="contact-grid-wrapper">
+          
+          <!-- Left Side: Mock Browser Form Window -->
+          <form class="mock-browser-window" action="https://formspree.io/f/mqereerd" method="POST">
+            <!-- Window Control Header Bar -->
+            <div class="browser-header">
+              <div class="browser-controls">
+                <span>&minus;</span>
+                <span>&#9634;</span>
+                <span>&times;</span>
+              </div>
+            </div>
+            
             <!-- Form Content Fields Area -->
             <div class="browser-body">
               <div class="form-row">
@@ -1688,32 +1626,28 @@
 
             <!-- Horizontal Social Icons Row -->
             <div class="info-social-row">
-  <a href="https://www.linkedin.com/in/win-moe-73b006395" target="_blank" aria-label="LinkedIn">
-    <i class="fab fa-linkedin-in"></i>
-  </a>
-
-  <a href="https://facebook.com/winmoe.wmwm" target="_blank" aria-label="Facebook Personal">
-    <i class="fab fa-facebook-f"></i>
-  </a>
-
-<a href="https://www.facebook.com/share/1DCQUzoTtw/?mibextid=wwXIfr" target="_blank" aria-label="Facebook Page">
-    <i class="fab fa-facebook"></i>
-  </a>
-  
-  <a href="https://tiktok.com/@poyenglish" target="_blank" aria-label="TikTok">
-    <i class="fab fa-tiktok"></i>
-  </a>
-
-  <a href="https://www.youtube.com/@hongsarpoy" target="_blank" aria-label="YouTube">
-    <i class="fab fa-youtube"></i>
-  </a>
+              <a href="https://www.linkedin.com/in/win-moe-73b006395" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://facebook.com/winmoe.wmwm" target="_blank" aria-label="Facebook Personal">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.facebook.com/share/1DCQUzoTtw/?mibextid=wwXIfr" target="_blank" aria-label="Facebook Page">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="https://tiktok.com/@poyenglish" target="_blank" aria-label="TikTok">
+                <i class="fab fa-tiktok"></i>
+              </a>
+              <a href="https://www.youtube.com/@hongsarpoy" target="_blank" aria-label="YouTube">
+                <i class="fab fa-youtube"></i>
+              </a>
             </div>
           </div>
 
         </div>
       </div>
     </section>
-    
+      
     <!-- Unified Footer Construction -->
     <footer class="picto-footer">
       <div class="footer-divider"></div>
@@ -1733,6 +1667,7 @@
         <p>&copy; 2026 Win Moe. All Rights Reserved. Portfolio Site.</p>
       </div>
     </footer>
+  </div>
  
   <!-- Scroll-to-Top Global Interactive Button -->
   <button id="scroll-top" aria-label="Scroll to top" class="scroll-top-btn"><i class="fas fa-chevron-up"></i></button>
@@ -1745,7 +1680,7 @@
       <p style="margin-top: 15px; line-height: 1.6; color: #555;">Detailed documentation concerning curriculum build paths, student enrollment funnels, and performance outputs tracking online educational platforms.</p>
     </div>
   </div>
-  
+    
   <div id="modal-p2" class="modal-overlay" onclick="closeModal('modal-p2')">
     <div class="modal-card" onclick="event.stopPropagation()">
       <span class="close-modal" onclick="closeModal('modal-p2')">&times;</span>
@@ -1757,7 +1692,7 @@
   <!-- Integrated Operational JavaScript -->
   <script>
     document.addEventListener("DOMContentLoaded", () => {
-      
+        
       // --- Loading Overlay Controller ---
       const loader = document.getElementById("loader");
       window.addEventListener("load", () => {
@@ -1772,7 +1707,7 @@
       // --- Theme Toggle Matrix ---
       const themeToggle = document.getElementById("theme-toggle");
       const icon = themeToggle.querySelector("i");
-      
+        
       themeToggle.addEventListener("click", () => {
         let theme = document.documentElement.getAttribute("data-theme");
         let newTheme = theme === "dark" ? "light" : "dark";
@@ -1815,7 +1750,7 @@
           filterButtons.forEach(b => b.classList.remove("active"));
           btn.classList.add("active");
           const filterValue = btn.getAttribute("data-filter");
-          
+            
           portfolioItems.forEach(item => {
             if (filterValue === "all" || item.getAttribute("data-category") === filterValue) {
               item.style.display = "block";
@@ -1875,4 +1810,5 @@
     function openModal(id) { document.getElementById(id).classList.add("active"); }
     function closeModal(id) { document.getElementById(id).classList.remove("active"); }
   </script>
-
+</body>
+</html>
