@@ -1435,25 +1435,26 @@
     </section>
     
     <!-- Unified Footer Construction -->
-    <footer class="footer-section">
-      <div class="footer-grid">
-        <div class="footer-info">
+    <footer class="picto-footer">
+      <div class="footer-divider"></div>
+      <div class="picto-footer-grid">
+        <div class="picto-footer-info">
           <h3>Win Moe</h3>
-          <p>English Educator & Digital Innovation Architect.</p>
+          <p>English Instructor & Content Creator</p>
         </div>
-        <div class="footer-links">
-          <h4>Quick Links</h4>
+        <div class="picto-footer-links">
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 Win Moe. All Rights Reserved. Professional Portfolio Site.</p>
+      <div class="picto-footer-bottom">
+        <p>&copy; 2026 Win Moe. All Rights Reserved. Portfolio Site.</p>
       </div>
     </footer>
 
-  </div>
+  </div> <!-- End of .portfolio-base-card -->
 
   <!-- Scroll-to-Top Global Interactive Button -->
   <button id="scroll-top" aria-label="Scroll to top" class="scroll-top-btn"><i class="fas fa-chevron-up"></i></button>
