@@ -610,8 +610,14 @@
 /* Social icons layout */
 .info-social-row {
   display: flex;
-  gap: 20px;
+  gap: 14px;
   padding-left: 8px;
+}
+
+.info-social-row a {
+  width: 42px;
+  height: 42px;
+  font-size: 1.1em;
 }
 
 .info-social-row a {
