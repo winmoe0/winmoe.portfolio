@@ -496,7 +496,7 @@
       <div class="picto-hero-right">
         <div class="picto-img-container">
           <!-- Configured directly to your provided filename -->
-          <img src="winmoeprofile2.jpg" alt="Win Moe Portrait" onerror="this.src='https://via.placeholder.com/430x500'">
+          <img src="winmoeprofile2.jpg" alt="Win Moe Portrait" onerror="this.src='https://via.placeholder.com/330x400'">
         </div>
       </div>
     </header>
@@ -508,49 +508,76 @@
         <div class="title-line"></div>
       </div>
       <div class="about-box">
-        <h3>Passionate Educator & Content Innovator</h3>
-        <p>I am a highly motivated and compassionate English educator with over four years of specialized teaching experience across both traditional onsite classrooms and modern online educational platforms. My pedagogical framework is completely student-centered, aimed at generating inclusive, culturally aware, and highly communicative environments where language structures naturally come to life.</p>
-        <p>Driven by educational technology and lifelong learning, I excel in digital content creation, media design, photography, and video editing to translate traditional curriculum frameworks into high-engagement assets for modern regional learners. Beyond the classroom, my leadership background shapes my collaborative mindset, allowing me to drive group development projects effectively within international educational matrices.</p>
+        <h3>English Instructor & Content Creator</h3>
+        <p>I am a dedicated and passionate English educator with over four years of teaching experience in both classroom and online learning environments. I am committed to creating engaging, student-centered lessons that foster confidence, critical thinking, and effective communication. I strive to build inclusive and supportive learning environments where students from diverse cultural backgrounds feel motivated to achieve their full potential.</p>
+<p>Beyond teaching, I have a strong interest in educational technology and digital innovation. I enjoy creating educational content through video editing, photography, graphic design, and social media, transforming learning materials into engaging digital experiences. My leadership and volunteer experience have strengthened my communication, teamwork, and project management skills, enabling me to collaborate effectively with colleagues and contribute to educational initiatives both inside and outside the classroom. I am committed to continuous professional development and aspire to make a meaningful impact on education through innovative teaching and lifelong learning.</p>
         <div class="about-tags">
-          <span><i class="fas fa-check"></i> Onsite & Online Instruction</span>
-          <span><i class="fas fa-check"></i> Curriculum Architecture</span>
-          <span><i class="fas fa-check"></i> Cross-Cultural Communication</span>
-          <span><i class="fas fa-check"></i> Media Production & Editing</span>
+        <span><i class="fas fa-check"></i> Onsite & Online Instruction</span>
+<span><i class="fas fa-check"></i> Lesson Planning</span>
+<span><i class="fas fa-check"></i> Curriculum Development</span>
+<span><i class="fas fa-check"></i> Classroom Management</span>
+<span><i class="fas fa-check"></i> Student Assessment</span>
+<span><i class="fas fa-check"></i> Young Learners Teaching</span>
+<span><i class="fas fa-check"></i> Adult English Instruction</span>
+<span><i class="fas fa-check"></i> English for Academic Purposes (EAP)</span>
+<span><i class="fas fa-check"></i> Grammar & Writing Instruction</span>
+<span><i class="fas fa-check"></i> Educational Technology</span>
+          <span><i class="fas fa-check"></i> Content Creation</span>
+          <span><i class="fas fa-check"></i> Social Media Management</span>
+          <span><i class="fas fa-check"></i> Digital Marketing</span>
         </div>
       </div>
     </section>
 
     <!-- Qualifications Section -->
-    <section id="qualifications" class="container-box scroll-reveal">
-      <div class="section-title">
-        <h2>Qualifications</h2>
-        <div class="title-line"></div>
-      </div>
-      <div class="qual-grid">
-        <div class="qual-card">
-          <div class="qual-icon"><i class="fas fa-university"></i></div>
-          <span class="qual-status gold">Candidate</span>
-          <h3>Master of Arts in Public Affairs</h3>
-          <p>Focusing on policy analysis, educational accessibility frameworks, and regional governance development systems.</p>
-        </div>
-        <div class="qual-card">
-          <div class="qual-icon"><i class="fas fa-graduation-cap"></i></div>
-          <span class="qual-status">Current</span>
-          <h3>B.A. in English Communication</h3>
-          <p>Payap University. Training in global intercultural linguistics, structural communication theories, and public presentation.</p>
-        </div>
-        <div class="qual-card">
-          <div class="qual-icon"><i class="fas fa-award"></i></div>
-          <span class="qual-status complete">Graduated</span>
-          <h3>Associate Degree in Education</h3>
-          <p>Mon National College. Rooted fundamentally in structural pedagogy, child psychology, and onsite classroom management frameworks.</p>
-        </div>
-        <div class="qual-card">
-          <div class="qual-icon"><i class="fas fa-file-alt"></i></div>
-          <span class="qual-status">In-Progress</span>
-          <h3>Diploma in Social Science</h3>
-          <p>National University of Zoland. Exploring sociology matrices, geopolitical development, and community modernization approaches.</p>
-        </div>
+<section id="qualifications" class="container-box scroll-reveal">
+  <div class="section-title">
+    <h2>Qualifications</h2>
+    <div class="title-line"></div>
+  </div>
+
+  <div class="qual-grid">
+
+    <div class="qual-card">
+      <div class="qual-icon"><i class="fas fa-university"></i></div>
+      <span class="qual-status gold">Candidate</span>
+      <h3>Master of Arts in Public Affairs</h3>
+      <p>Currently pursuing advanced studies in public policy, governance, leadership, and sustainable community development.</p>
+    </div>
+
+    <div class="qual-card">
+      <div class="qual-icon"><i class="fas fa-graduation-cap"></i></div>
+      <span class="qual-status">Current</span>
+      <h3>Bachelor of Arts in English Communication</h3>
+      <p>Payap University, Thailand. Developing expertise in English communication, intercultural communication, public speaking, and professional writing.</p>
+    </div>
+
+    <div class="qual-card">
+      <div class="qual-icon"><i class="fas fa-award"></i></div>
+      <span class="qual-status complete">Graduated</span>
+      <h3>Associate Degree in Education</h3>
+      <p>Mon National College, Myanmar. Studied teaching methodologies, curriculum development, educational psychology, classroom management, and student assessment.</p>
+    </div>
+
+    <div class="qual-card">
+      <div class="qual-icon"><i class="fas fa-file-alt"></i></div>
+      <span class="qual-status complete">Graduated</span>
+      <h3>Diploma in Social Science</h3>
+      <p>National University of Zoland. Studied sociology, political science, community development, and social research.</p>
+    </div>
+<div class="qual-card">
+  <div class="qual-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+  <span class="qual-status complete">Certified</span>
+  <h3>TEFL/TESOL Certification</h3>
+  <p>Certified to teach English as a Foreign Language with training in communicative teaching methods, lesson planning, classroom management, and learner assessment.</p>
+</div>
+
+<div class="qual-card">
+  <div class="qual-icon"><i class="fab fa-google"></i></div>
+  <span class="qual-status complete">Certified</span>
+  <h3>Google Digital Marketing & E-Commerce</h3>
+  <p>Professional training in digital marketing, content creation, social media strategy, search engine optimization (SEO), analytics, and e-commerce.</p>
+</div>
       </div>
     </section>
 
