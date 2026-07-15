@@ -666,11 +666,21 @@
   color: #fff;
 }
 
-[data-theme="dark"] .form-row input, [data-theme="dark"] .message-row textarea {
+/* --- ADDED FIX HERE --- */
+/* This keeps input fields clean dark-slate and readable in dark mode */
+[data-theme="dark"] .form-row input, 
+[data-theme="dark"] .message-row textarea {
   background-color: #0f172a;
   border-color: rgba(255, 255, 255, 0.15);
-  color: #fff;
+  color: #f8fafc !important; /* Forces text to show up clear bright white/silver */
 }
+
+/* Adjusts the placeholder text color so it doesn't blend in */
+[data-theme="dark"] .form-row input::placeholder, 
+[data-theme="dark"] .message-row textarea::placeholder {
+  color: #64748b; 
+}
+/* ---------------------- */
 
 [data-theme="dark"] .info-item span, [data-theme="dark"] .info-item a {
   color: #fff;
@@ -1612,7 +1622,7 @@
       </div>
     </section>
 
-    -- Contact Section -->
+  <!-- Contact Section -->
 <section id="contact" class="picto-contact-section scroll-reveal">
   
   <!-- Top Title Block inside the Purple Background -->
@@ -1635,7 +1645,7 @@
             <span>&times;</span>
           </div>
         </div>
-
+        
             <!-- Form Content Fields Area -->
             <div class="browser-body">
               <div class="form-row">
