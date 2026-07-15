@@ -890,11 +890,11 @@
             <p>Years Exp.</p>
           </div>
           <div class="mini-stat-item">
-            <div class="counter" data-target="1000" style="font-size: 1.6em; font-weight: 700;">0</div>
+            <div class="counter" data-target="2000" style="font-size: 1.6em; font-weight: 700;">0</div>
             <p>Students Taught</p>
           </div>
           <div class="mini-stat-item">
-            <div class="counter" data-target="15" style="font-size: 1.6em; font-weight: 700;">0</div>
+            <div class="counter" data-target="85" style="font-size: 1.6em; font-weight: 700;">0</div>
             <p>Certificates</p>
           </div>
         </div>
