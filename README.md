@@ -722,14 +722,14 @@
 
     <!-- Educational Outreach -->
     <div class="timeline-item left">
-      <div class="timeline-dot"></div>
-      <div class="timeline-date">Ongoing</div>
-      <div class="timeline-card">
-        <h3>Educational Outreach & Content Creator</h3>
-        <h4>Community Education</h4>
-        <p>
-          Create free educational resources, English learning content, and digital materials to support lifelong learning and improve access to quality education through online platforms and social media.
-        </p>
+  <div class="timeline-dot"></div>
+  <div class="timeline-date">2025</div>
+  <div class="timeline-card">
+    <h3>Community Service Volunteer</h3>
+    <h4>Ban San San School, Chiang Mai</h4>
+    <p>
+      Participated in a community outreach program organized by Payap University. Supported young learners through educational activities, creative art sessions, and donations while promoting an engaging and inclusive learning environment.
+    </p>
       </div>
     </div>
     </div>
