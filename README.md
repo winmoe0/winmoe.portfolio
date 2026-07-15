@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -381,12 +380,15 @@
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
     }
 
-    .contact-header-bg {
-      background: linear-gradient(135deg, #a855f7 0%, #7e22ce 100%);
-      color: white;
-      text-align: center;
-      padding: 80px 20px 140px 20px;
-    }
+    /* Purple Top Header Section */
+.contact-header-bg {
+  background: linear-gradient(135deg, #a855f7 0%, #7e22ce 100%);
+  color: white;
+  text-align: center;
+  padding: 60px 20px 100px 20px;
+  position: relative; /* Fixed: allows z-index layering */
+  z-index: 5;        /* Fixed: lifts the text on top of the white slant line */
+}
 
     .contact-main-title {
       font-size: 3em;
@@ -1563,10 +1565,10 @@
     <!-- Contact Section -->
     <section id="contact" class="picto-contact-section scroll-reveal">
       
-      <!-- Top Title Block inside the Purple Background -->
-<div class="contact-header-bg" style="padding-bottom: 110px;">
-  <h2 class="contact-main-title" style="color: #3b0764 !important; text-shadow: 0 1px 2px rgba(255,255,255,0.6); font-weight: 700;">Connect with Me</h2>
-  <p class="contact-subtitle" style="color: #374151 !important; font-weight: 500; opacity: 1; max-width: 600px; margin: 0 auto;">Have a project, a job opening, or just want to say hello? Drop me a message below!</p>
+     <!-- Top Title Block inside the Purple Background -->
+<div class="contact-header-bg">
+  <h2 class="contact-main-title">Connect with Me</h2>
+  <p class="contact-subtitle">Have a project, a job opening, or just want to say hello? Drop me a message below!</p>
 </div>
 
       <!-- Lower Split Area containing Form and Info -->
