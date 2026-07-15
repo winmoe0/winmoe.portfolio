@@ -735,46 +735,137 @@
     </div>
     </div>
     
-    <!-- Skills Matrix Grid Section -->
-    <section id="skills" class="container-box scroll-reveal">
-      <div class="section-title">
-        <h2>Skills Matrix</h2>
-        <div class="title-line"></div>
-      </div>
-      <div class="skills-grid">
-        <div class="skills-category">
-          <h3><i class="fas fa-apple-alt"></i> Instructional Design</h3>
-          <div class="skill-item">
-            <div class="skill-info"><span>Lesson Architecture & Planning</span><span>95%</span></div>
-            <div class="progress-bar"><div class="progress" data-width="95%"></div></div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-info"><span>Classroom Control Matrices</span><span>90%</span></div>
-            <div class="progress-bar"><div class="progress" data-width="90%"></div></div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-info"><span>Curriculum & Material Adaptation</span><span>92%</span></div>
-            <div class="progress-bar"><div class="progress" data-width="92%"></div></div>
-          </div>
-        </div>
+    <!-- Skills Section -->
+<section id="skills" class="container-box scroll-reveal">
+  <div class="section-title">
+    <h2>Professional Skills</h2>
+    <div class="title-line"></div>
+  </div>
 
-        <div class="skills-category">
-          <h3><i class="fas fa-laptop-code"></i> Technical Tools</h3>
-          <div class="skill-item">
-            <div class="skill-info"><span>Digital Media Tools (Canva, CapCut, Premiere)</span><span>88%</span></div>
-            <div class="progress-bar"><div class="progress" data-width="88%"></div></div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-info"><span>E-Learning Interfaces (Zoom, Meet)</span><span>95%</span></div>
-            <div class="progress-bar"><div class="progress" data-width="95%"></div></div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-info"><span>Frontend Web (HTML5, CSS3, GitHub)</span><span>75%</span></div>
-            <div class="progress-bar"><div class="progress" data-width="75%"></div></div>
-          </div>
+  <div class="skills-grid">
+
+    <!-- Teaching Skills -->
+    <div class="skills-category">
+      <h3><i class="fas fa-chalkboard-teacher"></i> Teaching & Education</h3>
+
+      <div class="skill-item">
+        <div class="skill-info">
+          <span>Lesson Planning & Instruction</span>
+          <span>95%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" data-width="95%"></div>
         </div>
       </div>
-    </section>
+
+      <div class="skill-item">
+        <div class="skill-info">
+          <span>Classroom Management</span>
+          <span>92%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" data-width="92%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-info">
+          <span>Curriculum Development</span>
+          <span>90%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" data-width="90%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-info">
+          <span>Online Teaching</span>
+          <span>96%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" data-width="96%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-info">
+          <span>Student Assessment & Feedback</span>
+          <span>90%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" data-width="90%"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Digital Skills -->
+    <div class="skills-category">
+      <h3><i class="fas fa-laptop-code"></i> Digital & Creative Skills</h3>
+
+      <div class="skill-item">
+        <div class="skill-info">
+          <span>Canva & Graphic Design</span>
+          <span>95%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" data-width="95%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-info">
+          <span>Video Editing (CapCut & Premiere Pro)</span>
+          <span>90%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" data-width="90%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-info">
+          <span>Zoom & Google Workspace</span>
+          <span>95%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" data-width="95%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-info">
+          <span>Content Creation & Social Media</span>
+          <span>94%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" data-width="94%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-info">
+          <span>Photography</span>
+          <span>85%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" data-width="85%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-info">
+          <span>AI Tools for Education</span>
+          <span>90%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" data-width="90%"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
 
     <!-- Professional Certifications Grid -->
     <section class="container-box scroll-reveal">
