@@ -1612,39 +1612,39 @@
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="picto-contact-section scroll-reveal">
-      
-      <!-- Top Title Block inside the Purple Background -->
-      <div class="contact-header-bg">
-        <h2 class="contact-main-title">Connect with Me</h2>
-        <p class="contact-subtitle">Have a project, a job opening, or just want to say hello? Drop me a message below!</p>
-      </div>
+    -- Contact Section -->
+<section id="contact" class="picto-contact-section scroll-reveal">
+  
+  <!-- Top Title Block inside the Purple Background -->
+  <div class="contact-header-bg">
+    <h2 class="contact-main-title">Connect with Me</h2>
+    <p class="contact-subtitle">Have a project, a job opening, or just want to say hello? Drop me a message below!</p>
+  </div>
 
-      <!-- Lower Split Area containing Form and Info -->
-      <div class="contact-split-container">
-        <div class="contact-grid-wrapper">
-          
-          <!-- Left Side: Mock Browser Form Window -->
-          <form class="mock-browser-window" action="https://formspree.io/f/mqereerd" method="POST">
-            <!-- Window Control Header Bar -->
-            <div class="browser-header">
-              <div class="browser-controls">
-                <span>&minus;</span>
-                <span>&#9634;</span>
-                <span>&times;</span>
-              </div>
-            </div>
+  <!-- Lower Split Area containing Form and Info -->
+  <div class="contact-split-container">
+    <div class="contact-grid-wrapper">
+      
+      <!-- Left Side: Mock Browser Form Window -->
+      <form class="mock-browser-window" action="https://formspree.io/f/mqereerd" method="POST">
+        <!-- Window Control Header Bar -->
+        <div class="browser-header">
+          <div class="browser-controls">
+            <span>&minus;</span>
+            <span>&#9634;</span>
+            <span>&times;</span>
+          </div>
+        </div>
 
             <!-- Form Content Fields Area -->
             <div class="browser-body">
               <div class="form-row">
-                <label for="name">Name:</label>
+                <label for="name">Your Name:</label>
                 <input type="text" id="name" name="name" required placeholder="Enter your full name">
               </div>
               
               <div class="form-row">
-                <label for="email">Mail:</label>
+                <label for="email">Your Gmail:</label>
                 <input type="email" id="email" name="email" required placeholder="Enter your mail id">
               </div>
               
