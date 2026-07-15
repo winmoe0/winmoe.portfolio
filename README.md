@@ -582,49 +582,89 @@
     </section>
 
     <!-- Experience & Leadership Tabbed Timelines -->
-    <section id="experience" class="container-box scroll-reveal">
-      <div class="section-title">
-        <h2>Professional History</h2>
-        <div class="title-line"></div>
-      </div>
-      
-      <div class="timeline-tabs">
-        <button class="tab-btn active" data-tab="work">Teaching & Media</button>
-        <button class="tab-btn" data-tab="leadership">Leadership & Volunteering</button>
-      </div>
+<section id="experience" class="container-box scroll-reveal">
+  <div class="section-title">
+    <h2>Professional Experience</h2>
+    <div class="title-line"></div>
+  </div>
 
-      <!-- Work Experience Timeline Content -->
-      <div id="work-timeline" class="timeline-content active">
-        <div class="timeline">
-          <div class="timeline-item left">
-            <div class="timeline-dot"></div>
-            <div class="timeline-date">2023 - 2024</div>
-            <div class="timeline-card">
-              <h3>English Teacher</h3>
-              <h4>Mon National Primary School</h4>
-              <p>Orchestrated core language curriculum operations onsite. Built structural metrics across student assessment tracking profiles, lesson adaptations, and primary school behavioral mechanics.</p>
-            </div>
-          </div>
-          <div class="timeline-item right">
-            <div class="timeline-dot"></div>
-            <div class="timeline-date">2019 - Present</div>
-            <div class="timeline-card">
-              <h3>Online English Instructor</h3>
-              <h4>Poy English Program</h4>
-              <p>Directing digital operations targeting advanced conversational skills, structural grammar, reading focus, and pronunciation matrices via integrated deployment on Zoom and Google Meet environments.</p>
-            </div>
-          </div>
-          <div class="timeline-item left">
-            <div class="timeline-dot"></div>
-            <div class="timeline-date">2019 - Present</div>
-            <div class="timeline-card">
-              <h3>Educational Content Creator</h3>
-              <h4>Digital Media Architect</h4>
-              <p>Designing digital language infographics, instructional video series, and targeted modern marketing media to connect regional communities with accessible language solutions.</p>
-            </div>
-          </div>
+  <div class="timeline-tabs">
+    <button class="tab-btn active" data-tab="work">Teaching & Media</button>
+    <button class="tab-btn" data-tab="leadership">Leadership & Volunteering</button>
+  </div>
+
+  <!-- Teaching Experience -->
+  <div id="work-timeline" class="timeline-content active">
+    <div class="timeline">
+
+      <!-- English Teacher -->
+      <div class="timeline-item left">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2023 – 2024</div>
+        <div class="timeline-card">
+          <h3>English Teacher</h3>
+          <h4>Mon National Primary School, Myanmar</h4>
+          <p>
+            Taught English to primary school students through engaging, student-centered lessons that developed listening, speaking, reading, and writing skills. Planned lessons, prepared learning materials, assessed student progress, and created a positive classroom environment that encouraged active participation and confidence.
+          </p>
         </div>
       </div>
+
+      <!-- Online Teacher -->
+      <div class="timeline-item right">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2019 – Present</div>
+        <div class="timeline-card">
+          <h3>Online English Instructor</h3>
+          <h4>Poy English Program</h4>
+          <p>
+            Deliver online English lessons for young learners and adult students using Zoom and Google Meet. Design customized lesson plans, teach grammar, pronunciation, speaking, reading, and writing, and support learners in achieving their academic and personal language goals through interactive instruction.
+          </p>
+        </div>
+      </div>
+
+      <!-- Content Creator -->
+      <div class="timeline-item left">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2019 – Present</div>
+        <div class="timeline-card">
+          <h3>Educational Content Creator</h3>
+          <h4>Social Media Plaforms</h4>
+          <p>
+            Produce educational videos, English learning resources, graphics, and social media content for online audiences. Utilize video editing, photography, Canva, and digital marketing strategies to create engaging learning experiences and promote educational programs.
+          </p>
+        </div>
+      </div>
+
+      <!-- Freelance -->
+      <div class="timeline-item right">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2022 – Present</div>
+        <div class="timeline-card">
+          <h3>Freelance English Tutor</h3>
+          <h4>All Scholars Educational Program</h4>
+          <p>
+            Provide one-on-one and small-group English lessons tailored to learners' individual goals, including conversational English, grammar, academic writing, pronunciation, and exam preparation.
+          </p>
+        </div>
+      </div>
+
+      <!-- AI Educational Content -->
+      <div class="timeline-item left">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Ongoing</div>
+        <div class="timeline-card">
+          <h3>Educational Technology & Digital Learning</h3>
+          <h4>Facebook Page: EthnoVerse</h4>
+          <p>
+            Integrate educational technology into teaching by using Canva, Google Workspace, Zoom, AI-powered tools, and multimedia resources to enhance student engagement and create interactive online learning experiences.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
       <!-- Leadership & Volunteer Timeline Content -->
       <div id="leadership-timeline" class="timeline-content">
