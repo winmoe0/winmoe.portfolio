@@ -706,9 +706,6 @@
       </div>
     </div>
 
-    </div>
-    </div>
-
     <!-- University Volunteer -->
     <div class="timeline-item right">
       <div class="timeline-dot"></div>
