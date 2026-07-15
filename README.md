@@ -972,6 +972,21 @@
       <h3>Diploma in Social Science</h3>
       <p>National University of Zoland. Studied sociology, political science, community development, and social research.</p>
     </div>
+
+    <div class="qual-card">
+  <div class="qual-icon"><i class="fas fa-square-root-alt"></i></div>
+  <span class="qual-status complete">Completed</span>
+  <h3>Mathematics Studies (Second Year)</h3>
+  <p>Completed two years of undergraduate study in Mathematics at Hpa-An University, Myanmar, developing strong analytical, logical reasoning, and problem-solving skills.</p>
+</div>
+
+<div class="qual-card">
+  <div class="qual-icon"><i class="fas fa-school"></i></div>
+  <span class="qual-status complete">Graduated</span>
+  <h3>High School Education</h3>
+  <p>Completed Basic Education High School in Myanmar, building a strong academic foundation in mathematics, science, languages, and social studies.</p>
+</div>
+
 <div class="qual-card">
   <div class="qual-icon"><i class="fas fa-chalkboard-teacher"></i></div>
   <span class="qual-status complete">Certified</span>
