@@ -878,7 +878,7 @@
         <h1 class="picto-greeting">Hello, I'm <br><span>Win Moe</span></h1>
         <h3 style="font-size: 1.2em; font-weight: 500; color: var(--primary-color); margin-bottom: 15px;">English Educator | Content Creator | Video Editor</h3>
         <p class="picto-lead-text">
-          I'm an English <span class="highlight-purple">Educator</span>, <span class="highlight-pink">Content Creator</span>, and Video Editor based in Chiang Mai, Thailand. I strive to build immersive language experiences through student-centric methods and modern media workflows.
+         I'm an English <span class="highlight-purple">Educator</span>, <span class="highlight-pink">Content Creator</span>, and Video Editor based in Chiang Mai, Thailand. Passionate about education and innovation, I create engaging learning experiences that combine communicative teaching, educational technology, and creative digital content. My mission is to empower learners with the confidence and skills they need to succeed in today's global world.
         </p>
         
         <a href="#contact" class="btn-picto-purple">Contact Me</a>
