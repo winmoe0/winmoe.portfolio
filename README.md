@@ -1024,22 +1024,78 @@
       </div>
     </section>
 
-    <!-- Contact & Embedded Map Form Integration -->
-    <section id="contact" class="container-box scroll-reveal">
-      <div class="section-title">
-        <h2>Get In Touch</h2>
-        <div class="title-line"></div>
+    <!-- Contact Section -->
+    <section id="contact" class="picto-contact-section scroll-reveal">
+      
+      <!-- Top Title Block inside the Purple Background -->
+      <div class="contact-header-bg">
+        <h2 class="contact-main-title">Connect with Me</h2>
+        <p class="contact-subtitle">Have a project, a job opening, or just want to say hello? Drop me a message below!</p>
       </div>
-      <div class="contact-grid">
-        <form class="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID_HERE" method="POST">
-          <div class="form-group"><input type="text" name="name" required placeholder="Your Name"></div>
-          <div class="form-group"><input type="email" name="email" required placeholder="Your Email Address"></div>
-          <div class="form-group"><input type="text" name="subject" required placeholder="Subject"></div>
-          <div class="form-group"><textarea name="message" rows="5" required placeholder="Your Message Content Here..."></textarea></div>
-          <button type="submit" class="btn-picto-purple" style="border:none; cursor:pointer;">Send Message</button>
-        </form>
-        <div class="map-container">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59587.94583110512!2d98.9490204781702!3d18.796143003056024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1m3!1zQ2hpYW5nIE1haQ!5e0!3m2!1sen!2sth!4v1700000000000!5m2!1sen!2sth" width="100%" height="320" style="border:0; border-radius:12px;" allowfullscreen="" loading="lazy"></iframe>
+
+      <!-- Lower Split Area containing Form and Info -->
+      <div class="contact-split-container">
+        <div class="contact-grid-wrapper">
+          
+          <!-- Left Side: Mock Browser Form Window -->
+          <form class="mock-browser-window" action="https://formspree.io/f/YOUR_FORMSPREE_ID_HERE" method="POST">
+            <!-- Window Control Header Bar -->
+            <div class="browser-header">
+              <div class="browser-controls">
+                <span>&minus;</span>
+                <span>&#9634;</span>
+                <span>&times;</span>
+              </div>
+            </div>
+
+            <!-- Form Content Fields Area -->
+            <div class="browser-body">
+              <div class="form-row">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+              </div>
+              
+              <div class="form-row">
+                <label for="email">Mail:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your mail id">
+              </div>
+              
+              <div class="form-row message-row">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Enter your message"></textarea>
+              </div>
+
+              <div class="form-submit-row">
+                <button type="submit" class="btn-browser-send">Send</button>
+              </div>
+            </div>
+          </form>
+
+          <!-- Right Side: Clean Contact Info & Socials -->
+          <div class="contact-info-panel">
+            <div class="info-list">
+              <div class="info-item">
+                <i class="fas fa-phone-alt"></i>
+                <span>0924854332</span>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:minwinmoe123@gmail.com">minwinmoe123@gmail.com</a>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Chiang Mai, Thailand</span>
+              </div>
+            </div>
+
+            <!-- Horizontal Social Icons Row -->
+            <div class="info-social-row">
+              <a href="https://www.linkedin.com/in/win-moe-73b006395" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
