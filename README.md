@@ -650,47 +650,93 @@
       </div>
 
       <!-- AI Educational Content -->
-      <div class="timeline-item left">
-        <div class="timeline-dot"></div>
-        <div class="timeline-date">Ongoing</div>
-        <div class="timeline-card">
-          <h3>Educational Technology & Digital Learning</h3>
-          <h4>Facebook Page: EthnoVerse</h4>
-          <p>
-            Integrate educational technology into teaching by using Canva, Google Workspace, Zoom, AI-powered tools, and multimedia resources to enhance student engagement and create interactive online learning experiences.
+<div class="timeline-item left">
+  <div class="timeline-dot"></div>
+  <div class="timeline-date">2025 – Present</div>
+  <div class="timeline-card">
+    <h3>AI Educational Content Creator</h3>
+    <h4>EthnoVerse (Facebook & Digital Platforms)</h4>
+    <p>
+      Create AI-assisted educational content, including short-form videos, historical storytelling, English learning materials, and digital visuals. Utilize AI tools, Canva, video editing software, and multimedia design to transform complex topics into engaging and accessible content for diverse online audiences while promoting education through social media.
           </p>
         </div>
       </div>
 
-    </div>
-  </div>
-</section>
 
       <!-- Leadership & Volunteer Timeline Content -->
-      <div id="leadership-timeline" class="timeline-content">
-        <div class="timeline">
-          <div class="timeline-item left">
-            <div class="timeline-dot"></div>
-            <div class="timeline-date">Active</div>
-            <div class="timeline-card">
-              <h3>Chairman</h3>
-              <h4>G60-99 Mon Charity Group</h4>
-              <p>Directing administrative community logistics, driving cross-functional resource distribution initiatives, and coordinating multi-tiered crisis support outreach platforms.</p>
-            </div>
-          </div>
-          <div class="timeline-item right">
-            <div class="timeline-dot"></div>
-            <div class="timeline-date">2024 - 2025</div>
-            <div class="timeline-card">
-              <h3>Volunteer Language Teacher</h3>
-              <h4>Dahrah Learning Center & Payap Projects</h4>
-              <p>Delivered foundational English program structures to displaced youths and collaborated on public presenting programs across international student wings.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<div id="leadership-timeline" class="timeline-content">
+  <div class="timeline">
 
+    <!-- Student Leader -->
+    <div class="timeline-item left">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">2023 – 2024</div>
+      <div class="timeline-card">
+        <h3>Student leader</h3>
+        <h4>Student Council, Hpa-An University, Myanmar</h4>
+        <p>
+          Led the Student Union by representing students' interests, organizing academic and community events, coordinating with faculty members, and promoting teamwork, leadership, and student engagement across the university.
+        </p>
+      </div>
+    </div>
+
+    <!-- Charity -->
+    <div class="timeline-item right">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">Present</div>
+      <div class="timeline-card">
+        <h3>Chairman</h3>
+        <h4>G60–99 Mon Charity Group</h4>
+        <p>
+          Coordinate community service initiatives, organize fundraising activities, manage volunteer teams, and support charitable projects that provide educational and humanitarian assistance to local communities.
+        </p>
+      </div>
+    </div>
+
+    <!-- Volunteer Teacher -->
+    <div class="timeline-item left">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">2024 – 2025</div>
+      <div class="timeline-card">
+        <h3>Volunteer English Teacher</h3>
+        <h4>Mon Internsive English Program</h4>
+        <p>
+          Taught English to refugee and migrant learners through interactive lessons designed to improve communication skills, confidence, and academic readiness in a supportive learning environment.
+        </p>
+      </div>
+    </div>
+
+    </div>
+    </div>
+
+    <!-- University Volunteer -->
+    <div class="timeline-item right">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">2024 – Present</div>
+      <div class="timeline-card">
+        <h3>University Volunteer</h3>
+        <h4>Payap University International College</h4>
+        <p>
+          Assisted in university events, orientation programs, intercultural activities, and student engagement projects while collaborating with students from diverse cultural backgrounds.
+        </p>
+      </div>
+    </div>
+
+    <!-- Educational Outreach -->
+    <div class="timeline-item left">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">Ongoing</div>
+      <div class="timeline-card">
+        <h3>Educational Outreach & Content Creator</h3>
+        <h4>Community Education</h4>
+        <p>
+          Create free educational resources, English learning content, and digital materials to support lifelong learning and improve access to quality education through online platforms and social media.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>
     <!-- Skills Matrix Grid Section -->
     <section id="skills" class="container-box scroll-reveal">
       <div class="section-title">
