@@ -1626,7 +1626,7 @@
         <div class="contact-grid-wrapper">
           
           <!-- Left Side: Mock Browser Form Window -->
-          <form class="mock-browser-window" action="https://formspree.io/f/YOUR_FORMSPREE_ID_HERE" method="POST">
+          <form class="mock-browser-window" action="https://formspree.io/f/mqereerd" method="POST">
             <!-- Window Control Header Bar -->
             <div class="browser-header">
               <div class="browser-controls">
