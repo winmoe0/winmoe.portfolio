@@ -1526,9 +1526,7 @@
         <p>&copy; 2026 Win Moe. All Rights Reserved. Portfolio Site.</p>
       </div>
     </footer>
-
-  </div> <!-- End of .portfolio-base-card -->
-
+ 
   <!-- Scroll-to-Top Global Interactive Button -->
   <button id="scroll-top" aria-label="Scroll to top" class="scroll-top-btn"><i class="fas fa-chevron-up"></i></button>
 
