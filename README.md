@@ -1345,6 +1345,166 @@
       <span>Exploring Learning Disabilities</span>
     </div>
 
+<div class="cert-item-card">
+  <i class="fas fa-language"></i>
+  <span>Teaching English in Primary Classrooms</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-comments"></i>
+  <span>Teaching English: Communicative Tasks</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-headphones"></i>
+  <span>Teaching English: How to Teach Listening</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-laptop"></i>
+  <span>Teaching English: Integrating Technology</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-book-reader"></i>
+  <span>Teaching English: Understanding Language Systems</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-user-graduate"></i>
+  <span>Teaching English: Helping Teachers to Learn</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-bullhorn"></i>
+  <span>Foundations of Digital Marketing & E-Commerce</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-users"></i>
+  <span>Attract and Engage Customers with Digital Marketing</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-handshake"></i>
+  <span>Interact with Customers Online</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-heart"></i>
+  <span>Develop Customer Loyalty Online</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-chart-line"></i>
+  <span>Marketing Analytics and Measurement</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-share-alt"></i>
+  <span>Social Media Marketing</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-envelope"></i>
+  <span>Email Marketing</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-shopping-cart"></i>
+  <span>Make the Sale</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-school"></i>
+  <span>Inclusive Education</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-venus-mars"></i>
+  <span>Gender in Language Education</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-child"></i>
+  <span>Supporting Children's Mental Health and Well-being</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-users-cog"></i>
+  <span>Leadership and Followership</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-star"></i>
+  <span>Effective Leadership</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-comments"></i>
+  <span>Effective Communication in the Workplace</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-chalkboard"></i>
+  <span>Effective Presentations</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-user-friends"></i>
+  <span>Professional Networking for Career Growth</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-users"></i>
+  <span>Working in Teams</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-hands-helping"></i>
+  <span>Working in the Voluntary Sector</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-robot"></i>
+  <span>Job Search with AI</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-balance-scale"></i>
+  <span>Becoming an Ethical Researcher</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-gavel"></i>
+  <span>Introduction to Human Rights Standards</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-shield-alt"></i>
+  <span>Child Protection Advocacy</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-book"></i>
+  <span>Child Rights Toolkit</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-briefcase"></i>
+  <span>English for Career Development</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-plane"></i>
+  <span>English for Tourism Professionals</span>
+</div>
+
+<div class="cert-item-card">
+  <i class="fas fa-desktop"></i>
+  <span>Digital Skills: Succeeding in a Digital World</span>
+</div>
+
     <div class="cert-item-card">
       <i class="fas fa-users"></i>
       <span>Introduction to Social Sciences</span>
