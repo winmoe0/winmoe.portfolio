@@ -731,9 +731,7 @@
         </p>
       </div>
     </div>
-
-  </div>
-</div>
+    
     <!-- Skills Matrix Grid Section -->
     <section id="skills" class="container-box scroll-reveal">
       <div class="section-title">
