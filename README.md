@@ -380,22 +380,21 @@
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
     }
 
-   /* Purple Top Header Section */
-.contact-header-bg {
-  background: linear-gradient(135deg, #a855f7 0%, #7e22ce 100%);
-  color: white;
-  text-align: center;
-  padding: 60px 20px 60px 20px; /* Balanced padding without deep bottom space */
-  position: relative; 
-  z-index: 2; 
-}
+    /* Purple Top Header Section */
+    .contact-header-bg {
+      background: linear-gradient(135deg, #a855f7 0%, #7e22ce 100%);
+      color: white;
+      text-align: center;
+      padding: 60px 20px 60px 20px; 
+      position: relative; 
+      z-index: 2; 
+    }
 
-/* Fixes the text visibility without breaking the slant layout */
-.contact-main-title,
-.contact-subtitle {
-  position: relative;
-  z-index: 2; /* Lifts just the text over the white slant line */
-}
+    .contact-main-title,
+    .contact-subtitle {
+      position: relative;
+      z-index: 2; 
+    }
 
     .contact-main-title {
       font-size: 3em;
@@ -412,124 +411,72 @@
       line-height: 1.6;
     }
 
-  /* White Bottom Background Container */
-.contact-split-container {
-  background-color: var(--card-bg);
-  position: relative;
-  margin-top: 0; /* Fixed: Removes the awkward overlap layout bug */
-  z-index: 2;
-  padding: 50px 50px 80px 50px; /* Generous padding for clean breathing room */
-  transition: background var(--transition-speed);
-}
+    /* White Bottom Background Container */
+    .contact-split-container {
+      background-color: var(--card-bg);
+      position: relative;
+      margin-top: 0; 
+      z-index: 2;
+      padding: 50px 50px 80px 50px; 
+      transition: background var(--transition-speed);
+    }
 
-/* Controls Side-by-Side Grid Layout balance */
-.contact-grid-wrapper {
-  position: relative;
-  z-index: 3;
-  display: grid;
-  grid-template-columns: 1.15fr 0.85fr; /* Sized perfectly so left side isn't too large or small */
-  gap: 50px;
-  align-items: start; /* Fixed: Aligns the top of the browser window perfectly with the right text */
-  max-width: 1100px;
-  margin: 0 auto;
-}
+    /* Controls Side-by-Side Grid Layout balance */
+    .contact-grid-wrapper {
+      position: relative;
+      z-index: 3;
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr; 
+      gap: 50px;
+      align-items: start; 
+      max-width: 1100px;
+      margin: 0 auto;
+    }
 
-   /* Mock Browser Container Style */
-.mock-browser-window {
-  background: var(--card-bg);
-  border: 2px solid var(--text-main);
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
-  transition: border-color var(--transition-speed), background var(--transition-speed);
-}
+    /* Mock Browser Container Style */
+    .mock-browser-window {
+      background: var(--card-bg);
+      border: 2px solid var(--text-main);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+      transition: border-color var(--transition-speed), background var(--transition-speed);
+    }
 
-/* Browser Window Top Bar */
-.browser-header {
-  background-color: rgba(147, 51, 234, 0.12);
-  border-bottom: 2px solid var(--text-main);
-  padding: 12px 24px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  transition: border-color var(--transition-speed);
-}
+    /* Browser Window Top Bar */
+    .browser-header {
+      background-color: rgba(147, 51, 234, 0.12);
+      border-bottom: 2px solid var(--text-main);
+      padding: 12px 24px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      transition: border-color var(--transition-speed);
+    }
 
-/* Browser Window Form Content Box */
-.browser-body {
-  padding: 40px; /* Balanced internal breathing room */
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
+    .browser-controls {
+      display: flex;
+      gap: 12px;
+      font-size: 1.2em;
+      font-weight: 600;
+      color: var(--text-main);
+      cursor: default;
+    }
 
-/* Form Input Layout Fields */
-.form-row {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
+    .browser-controls span {
+      display: inline-block;
+      line-height: 1;
+    }
 
-.form-row label {
-  font-size: 1.05em;
-  font-weight: 600;
-  color: var(--text-main);
-  width: 110px; /* Standardized fixed width to keep things perfectly aligned */
-  flex-shrink: 0;
-}
+    /* Browser Window Form Content Box */
+    .browser-body {
+      padding: 40px; 
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
 
-.form-row input, .message-row textarea {
-  width: 100%;
-  padding: 12px 18px;
-  border: 1.5px solid var(--border-color);
-  border-radius: 10px;
-  font-family: inherit;
-  font-size: 0.95em;
-  color: #1e2530; /* Crispy clear text in light mode */
-  background-color: #fff;
-  transition: border-color 0.25s ease;
-}
-
-.form-row input:focus, .message-row textarea:focus {
-  outline: none;
-  border-color: var(--primary-color);
-  box-shadow: 0 0 0 3px rgba(147, 51, 234, 0.1);
-}
-
-/* Dark mode overrides for internal form elements */
-[data-theme="dark"] .form-row input, 
-[data-theme="dark"] .message-row textarea {
-  background-color: #0f172a;
-  border-color: rgba(255, 255, 255, 0.15);
-  color: #f8fafc; /* Beautiful clean silver-white text in dark mode */
-}
-
-[data-theme="dark"] .form-row input::placeholder, 
-[data-theme="dark"] .message-row textarea::placeholder {
-  color: #64748b; 
-}
-    
-/* Modern Rounded Pill Button */
-.btn-browser-send {
-  background-color: var(--primary-color);
-  color: #ffffff;
-  border: none;
-  padding: 12px 40px;
-  border-radius: 50px;
-  font-family: inherit;
-  font-weight: 600;
-  font-size: 0.95em;
-  cursor: pointer;
-  box-shadow: 0 4px 15px rgba(147, 51, 234, 0.2);
-  transition: all 0.25s ease;
-  width: 100%; /* Spans full card width cleanly */
-}
-
-.btn-browser-send:hover {
-  background-color: var(--primary-hover);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(147, 51, 234, 0.3);
-}
+    /* Form Input Layout Fields */
     .form-row {
       display: flex;
       align-items: center;
@@ -537,18 +484,18 @@
     }
 
     .form-row label {
-      font-size: 1.1em;
+      font-size: 1.05em;
       font-weight: 600;
       color: var(--text-main);
-      width: 100px;
+      width: 110px; 
       flex-shrink: 0;
     }
 
-    .form-row input {
+    .form-row input, .message-row textarea {
       width: 100%;
-      padding: 12px 20px;
+      padding: 12px 18px;
       border: 1.5px solid var(--border-color);
-      border-radius: 12px;
+      border-radius: 10px;
       font-family: inherit;
       font-size: 0.95em;
       color: #1e2530; 
@@ -556,9 +503,10 @@
       transition: border-color 0.25s ease;
     }
 
-    .form-row input:focus {
+    .form-row input:focus, .message-row textarea:focus {
       outline: none;
       border-color: var(--primary-color);
+      box-shadow: 0 0 0 3px rgba(147, 51, 234, 0.1);
     }
 
     .message-row {
@@ -570,21 +518,7 @@
     }
 
     .message-row textarea {
-      width: 100%;
-      padding: 15px 20px;
-      border: 1.5px solid var(--border-color);
-      border-radius: 12px;
-      font-family: inherit;
-      font-size: 0.95em;
-      color: #1e2530;
-      background-color: #fff;
       resize: none;
-      transition: border-color 0.25s ease;
-    }
-
-    .message-row textarea:focus {
-      outline: none;
-      border-color: var(--primary-color);
     }
 
     .form-submit-row {
@@ -593,23 +527,26 @@
       margin-top: 10px;
     }
 
+    /* Modern Rounded Pill Button */
     .btn-browser-send {
-      background-color: rgba(147, 51, 234, 0.2);
-      color: var(--primary-color);
-      border: 1.5px solid var(--primary-color);
-      padding: 10px 45px;
-      border-radius: 30px;
+      background-color: var(--primary-color);
+      color: #ffffff;
+      border: none;
+      padding: 12px 40px;
+      border-radius: 50px;
       font-family: inherit;
       font-weight: 600;
-      font-size: 1em;
+      font-size: 0.95em;
       cursor: pointer;
+      box-shadow: 0 4px 15px rgba(147, 51, 234, 0.2);
       transition: all 0.25s ease;
+      width: 100%; 
     }
 
     .btn-browser-send:hover {
-      background-color: var(--primary-color);
-      color: #ffffff;
-      transform: scale(1.03);
+      background-color: var(--primary-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(147, 51, 234, 0.3);
     }
 
     .contact-info-panel {
@@ -676,7 +613,6 @@
 
     /* Dark mode configurations */
     [data-theme="dark"] .contact-split-container,
-    [data-theme="dark"] .picto-contact-section::before,
     [data-theme="dark"] .mock-browser-window {
       background-color: #1e293b;
     }
@@ -1616,11 +1552,11 @@
     <!-- Contact Section -->
     <section id="contact" class="picto-contact-section scroll-reveal">
       
-     <!-- Top Title Block inside the Purple Background -->
-<div class="contact-header-bg">
-  <h2 class="contact-main-title">Connect with Me</h2>
-  <p class="contact-subtitle">Have a project, a job opening, or just want to say hello? Drop me a message below!</p>
-</div>
+      <!-- Top Title Block inside the Purple Background -->
+      <div class="contact-header-bg">
+        <h2 class="contact-main-title">Connect with Me</h2>
+        <p class="contact-subtitle">Have a project, a job opening, or just want to say hello? Drop me a message below!</p>
+      </div>
 
       <!-- Lower Split Area containing Form and Info -->
       <div class="contact-split-container">
@@ -1863,5 +1799,3 @@
     function openModal(id) { document.getElementById(id).classList.add("active"); }
     function closeModal(id) { document.getElementById(id).classList.remove("active"); }
   </script>
-</body>
-</html>
