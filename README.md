@@ -385,12 +385,9 @@
   background: linear-gradient(135deg, #a855f7 0%, #7e22ce 100%);
   color: white;
   text-align: center;
-  padding: 60px 20px 120px 20px;
+  padding: 50px 20px; /* Balanced, clean padding */
   position: relative; 
-  z-index: 5; 
-  border-bottom-left-radius: 40px;  /* Smooth modern curve */
-  border-bottom-right-radius: 40px; /* Smooth modern curve */
-  box-shadow: 0 10px 30px rgba(126, 34, 206, 0.15); /* Soft purple depth shadow */
+  z-index: 2; 
 }
 
 /* Fixes the text visibility without breaking the slant layout */
@@ -415,30 +412,29 @@
       line-height: 1.6;
     }
 
-    /* White Bottom Background Container */
+   /* White Bottom Background Container */
 .contact-split-container {
   background-color: var(--card-bg);
   position: relative;
-  margin-top: -60px; /* Shifting it perfectly to balance the curve spacing */
+  margin-top: 0; /* Fixed: Removes the awkward overlap layout bug */
   z-index: 2;
-  padding: 0 50px 80px 50px;
+  padding: 40px 50px 60px 50px; /* Cleaner spacing balance */
   transition: background var(--transition-speed);
 }
-
     .picto-contact-section::before {
   content: none;
 }
 
-    .contact-grid-wrapper {
-      position: relative;
-      z-index: 3;
-      display: grid;
-      grid-template-columns: 1.2fr 0.8fr;
-      gap: 60px;
-      align-items: center;
-      max-width: 1100px;
-      margin: 0 auto;
-    }
+    ..contact-grid-wrapper {
+  position: relative;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 50px;
+  align-items: start; /* Fixed: Aligns top of form with top of contact info links */
+  max-width: 1100px;
+  margin: 0 auto;
+}
 
     .mock-browser-window {
       background: var(--card-bg);
