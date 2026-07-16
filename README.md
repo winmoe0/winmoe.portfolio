@@ -883,12 +883,12 @@
          I'm an English <span class="highlight-purple">Educator</span>, <span class="highlight-pink">Content Creator</span>, and Video Editor based in Chiang Mai, Thailand. Passionate about education and innovation, I create engaging learning experiences that combine communicative teaching, educational technology, and creative digital content. My mission is to empower learners with the confidence and skills they need to succeed in today's global world.
         </p>
         
-       <!-- Action Buttons Row -->
-<div class="hero-btn-group" style="display: flex; gap: 20px; margin-bottom: 50px; flex-wrap: wrap;">
+     <!-- Action Buttons Row -->
+<div class="hero-btn-group" style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap;">
   <a href="#contact" class="btn-picto-purple" style="margin-bottom: 0;">Contact Me</a>
   
-  <!-- LINK TO GITHUB CV ROOT -->
-  <a href="https://winmoe0.github.io" target="_blank" rel="noopener noreferrer" class="btn-picto-outline">
+  <!-- LINK TO GITHUB CV ROOT (Matching Solid Box Style) -->
+  <a href="https://winmoe0.github.io" target="_blank" rel="noopener noreferrer" class="btn-picto-purple" style="margin-bottom: 0;">
     <i class="fab fa-github" style="margin-right: 8px;"></i> View My CV
   </a>
 </div>
