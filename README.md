@@ -1639,15 +1639,22 @@
   </div>
   <div class="portfolio-grid">
     
-    <!-- ITEM 1 (2026) - Media & Content -->
-    <div class="portfolio-item" data-category="media" onclick="openModal('modal-p1')">
-      <!-- REPLACE with your actual image file (e.g., info_graphic.jpg) -->
-      <img src="english_infographic.jpg" alt="English Learning Infographic" onerror="this.src='https://via.placeholder.com/400x300?text=English+Infographic'">
-      <div class="portfolio-overlay">
-        <h4>Instructional Media Campaign</h4>
-        <p>2026 • Graphic design & infographic assets for advanced language learning modules.</p>
-      </div>
-    </div>
+   <!-- Modal 1: With Playable Video -->
+<div id="modal-p1" class="modal-overlay" onclick="closeModal('modal-p1')">
+  <!-- Increased max-width to 650px so the video looks great -->
+  <div class="modal-card" onclick="event.stopPropagation()" style="max-width: 650px;">
+    <span class="close-modal" onclick="closeModal('modal-p1')">&times;</span>
+    <h3 style="margin-bottom: 20px;">Ai Knowledgable Content Video</h3>
+    
+    <!-- This is the playable video. Change "your_video.mp4" to your actual video file name -->
+    <video controls style="width: 100%; border-radius: 12px; background-color: #000;">
+      <source src="1v.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <p style="margin-top: 15px; line-height: 1.6; color: var(--text-muted);">Graphic design & infographic assets for advanced language learning modules, featuring timeline rendering pipelines and automated script matching templates.</p>
+  </div>
+</div>
 
     <!-- ITEM 2 (2024) - Teaching -->
     <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p2')">
