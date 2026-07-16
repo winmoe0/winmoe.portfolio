@@ -1627,31 +1627,57 @@
     </section>
 
     <!-- Portfolio Filter Showcase Grid -->
-    <section id="portfolio" class="container-box scroll-reveal">
-      <div class="section-title">
-        <h2>Portfolio Showcase</h2>
-        <div class="title-line"></div>
+<section id="portfolio" class="container-box scroll-reveal">
+  <div class="section-title">
+    <h2>Portfolio Showcase</h2>
+    <div class="title-line"></div>
+  </div>
+  <div class="portfolio-filters">
+    <button class="filter-btn active" data-filter="all">All Projects</button>
+    <button class="filter-btn" data-filter="teaching">Teaching</button>
+    <button class="filter-btn" data-filter="media">Media & Content</button>
+  </div>
+  <div class="portfolio-grid">
+    
+    <!-- ITEM 1 (2026) - Media & Content -->
+    <div class="portfolio-item" data-category="media" onclick="openModal('modal-p1')">
+      <!-- REPLACE with your actual image file (e.g., info_graphic.jpg) -->
+      <img src="english_infographic.jpg" alt="English Learning Infographic" onerror="this.src='https://via.placeholder.com/400x300?text=English+Infographic'">
+      <div class="portfolio-overlay">
+        <h4>Instructional Media Campaign</h4>
+        <p>2026 • Graphic design & infographic assets for advanced language learning modules.</p>
       </div>
-      <div class="portfolio-filters">
-        <button class="filter-btn active" data-filter="all">All Projects</button>
-        <button class="filter-btn" data-filter="teaching">Teaching</button>
-        <button class="filter-btn" data-filter="media">Media & Content</button>
+    </div>
+
+    <!-- ITEM 2 (2026) - Teaching -->
+    <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p2')">
+      <!-- REPLACE with your actual image file (e.g., class_launch.jpg) -->
+      <img src="poy_english_launch.jpg" alt="Poy English Course Announcement" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
+      <div class="portfolio-overlay">
+        <h4>Poy English Level 4 Launch</h4>
+        <p>2026 • Interactive digital infrastructure and class announcement management systems.</p>
       </div>
-      <div class="portfolio-grid">
-        <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p1')">
-          <img src="https://via.placeholder.com/400x300" alt="Teaching Project Asset">
-          <div class="portfolio-overlay">
-            <h4>Poy English Online Launch</h4>
-            <p>Interactive Language Program Infrastructure</p>
-          </div>
-        </div>
-        <div class="portfolio-item" data-category="media" onclick="openModal('modal-p2')">
-          <img src="https://via.placeholder.com/400x300" alt="Media Asset">
-          <div class="portfolio-overlay">
-            <h4>Language Graphic Campaign</h4>
-            <p>Infographics & Video Production Projects</p>
-          </div>
-        </div>
+    </div>
+
+    <!-- ITEM 3 (2025) - Media & Content -->
+    <div class="portfolio-item" data-category="media" onclick="openModal('modal-p3')">
+      <!-- REPLACE with your actual image file (e.g., video_edit.jpg) -->
+      <img src="ethnoverse_content.jpg" alt="EthnoVerse Digital Content" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
+      <div class="portfolio-overlay">
+        <h4>AI-Assisted Educational Media</h4>
+        <p>2025 • Short-form video editing and multimedia historical storytelling pipelines for EthnoVerse.</p>
+      </div>
+    </div>
+
+    <!-- ITEM 4 (2019-Present) - Teaching -->
+    <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p4')">
+      <!-- REPLACE with your actual image file (e.g., online_class.jpg) -->
+      <img src="online_instruction.jpg" alt="Online English Class Setup" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
+      <div class="portfolio-overlay">
+        <h4>Poy English Program Delivery</h4>
+        <p>2019 – Present • Student-centered online language instruction architectures via Zoom and Google Meet.</p>
+      </div>
+    </div>
       </div>
     </section>
 
