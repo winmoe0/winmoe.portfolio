@@ -1655,7 +1655,7 @@
       <img src="2p.jpg" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
       <div class="portfolio-overlay">
         <h4>Using Zoom Platform</h4>
-        <p>Inclusive and Supportive class with joyful activities.</p>
+        <p>Inclusive and Supportive class with mutiple joyful activities.</p>
       </div>
     </div>
 
