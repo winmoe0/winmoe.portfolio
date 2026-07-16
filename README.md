@@ -1662,7 +1662,7 @@
     <!-- ITEM 3 (2025) - Media & Content -->
     <div class="portfolio-item" data-category="media" onclick="openModal('modal-p3')">
       <!-- REPLACE with your actual image file (e.g., video_edit.jpg) -->
-      <img src="2vp.jpg" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
+      <img src="2vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
       <div class="portfolio-overlay">
         <h4>AI-Assisted Educational Media</h4>
         <p>2025 • AI Generative Content and CapCut Edition.</p>
@@ -1679,7 +1679,17 @@
       </div>
     </div>
 
-<!-- ITEM 5 (2023) - Teaching -->
+    <!-- ITEM 5 (2025) - Media & Content -->
+    <div class="portfolio-item" data-category="media" onclick="openModal('modal-p3')">
+      <!-- REPLACE with your actual image file (e.g., video_edit.jpg) -->
+      <img src="3vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
+      <div class="portfolio-overlay">
+        <h4>AI-Assisted Educational Media</h4>
+        <p>2024 • AI Generative Content and CapCut Edition.</p>
+      </div>
+    </div>
+
+<!-- ITEM 6 (2023) - Teaching -->
     <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p4')">
       <!-- REPLACE with your actual image file (e.g., online_class.jpg) -->
       <img src="3p.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
@@ -1688,7 +1698,17 @@
         <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
       </div>
     </div>
-    
+
+    <!-- ITEM 7 (2025) - Media & Content -->
+    <div class="portfolio-item" data-category="media" onclick="openModal('modal-p3')">
+      <!-- REPLACE with your actual image file (e.g., video_edit.jpg) -->
+      <img src="4vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
+      <div class="portfolio-overlay">
+        <h4>AI-Assisted Educational Media</h4>
+        <p>2026 • AI Generative Content and CapCut Edition.</p>
+      </div>
+    </div>
+ 
       </div>
     </section>
 
