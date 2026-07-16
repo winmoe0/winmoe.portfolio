@@ -970,40 +970,45 @@
     </div>
 
     <!-- Right Column: Awards & Recognitions -->
-    <div class="skills-category">
-      <h3><i class="fas fa-trophy" style="color: var(--accent-color);"></i> Achievements & Awards</h3>
-      
-      <ul class="awards-list">
-        <li>
-          <i class="fas fa-graduation-cap"></i>
-          <div>
-            <strong>Scholarships</strong>
-            <p>Academic funding and grants awarded for educational excellence and community leadership tracking.</p>
-          </div>
-        </li>
-        <li>
-          <i class="fas fa-medal"></i>
-          <div>
-            <strong>Competitions</strong>
-            <p>Recognition achieved in public speaking, creative content, or academic skill events.</p>
-          </div>
-        </li>
-        <li>
-          <i class="fas fa-certificate"></i>
-          <div>
-            <strong>Official Recognition</strong>
-            <p>Special commendations from university leadership, council boards, or voluntary groups.</p>
-          </div>
-        </li>
-        <li>
-          <i class="fas fa-award"></i>
-          <div>
-            <strong>Academic Awards</strong>
-            <p>Top performance honors received during outstanding degree pathways and diploma milestones.</p>
-          </div>
-        </li>
-      </ul>
-    </div>
+<div class="skills-category">
+  <h3><i class="fas fa-trophy" style="color: var(--accent-color);"></i> Achievements & Awards</h3>
+  
+  <ul class="awards-list">
+    <li>
+      <i class="fas fa-graduation-cap"></i>
+      <div>
+        <strong>Scholarships</strong>
+        <p style="line-height: 1.6; margin-top: 4px;">
+          • United Board Scholar (Fully Funded)<br>
+          • Former IIE Scholar (2025)<br>
+          • Former DISP Scholar (2024)<br>
+          • Former National University of Zoland Scholar
+        </p>
+      </div>
+    </li>
+    <li>
+      <i class="fas fa-medal"></i>
+      <div>
+        <strong>Competitions</strong>
+        <p>Recognition achieved in public speaking, creative content, or academic skill events.</p>
+      </div>
+    </li>
+    <li>
+      <i class="fas fa-certificate"></i>
+      <div>
+        <strong>Official Recognition</strong>
+        <p>Special commendations from university leadership, council boards, or voluntary groups.</p>
+      </div>
+    </li>
+    <li>
+      <i class="fas fa-award"></i>
+      <div>
+        <strong>Academic Awards</strong>
+        <p>Top performance honors received during outstanding degree pathways and diploma milestones.</p>
+      </div>
+    </li>
+  </ul>
+</div>
 
   </div>
 </section>
