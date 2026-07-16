@@ -1642,7 +1642,7 @@
   <!-- ITEM 1 (2026) - Media & Content -->
     <div class="portfolio-item" data-category="media" onclick="openModal('modal-p1')">
       <!-- REPLACE with your actual image file (e.g., info_graphic.jpg) -->
-      <img src="1vp.jpg" alt="Content Video Creation" onerror="this.src='https://via.placeholder.com/400x300?text=English+Infographic'">
+      <img src="1vp.png" alt="Content Video Creation" onerror="this.src='https://via.placeholder.com/400x300?text=English+Infographic'">
       <div class="portfolio-overlay">
         <h4>AI Knowledgeble Conent Creation</h4>
         <p>2026 • Video Editing .</p>
