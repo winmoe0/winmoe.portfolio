@@ -1649,12 +1649,12 @@
       </div>
     </div>
 
-    <!-- ITEM 2 (2026) - Teaching -->
+    <!-- ITEM 2 (2024) - Teaching -->
     <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p2')">
       <!-- REPLACE with your actual image file (e.g., class_launch.jpg) -->
       <img src="2p.jpg" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
       <div class="portfolio-overlay">
-        <h4>Using Zoom Platform</h4>
+        <h4>English Online Class</h4>
         <p>Inclusive and Supportive class with mutiple joyful activities.</p>
       </div>
     </div>
@@ -1669,13 +1669,13 @@
       </div>
     </div>
 
-    <!-- ITEM 4 (2019-Present) - Teaching -->
+    <!-- ITEM 4 (2024) - Teaching -->
     <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p4')">
       <!-- REPLACE with your actual image file (e.g., online_class.jpg) -->
-      <img src="online_instruction.jpg" alt="Online English Class Setup" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
+      <img src="1p.jpg" alt="Online English Class" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
       <div class="portfolio-overlay">
-        <h4>Poy English Program Delivery</h4>
-        <p>2019 – Present • Student-centered online language instruction architectures via Zoom and Google Meet.</p>
+        <h4>English Online Class</h4>
+        <p>Student-centered online language instruction architectures via Zoom</p>
       </div>
     </div>
       </div>
