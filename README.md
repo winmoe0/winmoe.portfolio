@@ -1678,6 +1678,17 @@
         <p>Student-centered online language instruction architectures via Zoom</p>
       </div>
     </div>
+
+<!-- ITEM 5 (2023) - Teaching -->
+    <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p4')">
+      <!-- REPLACE with your actual image file (e.g., online_class.jpg) -->
+      <img src="3p.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
+      <div class="portfolio-overlay">
+        <h4>Onsite Class</h4>
+        <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
+      </div>
+    </div>
+    
       </div>
     </section>
 
