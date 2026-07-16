@@ -288,6 +288,41 @@
     }
     .about-tags span i { color: var(--accent-color); margin-right: 5px; }
 
+    /* --- New Languages & Awards Layout Adjustments --- */
+.awards-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.awards-list li {
+  display: flex;
+  align-items: start;
+  gap: 15px;
+}
+
+.awards-list li i {
+  font-size: 1.2em;
+  color: var(--accent-color);
+  margin-top: 4px;
+  width: 24px;
+  text-align: center;
+}
+
+.awards-list li strong {
+  display: block;
+  font-size: 1.05em;
+  color: var(--text-main);
+  margin-bottom: 2px;
+}
+
+.awards-list li p {
+  font-size: 0.9em;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
     /* --- Qualifications Cards --- */
     .qual-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 25px; }
     .qual-card {
@@ -884,6 +919,94 @@
         </div>
       </div>
     </section>
+
+    <!-- Languages & Awards Section Split -->
+<section id="languages-awards" class="container-box scroll-reveal">
+  <div class="skills-grid">
+
+    <!-- Left Column: Language Proficiencies -->
+    <div class="skills-category">
+      <h3><i class="fas fa-globe"></i> Languages</h3>
+
+      <div class="skill-item">
+        <div class="skill-info">
+          <span>English</span>
+          <span>Fluent / Academic</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" data-width="95%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-info">
+          <span>Myanmar (Burmese)</span>
+          <span>Native / Bilingual</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" data-width="100%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-info">
+          <span>Mon</span>
+          <span>Native / Bilingual</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" data-width="100%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-info">
+          <span>Thai</span>
+          <span>Conversational</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" data-width="65%"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column: Awards & Recognitions -->
+    <div class="skills-category">
+      <h3><i class="fas fa-trophy" style="color: var(--accent-color);"></i> Achievements & Awards</h3>
+      
+      <ul class="awards-list">
+        <li>
+          <i class="fas fa-graduation-cap"></i>
+          <div>
+            <strong>Scholarships</strong>
+            <p>Academic funding and grants awarded for educational excellence and community leadership tracking.</p>
+          </div>
+        </li>
+        <li>
+          <i class="fas fa-medal"></i>
+          <div>
+            <strong>Competitions</strong>
+            <p>Recognition achieved in public speaking, creative content, or academic skill events.</p>
+          </div>
+        </li>
+        <li>
+          <i class="fas fa-certificate"></i>
+          <div>
+            <strong>Official Recognition</strong>
+            <p>Special commendations from university leadership, council boards, or voluntary groups.</p>
+          </div>
+        </li>
+        <li>
+          <i class="fas fa-award"></i>
+          <div>
+            <strong>Academic Awards</strong>
+            <p>Top performance honors received during outstanding degree pathways and diploma milestones.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</section>
 
     <!-- Qualifications Section -->
     <section id="qualifications" class="container-box scroll-reveal">
