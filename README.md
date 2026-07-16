@@ -1652,10 +1652,10 @@
     <!-- ITEM 2 (2026) - Teaching -->
     <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p2')">
       <!-- REPLACE with your actual image file (e.g., class_launch.jpg) -->
-      <img src="poy_english_launch.jpg" alt="Poy English Course Announcement" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
+      <img src="2p.jpg" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
       <div class="portfolio-overlay">
-        <h4>Poy English Level 4 Launch</h4>
-        <p>2026 • Interactive digital infrastructure and class announcement management systems.</p>
+        <h4>Using Zoom Platform</h4>
+        <p>Inclusive and Supportive class with joyful activities.</p>
       </div>
     </div>
 
