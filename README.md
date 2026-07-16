@@ -387,8 +387,25 @@
     .portfolio-filters { display: flex; justify-content: center; gap: 15px; margin-bottom: 35px; flex-wrap: wrap; }
     .filter-btn { padding: 8px 20px; border-radius: 20px; border: 1px solid var(--border-color); background: transparent; color: var(--text-main); cursor: pointer; transition: all var(--transition-speed); font-size: 0.9em; }
     .filter-btn.active, .filter-btn:hover { background-color: var(--primary-color); color: white; border-color: var(--primary-color); }
-    .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 25px; }
-    .portfolio-item { position: relative; border-radius: 12px; overflow: hidden; cursor: pointer; border: 1px solid var(--border-color); aspect-ratio: 4/3; }
+    /* --- Portfolio Showcase Grid Mechanics --- */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Fixed 3 columns to shrink image sizes beautifully */
+  gap: 25px;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+/* Restricts the card height aspect ratio cleanly */
+.portfolio-item {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid var(--border-color);
+  aspect-ratio: 4 / 3; /* Perfectly balances width and height */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+}
     .portfolio-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
     .portfolio-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(147, 51, 234, 0.9), rgba(0, 180, 216, 0.6)); display: flex; flex-direction: column; justify-content: flex-end; padding: 24px; opacity: 0; transition: opacity 0.3s ease; }
     .portfolio-item:hover .portfolio-overlay { opacity: 1; }
