@@ -1662,10 +1662,10 @@
     <!-- ITEM 3 (2025) - Media & Content -->
     <div class="portfolio-item" data-category="media" onclick="openModal('modal-p3')">
       <!-- REPLACE with your actual image file (e.g., video_edit.jpg) -->
-      <img src="ethnoverse_content.jpg" alt="EthnoVerse Digital Content" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
+      <img src="2vp.jpg" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
       <div class="portfolio-overlay">
         <h4>AI-Assisted Educational Media</h4>
-        <p>2025 • Short-form video editing and multimedia historical storytelling pipelines for EthnoVerse.</p>
+        <p>2025 • AI Generative Content and CapCut Edition.</p>
       </div>
     </div>
 
