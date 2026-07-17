@@ -157,35 +157,45 @@
 
     .picto-nav-links {
   display: flex;
-  align-items: center; /* Forces every navigation item onto the exact same horizontal baseline */
+  align-items: center; /* Centers everything vertically in the navbar row */
   list-style: none;
   gap: 35px;
+  padding: 0;
+  margin: 0;
 }
 
-    .picto-nav-links a {
-      text-decoration: none;
-      color: var(--text-muted);
-      font-weight: 500;
-      font-size: 0.92em;
-      transition: color 0.25s ease;
-    }
+/* FIX: Forces the list item wrappers to strictly align all children to the center line */
+.picto-nav-links li {
+  display: flex;
+  align-items: center;
+}
 
-    .picto-nav-links a:hover, .picto-nav-links a.active {
-      color: var(--text-main);
-    }
+.picto-nav-links a {
+  text-decoration: none;
+  color: var(--text-muted);
+  font-weight: 500;
+  font-size: 0.92em;
+  transition: color 0.25s ease;
+  display: inline-flex; /* Ensures text respects layout alignment properties */
+  align-items: center;  /* Keeps the text centered inside its own container */
+}
 
-    .picto-nav-links a.nav-contact-btn {
-      background: var(--primary-color);
-      color: white;
-      padding: 10px 24px;
-      border-radius: 8px;
-      font-weight: 500;
-      transition: background-color 0.25s ease;
-    }
+.picto-nav-links a:hover, .picto-nav-links a.active {
+  color: var(--text-main);
+}
 
-    .picto-nav-links a.nav-contact-btn:hover {
-      background: var(--primary-hover);
-    }
+.picto-nav-links a.nav-contact-btn {
+  background: var(--primary-color);
+  color: white;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.25s ease;
+}
+
+.picto-nav-links a.nav-contact-btn:hover {
+  background: var(--primary-hover);
+}
 
     .theme-btn {
       background: none; border: none;
