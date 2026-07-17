@@ -1,7 +1,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=1200, initial-scale=1.0">
   <!-- SEO Optimization -->
   <title>Win Moe | English Educator | Portfolio</title>
   <meta name="description" content="Professional portfolio of Win Moe, English educator, content creator, TEFL/TESOL certified teacher, and English Communication student.">
