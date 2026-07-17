@@ -1,7 +1,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=1200, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- SEO Optimization -->
   <title>Win Moe | English Educator | Portfolio</title>
   <meta name="description" content="Professional portfolio of Win Moe, English educator, content creator, TEFL/TESOL certified teacher, and English Communication student.">
@@ -156,46 +156,45 @@
     }
 
     .picto-nav-links {
-  display: flex;
-  align-items: center; /* Centers everything vertically in the navbar row */
-  list-style: none;
-  gap: 35px;
-  padding: 0;
-  margin: 0;
-}
+      display: flex;
+      align-items: center;
+      list-style: none;
+      gap: 35px;
+      padding: 0;
+      margin: 0;
+    }
 
-/* FIX: Forces the list item wrappers to strictly align all children to the center line */
-.picto-nav-links li {
-  display: flex;
-  align-items: center;
-}
+    .picto-nav-links li {
+      display: flex;
+      align-items: center;
+    }
 
-.picto-nav-links a {
-  text-decoration: none;
-  color: var(--text-muted);
-  font-weight: 500;
-  font-size: 0.92em;
-  transition: color 0.25s ease;
-  display: inline-flex; /* Ensures text respects layout alignment properties */
-  align-items: center;  /* Keeps the text centered inside its own container */
-}
+    .picto-nav-links a {
+      text-decoration: none;
+      color: var(--text-muted);
+      font-weight: 500;
+      font-size: 0.92em;
+      transition: color 0.25s ease;
+      display: inline-flex;
+      align-items: center;
+    }
 
-.picto-nav-links a:hover, .picto-nav-links a.active {
-  color: var(--text-main);
-}
+    .picto-nav-links a:hover, .picto-nav-links a.active {
+      color: var(--text-main);
+    }
 
-.picto-nav-links a.nav-contact-btn {
-  background: var(--primary-color);
-  color: white;
-  padding: 10px 24px;
-  border-radius: 8px;
-  font-weight: 500;
-  transition: background-color 0.25s ease;
-}
+    .picto-nav-links a.nav-contact-btn {
+      background: var(--primary-color);
+      color: white;
+      padding: 10px 24px;
+      border-radius: 8px;
+      font-weight: 500;
+      transition: background-color 0.25s ease;
+    }
 
-.picto-nav-links a.nav-contact-btn:hover {
-  background: var(--primary-hover);
-}
+    .picto-nav-links a.nav-contact-btn:hover {
+      background: var(--primary-hover);
+    }
 
     .theme-btn {
       background: none; border: none;
@@ -299,39 +298,39 @@
     .about-tags span i { color: var(--accent-color); margin-right: 5px; }
 
     /* --- New Languages & Awards Layout Adjustments --- */
-.awards-list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+    .awards-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
 
-.awards-list li {
-  display: flex;
-  align-items: start;
-  gap: 15px;
-}
+    .awards-list li {
+      display: flex;
+      align-items: start;
+      gap: 15px;
+    }
 
-.awards-list li i {
-  font-size: 1.2em;
-  color: var(--accent-color);
-  margin-top: 4px;
-  width: 24px;
-  text-align: center;
-}
+    .awards-list li i {
+      font-size: 1.2em;
+      color: var(--accent-color);
+      margin-top: 4px;
+      width: 24px;
+      text-align: center;
+    }
 
-.awards-list li strong {
-  display: block;
-  font-size: 1.05em;
-  color: var(--text-main);
-  margin-bottom: 2px;
-}
+    .awards-list li strong {
+      display: block;
+      font-size: 1.05em;
+      color: var(--text-main);
+      margin-bottom: 2px;
+    }
 
-.awards-list li p {
-  font-size: 0.9em;
-  color: var(--text-muted);
-  line-height: 1.4;
-}
+    .awards-list li p {
+      font-size: 0.9em;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
 
     /* --- Qualifications Cards --- */
     .qual-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 25px; }
@@ -397,25 +396,24 @@
     .portfolio-filters { display: flex; justify-content: center; gap: 15px; margin-bottom: 35px; flex-wrap: wrap; }
     .filter-btn { padding: 8px 20px; border-radius: 20px; border: 1px solid var(--border-color); background: transparent; color: var(--text-main); cursor: pointer; transition: all var(--transition-speed); font-size: 0.9em; }
     .filter-btn.active, .filter-btn:hover { background-color: var(--primary-color); color: white; border-color: var(--primary-color); }
-    /* --- Portfolio Showcase Grid Mechanics --- */
-.portfolio-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Fixed 3 columns to shrink image sizes beautifully */
-  gap: 25px;
-  max-width: 1050px;
-  margin: 0 auto;
-}
+    
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+      max-width: 1050px;
+      margin: 0 auto;
+    }
 
-/* Restricts the card height aspect ratio cleanly */
-.portfolio-item {
-  position: relative;
-  border-radius: 16px;
-  overflow: hidden;
-  cursor: pointer;
-  border: 1px solid var(--border-color);
-  aspect-ratio: 4 / 3; /* Perfectly balances width and height */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
-}
+    .portfolio-item {
+      position: relative;
+      border-radius: 16px;
+      overflow: hidden;
+      cursor: pointer;
+      border: 1px solid var(--border-color);
+      aspect-ratio: 4 / 3;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+    }
     .portfolio-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
     .portfolio-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(147, 51, 234, 0.9), rgba(0, 180, 216, 0.6)); display: flex; flex-direction: column; justify-content: flex-end; padding: 24px; opacity: 0; transition: opacity 0.3s ease; }
     .portfolio-item:hover .portfolio-overlay { opacity: 1; }
@@ -442,12 +440,11 @@
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
     }
 
-    /* Purple Top Header Section */
     .contact-header-bg {
       background: linear-gradient(135deg, #a855f7 0%, #7e22ce 100%);
       color: white;
       text-align: center;
-      padding: 60px 20px 60px 20px; 
+      padding: 60px 20px; 
       position: relative; 
       z-index: 2; 
     }
@@ -473,7 +470,6 @@
       line-height: 1.6;
     }
 
-    /* White Bottom Background Container */
     .contact-split-container {
       background-color: var(--card-bg);
       position: relative;
@@ -483,7 +479,6 @@
       transition: background var(--transition-speed);
     }
 
-    /* Controls Side-by-Side Grid Layout balance */
     .contact-grid-wrapper {
       position: relative;
       z-index: 3;
@@ -495,7 +490,6 @@
       margin: 0 auto;
     }
 
-    /* Mock Browser Container Style */
     .mock-browser-window {
       background: var(--card-bg);
       border: 2px solid var(--text-main);
@@ -505,7 +499,6 @@
       transition: border-color var(--transition-speed), background var(--transition-speed);
     }
 
-    /* Browser Window Top Bar */
     .browser-header {
       background-color: rgba(147, 51, 234, 0.12);
       border-bottom: 2px solid var(--text-main);
@@ -530,7 +523,6 @@
       line-height: 1;
     }
 
-    /* Browser Window Form Content Box */
     .browser-body {
       padding: 40px; 
       display: flex;
@@ -538,7 +530,6 @@
       gap: 24px;
     }
 
-    /* Form Input Layout Fields */
     .form-row {
       display: flex;
       align-items: center;
@@ -589,7 +580,6 @@
       margin-top: 10px;
     }
 
-    /* Modern Rounded Pill Button */
     .btn-browser-send {
       background-color: var(--primary-color);
       color: #ffffff;
@@ -673,7 +663,6 @@
       transform: translateY(-3px);
     }
 
-    /* Dark mode configurations */
     [data-theme="dark"] .contact-split-container,
     [data-theme="dark"] .mock-browser-window {
       background-color: #1e293b;
@@ -718,115 +707,6 @@
       .info-list {
         align-items: center;
       }
-    }
-
-    @media (max-width: 576px) {
-      .browser-body {
-        padding: 25px 20px;
-      }
-      .form-row {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
-      }
-      .form-row label {
-        width: auto;
-      }
-      .contact-main-title {
-        font-size: 2.2em;
-      }
-    }
-
-    /* --- Modal Overlay Design --- */
-    .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); backdrop-filter: blur(4px); z-index: 2000; display: flex; justify-content: center; align-items: center; opacity: 0; visibility: hidden; transition: all 0.3s ease; }
-    .modal-overlay.active { opacity: 1; visibility: visible; }
-    .modal-card { background: var(--card-bg); padding: 40px; border-radius: 16px; max-width: 500px; width: 90%; position: relative; box-shadow: 0 10px 30px rgba(0,0,0,0.1); color: var(--text-main); }
-    .close-modal { position: absolute; top: 20px; right: 25px; font-size: 2em; cursor: pointer; color: var(--text-muted); }
-
-    /* --- Premium Picto Footer Styles --- */
-    .picto-footer {
-      margin-top: 80px;
-      width: 100%;
-    }
-
-    .footer-divider {
-      width: 100%;
-      height: 1px;
-      background-color: var(--border-color);
-      margin-bottom: 40px;
-    }
-
-    .picto-footer-grid {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 30px;
-      padding-bottom: 30px;
-    }
-
-    .picto-footer-info h3 {
-      font-size: 1.4em;
-      font-weight: 700;
-      color: var(--text-main);
-      margin-bottom: 5px;
-    }
-
-    .picto-footer-info p {
-      font-size: 0.9em;
-      color: var(--text-muted);
-      margin: 0;
-    }
-
-    .picto-footer-links {
-      display: flex;
-      gap: 30px;
-    }
-
-    .picto-footer-links a {
-      text-decoration: none;
-      color: var(--text-muted);
-      font-weight: 500;
-      font-size: 0.92em;
-      transition: color 0.25s ease;
-    }
-
-    .picto-footer-links a:hover {
-      color: var(--primary-color);
-    }
-
-    .picto-footer-bottom {
-      border-top: 1px solid var(--border-color);
-      padding-top: 20px;
-      text-align: center;
-    }
-
-    .picto-footer-bottom p {
-      font-size: 0.85em;
-      color: var(--text-muted);
-      margin: 0;
-    }
-
-    @media (max-width: 768px) {
-      .picto-footer-grid {
-        flex-direction: column;
-        text-align: center;
-        gap: 20px;
-      }
-      .picto-footer-links {
-        justify-content: center;
-        gap: 20px;
-      }
-    }
-
-    /* --- Global Scroll Components --- */
-    .scroll-top-btn { position: fixed; bottom: 30px; right: 30px; width: 45px; height: 45px; border-radius: 50%; background-color: var(--primary-color); color: white; border: none; cursor: pointer; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 10px rgba(0,0,0,0.1); opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 99; }
-    .scroll-top-btn.visible { opacity: 1; visibility: visible; }
-    .scroll-reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.8s ease, transform 0.8s ease; }
-    .scroll-reveal.reveal-active { opacity: 1; transform: translateY(0); }
-
-    /* --- Responsive Adaptations --- */
-    @media (max-width: 992px) {
       .portfolio-base-card { padding: 30px; }
       .picto-hero { grid-template-columns: 1fr; text-align: center; gap: 40px; }
       .picto-lead-text { margin: 0 auto 35px auto; }
@@ -836,6 +716,7 @@
       .timeline-item { width: 100%; padding-left: 50px; padding-right: 0; }
       .timeline-item.right { left: 0; }
       .timeline-dot { left: 12px !important; }
+      .portfolio-grid { grid-template-columns: repeat(2, 1fr); }
     }
 
     @media (max-width: 768px) {
@@ -848,7 +729,48 @@
       .picto-nav-links.mobile-active { display: flex; }
       .hamburger { display: flex; }
       .picto-greeting { font-size: 2.8em; }
+      .picto-footer-grid {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+      }
+      .picto-footer-links {
+        justify-content: center;
+        gap: 20px;
+      }
     }
+
+    @media (max-width: 576px) {
+      .browser-body { padding: 25px 20px; }
+      .form-row { flex-direction: column; align-items: flex-start; gap: 8px; }
+      .form-row label { width: auto; }
+      .contact-main-title { font-size: 2.2em; }
+      .portfolio-grid { grid-template-columns: 1fr; }
+    }
+
+    /* --- Modal Overlay Design --- */
+    .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); backdrop-filter: blur(4px); z-index: 2000; display: flex; justify-content: center; align-items: center; opacity: 0; visibility: hidden; transition: all 0.3s ease; }
+    .modal-overlay.active { opacity: 1; visibility: visible; }
+    .modal-card { background: var(--card-bg); padding: 40px; border-radius: 16px; max-width: 500px; width: 90%; position: relative; box-shadow: 0 10px 30px rgba(0,0,0,0.1); color: var(--text-main); }
+    .close-modal { position: absolute; top: 20px; right: 25px; font-size: 2em; cursor: pointer; color: var(--text-muted); }
+
+    /* --- Premium Picto Footer Styles --- */
+    .picto-footer { margin-top: 80px; width: 100%; }
+    .footer-divider { width: 100%; height: 1px; background-color: var(--border-color); margin-bottom: 40px; }
+    .picto-footer-grid { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 30px; padding-bottom: 30px; }
+    .picto-footer-info h3 { font-size: 1.4em; font-weight: 700; color: var(--text-main); margin-bottom: 5px; }
+    .picto-footer-info p { font-size: 0.9em; color: var(--text-muted); margin: 0; }
+    .picto-footer-links { display: flex; gap: 30px; }
+    .picto-footer-links a { text-decoration: none; color: var(--text-muted); font-weight: 500; font-size: 0.92em; transition: color 0.25s ease; }
+    .picto-footer-links a:hover { color: var(--primary-color); }
+    .picto-footer-bottom { border-top: 1px solid var(--border-color); padding-top: 20px; text-align: center; }
+    .picto-footer-bottom p { font-size: 0.85em; color: var(--text-muted); margin: 0; }
+
+    /* --- Global Scroll Components --- */
+    .scroll-top-btn { position: fixed; bottom: 30px; right: 30px; width: 45px; height: 45px; border-radius: 50%; background-color: var(--primary-color); color: white; border: none; cursor: pointer; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 10px rgba(0,0,0,0.1); opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 99; }
+    .scroll-top-btn.visible { opacity: 1; visibility: visible; }
+    .scroll-reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.8s ease, transform 0.8s ease; }
+    .scroll-reveal.reveal-active { opacity: 1; transform: translateY(0); }
   </style>
 </head>
 <body>
@@ -893,15 +815,13 @@
          I'm an English <span class="highlight-purple">Educator</span>, <span class="highlight-pink">Content Creator</span>, and Video Editor based in Chiang Mai, Thailand. Passionate about education and innovation, I create engaging learning experiences that combine communicative teaching, educational technology, and creative digital content. My mission is to empower learners with the confidence and skills they need to succeed in today's global world.
         </p>
         
-     <!-- Action Buttons Row -->
-<div class="hero-btn-group" style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap;">
-  <a href="#contact" class="btn-picto-purple" style="margin-bottom: 0;">Contact Me</a>
-  
-  <!-- LINK TO GITHUB CV ROOT (Matching Solid Box Style) -->
-  <a href="https://winmoe0.github.io" target="_blank" rel="noopener noreferrer" class="btn-picto-purple" style="margin-bottom: 0;">
-    <i class="fab fa-github" style="margin-right: 8px;"></i> View My CV
-  </a>
-</div>
+      <!-- Action Buttons Row -->
+      <div class="hero-btn-group" style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap;">
+        <a href="#contact" class="btn-picto-purple" style="margin-bottom: 0;">Contact Me</a>
+        <a href="https://winmoe0.github.io" target="_blank" rel="noopener noreferrer" class="btn-picto-purple" style="margin-bottom: 0;">
+          <i class="fab fa-github" style="margin-right: 8px;"></i> View My CV
+        </a>
+      </div>
 
         <!-- Counter Metric Nodes directly under introduction text -->
         <div class="picto-mini-stats">
@@ -956,97 +876,90 @@
     </section>
 
     <!-- Languages & Awards Section Split -->
-<section id="languages-awards" class="container-box scroll-reveal">
-  <div class="skills-grid">
+    <section id="languages-awards" class="container-box scroll-reveal">
+      <div class="skills-grid">
+        <!-- Left Column: Language Proficiencies -->
+        <div class="skills-category">
+          <h3><i class="fas fa-globe"></i> Languages</h3>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>English</span>
+              <span>Fluent / Academic</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" data-width="95%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Myanmar (Burmese)</span>
+              <span>Native / Bilingual</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" data-width="100%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Mon</span>
+              <span>Native / Bilingual</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" data-width="100%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Thai</span>
+              <span>Conversational</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" data-width="65%"></div>
+            </div>
+          </div>
+        </div>
 
-    <!-- Left Column: Language Proficiencies -->
-    <div class="skills-category">
-      <h3><i class="fas fa-globe"></i> Languages</h3>
-
-      <div class="skill-item">
-        <div class="skill-info">
-          <span>English</span>
-          <span>Fluent / Academic</span>
-        </div>
-        <div class="progress-bar">
-          <div class="progress" data-width="95%"></div>
-        </div>
-      </div>
-
-      <div class="skill-item">
-        <div class="skill-info">
-          <span>Myanmar (Burmese)</span>
-          <span>Native / Bilingual</span>
-        </div>
-        <div class="progress-bar">
-          <div class="progress" data-width="100%"></div>
-        </div>
-      </div>
-
-      <div class="skill-item">
-        <div class="skill-info">
-          <span>Mon</span>
-          <span>Native / Bilingual</span>
-        </div>
-        <div class="progress-bar">
-          <div class="progress" data-width="100%"></div>
-        </div>
-      </div>
-
-      <div class="skill-item">
-        <div class="skill-info">
-          <span>Thai</span>
-          <span>Conversational</span>
-        </div>
-        <div class="progress-bar">
-          <div class="progress" data-width="65%"></div>
+        <!-- Right Column: Awards & Recognitions -->
+        <div class="skills-category">
+          <h3><i class="fas fa-trophy" style="color: var(--accent-color);"></i> Achievements & Awards</h3>
+          <ul class="awards-list">
+            <li>
+              <i class="fas fa-graduation-cap"></i>
+              <div>
+                <strong>Scholarships</strong>
+                <p style="line-height: 1.6; margin-top: 4px;">
+                  • United Board Scholar (Fully Funded)<br>
+                  • Former IIE Scholar (2025)<br>
+                  • Former DISP Scholar (2024)<br>
+                  • Former National University of Zoland Scholar
+                </p>
+              </div>
+            </li>
+            <li>
+              <i class="fas fa-medal"></i>
+              <div>
+                <strong>Competitions</strong>
+                <p>Recognition achieved in public speaking, creative content, or academic skill events.</p>
+              </div>
+            </li>
+            <li>
+              <i class="fas fa-certificate"></i>
+              <div>
+                <strong>Official Recognition</strong>
+                <p>Special commendations from university leadership, council boards, or voluntary groups.</p>
+              </div>
+            </li>
+            <li>
+              <i class="fas fa-award"></i>
+              <div>
+                <strong>Academic Awards</strong>
+                <p>Top performance honors received during outstanding degree pathways and diploma milestones.</p>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-
-    <!-- Right Column: Awards & Recognitions -->
-<div class="skills-category">
-  <h3><i class="fas fa-trophy" style="color: var(--accent-color);"></i> Achievements & Awards</h3>
-  
-  <ul class="awards-list">
-    <li>
-      <i class="fas fa-graduation-cap"></i>
-      <div>
-        <strong>Scholarships</strong>
-        <p style="line-height: 1.6; margin-top: 4px;">
-          • United Board Scholar (Fully Funded)<br>
-          • Former IIE Scholar (2025)<br>
-          • Former DISP Scholar (2024)<br>
-          • Former National University of Zoland Scholar
-        </p>
-      </div>
-    </li>
-    <li>
-      <i class="fas fa-medal"></i>
-      <div>
-        <strong>Competitions</strong>
-        <p>Recognition achieved in public speaking, creative content, or academic skill events.</p>
-      </div>
-    </li>
-    <li>
-      <i class="fas fa-certificate"></i>
-      <div>
-        <strong>Official Recognition</strong>
-        <p>Special commendations from university leadership, council boards, or voluntary groups.</p>
-      </div>
-    </li>
-    <li>
-      <i class="fas fa-award"></i>
-      <div>
-        <strong>Academic Awards</strong>
-        <p>Top performance honors received during outstanding degree pathways and diploma milestones.</p>
-      </div>
-    </li>
-  </ul>
-</div>
-
-  </div>
-</section>
+    </section>
 
     <!-- Qualifications Section -->
     <section id="qualifications" class="container-box scroll-reveal">
@@ -1129,68 +1042,53 @@
       <!-- Teaching Experience -->
       <div id="work-timeline" class="timeline-content active">
         <div class="timeline">
-          <!-- English Teacher -->
           <div class="timeline-item left">
             <div class="timeline-dot"></div>
             <div class="timeline-date">2023 – 2024</div>
             <div class="timeline-card">
               <h3>English Teacher</h3>
               <h4>Mon National Primary School, Myanmar</h4>
-              <p>
-                Taught English to primary school students through engaging, student-centered lessons that developed listening, speaking, reading, and writing skills. Planned lessons, prepared learning materials, assessed student progress, and created a positive classroom environment that encouraged active participation and confidence.
-              </p>
+              <p>Taught English to primary school students through engaging, student-centered lessons that developed listening, speaking, reading, and writing skills. Planned lessons, prepared learning materials, assessed student progress, and created a positive classroom environment that encouraged active participation and confidence.</p>
             </div>
           </div>
 
-          <!-- Online Teacher -->
           <div class="timeline-item right">
             <div class="timeline-dot"></div>
             <div class="timeline-date">2019 – Present</div>
             <div class="timeline-card">
               <h3>Online English Instructor</h3>
               <h4>Poy English Program</h4>
-              <p>
-                Deliver online English lessons for young learners and adult students using Zoom and Google Meet. Design customized lesson plans, teach grammar, pronunciation, speaking, reading, and writing, and support learners in achieving their academic and personal language goals through interactive instruction.
-              </p>
+              <p>Deliver online English lessons for young learners and adult students using Zoom and Google Meet. Design customized lesson plans, teach grammar, pronunciation, speaking, reading, and writing, and support learners in achieving their academic and personal language goals through interactive instruction.</p>
             </div>
           </div>
 
-          <!-- Content Creator -->
           <div class="timeline-item left">
             <div class="timeline-dot"></div>
             <div class="timeline-date">2019 – Present</div>
             <div class="timeline-card">
               <h3>Educational Content Creator</h3>
               <h4>Social Media Platforms</h4>
-              <p>
-                Produce educational videos, English learning resources, graphics, and social media content for online audiences. Utilize video editing, photography, Canva, and digital marketing strategies to create engaging learning experiences and promote educational programs.
-              </p>
+              <p>Produce educational videos, English learning resources, graphics, and social media content for online audiences. Utilize video editing, photography, Canva, and digital marketing strategies to create engaging learning experiences and promote educational programs.</p>
             </div>
           </div>
 
-          <!-- Freelance -->
           <div class="timeline-item right">
             <div class="timeline-dot"></div>
             <div class="timeline-date">2022 – Present</div>
             <div class="timeline-card">
               <h3>Freelance English Tutor</h3>
               <h4>All Scholars Educational Program</h4>
-              <p>
-                Provide one-on-one and small-group English lessons tailored to learners' individual goals, including conversational English, grammar, academic writing, pronunciation, and exam preparation.
-              </p>
+              <p>Provide one-on-one and small-group English lessons tailored to learners' individual goals, including conversational English, grammar, academic writing, pronunciation, and exam preparation.</p>
             </div>
           </div>
 
-          <!-- AI Educational Content -->
           <div class="timeline-item left">
             <div class="timeline-dot"></div>
             <div class="timeline-date">2025 – Present</div>
             <div class="timeline-card">
               <h3>AI Educational Content Creator</h3>
               <h4>EthnoVerse (Facebook & Digital Platforms)</h4>
-              <p>
-                Create AI-assisted educational content, including short-form videos, historical storytelling, English learning materials, and digital visuals. Utilize AI tools, Canva, video editing software, and multimedia design to transform complex topics into engaging and accessible content for diverse online audiences while promoting education through social media.
-              </p>
+              <p>Create AI-assisted educational content, including short-form videos, historical storytelling, English learning materials, and digital visuals. Utilize AI tools, Canva, video editing software, and multimedia design to transform complex topics into engaging and accessible content for diverse online audiences while promoting education through social media.</p>
             </div>
           </div>
         </div>
@@ -1199,68 +1097,53 @@
       <!-- Leadership & Volunteer Timeline Content -->
       <div id="leadership-timeline" class="timeline-content">
         <div class="timeline">
-          <!-- Student Leader -->
           <div class="timeline-item left">
             <div class="timeline-dot"></div>
             <div class="timeline-date">2023 – 2024</div>
             <div class="timeline-card">
               <h3>Student Leader</h3>
               <h4>Student Council, Hpa-An University, Myanmar</h4>
-              <p>
-                Led the Student Union by representing students' interests, organizing academic and community events, coordinating with faculty members, and promoting teamwork, leadership, and student engagement across the university.
-              </p>
+              <p>Led the Student Union by representing students' interests, organizing academic and community events, coordinating with faculty members, and promoting teamwork, leadership, and student engagement across the university.</p>
             </div>
           </div>
 
-          <!-- Charity -->
           <div class="timeline-item right">
             <div class="timeline-dot"></div>
             <div class="timeline-date">Present</div>
             <div class="timeline-card">
               <h3>Chairman</h3>
               <h4>G60–99 Mon Charity Group</h4>
-              <p>
-                Coordinate community service initiatives, organize fundraising activities, manage volunteer teams, and support charitable projects that provide educational and humanitarian assistance to local communities.
-              </p>
+              <p>Coordinate community service initiatives, organize fundraising activities, manage volunteer teams, and support charitable projects that provide educational and humanitarian assistance to local communities.</p>
             </div>
           </div>
 
-          <!-- Volunteer Teacher -->
           <div class="timeline-item left">
             <div class="timeline-dot"></div>
             <div class="timeline-date">2024 – 2025</div>
             <div class="timeline-card">
               <h3>Volunteer English Teacher</h3>
               <h4>Mon Intensive English Program</h4>
-              <p>
-                Taught English to refugee and migrant learners through interactive lessons designed to improve communication skills, confidence, and academic readiness in a supportive learning environment.
-              </p>
+              <p>Taught English to refugee and migrant learners through interactive lessons designed to improve communication skills, confidence, and academic readiness in a supportive learning environment.</p>
             </div>
           </div>
 
-          <!-- University Volunteer -->
           <div class="timeline-item right">
             <div class="timeline-dot"></div>
             <div class="timeline-date">2024 – Present</div>
             <div class="timeline-card">
               <h3>University Volunteer</h3>
               <h4>Payap University International College</h4>
-              <p>
-                Assisted in university events, orientation programs, intercultural activities, and student engagement projects while collaborating with students from diverse cultural backgrounds.
-              </p>
+              <p>Assisted in university events, orientation programs, intercultural activities, and student engagement projects while collaborating with students from diverse cultural backgrounds.</p>
             </div>
           </div>
 
-          <!-- Educational Outreach -->
           <div class="timeline-item left">
             <div class="timeline-dot"></div>
             <div class="timeline-date">2025</div>
             <div class="timeline-card">
               <h3>Community Service Volunteer</h3>
               <h4>Ban San San School, Chiang Mai</h4>
-              <p>
-                Participated in a community outreach program organized by Payap University. Supported young learners through educational activities, creative art sessions, and donations while promoting an engaging and inclusive learning environment.
-              </p>
+              <p>Participated in a community outreach program organized by Payap University. Supported young learners through educational activities, creative art sessions, and donations while promoting an engaging and inclusive learning environment.</p>
             </div>
           </div>
         </div>
@@ -1278,7 +1161,6 @@
         <!-- Teaching Skills -->
         <div class="skills-category">
           <h3><i class="fas fa-chalkboard-teacher"></i> Teaching & Education</h3>
-
           <div class="skill-item">
             <div class="skill-info">
               <span>Lesson Planning & Instruction</span>
@@ -1288,7 +1170,6 @@
               <div class="progress" data-width="95%"></div>
             </div>
           </div>
-
           <div class="skill-item">
             <div class="skill-info">
               <span>Classroom Management</span>
@@ -1298,7 +1179,6 @@
               <div class="progress" data-width="92%"></div>
             </div>
           </div>
-
           <div class="skill-item">
             <div class="skill-info">
               <span>Curriculum Development</span>
@@ -1308,7 +1188,6 @@
               <div class="progress" data-width="90%"></div>
             </div>
           </div>
-
           <div class="skill-item">
             <div class="skill-info">
               <span>Online Teaching</span>
@@ -1318,7 +1197,6 @@
               <div class="progress" data-width="96%"></div>
             </div>
           </div>
-
           <div class="skill-item">
             <div class="skill-info">
               <span>Student Assessment & Feedback</span>
@@ -1333,7 +1211,6 @@
         <!-- Digital Skills -->
         <div class="skills-category">
           <h3><i class="fas fa-laptop-code"></i> Digital & Creative Skills</h3>
-
           <div class="skill-item">
             <div class="skill-info">
               <span>Canva & Graphic Design</span>
@@ -1343,7 +1220,6 @@
               <div class="progress" data-width="95%"></div>
             </div>
           </div>
-
           <div class="skill-item">
             <div class="skill-info">
               <span>Video Editing (CapCut & Premiere Pro)</span>
@@ -1353,7 +1229,6 @@
               <div class="progress" data-width="90%"></div>
             </div>
           </div>
-
           <div class="skill-item">
             <div class="skill-info">
               <span>Zoom & Google Workspace</span>
@@ -1363,7 +1238,6 @@
               <div class="progress" data-width="95%"></div>
             </div>
           </div>
-
           <div class="skill-item">
             <div class="skill-info">
               <span>Content Creation & Social Media</span>
@@ -1373,7 +1247,6 @@
               <div class="progress" data-width="94%"></div>
             </div>
           </div>
-
           <div class="skill-item">
             <div class="skill-info">
               <span>Photography</span>
@@ -1383,7 +1256,6 @@
               <div class="progress" data-width="85%"></div>
             </div>
           </div>
-
           <div class="skill-item">
             <div class="skill-info">
               <span>AI Tools for Education</span>
@@ -1405,255 +1277,202 @@
       </div>
 
       <div class="certs-grid">
-        <!-- Teaching -->
         <div class="cert-item-card">
           <i class="fas fa-medal gold-icon"></i>
           <span>TEFL/TESOL Certification (2026)</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-child"></i>
           <span>Teaching English to Young Learners (2026)</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-hands-helping"></i>
           <span>Teaching English to Refugees and Displaced Learners</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-volume-up"></i>
           <span>Teaching English: How to Teach Pronunciation</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-clipboard-check"></i>
           <span>Teaching English: Assessing Learning</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-book-open"></i>
           <span>Teaching English: How to Adapt Resources</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-laptop-house"></i>
           <span>Teaching Online</span>
         </div>
-
-        <!-- Education -->
         <div class="cert-item-card">
           <i class="fas fa-graduation-cap"></i>
           <span>English Four Skills (2018)</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-brain"></i>
           <span>Exploring Learning Disabilities</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-language"></i>
           <span>Teaching English in Primary Classrooms</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-comments"></i>
           <span>Teaching English: Communicative Tasks</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-headphones"></i>
           <span>Teaching English: How to Teach Listening</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-laptop"></i>
           <span>Teaching English: Integrating Technology</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-book-reader"></i>
           <span>Teaching English: Understanding Language Systems</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-user-graduate"></i>
           <span>Teaching English: Helping Teachers to Learn</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-bullhorn"></i>
           <span>Foundations of Digital Marketing & E-Commerce</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-users"></i>
           <span>Attract and Engage Customers with Digital Marketing</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-handshake"></i>
           <span>Interact with Customers Online</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-heart"></i>
           <span>Develop Customer Loyalty Online</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-chart-line"></i>
           <span>Marketing Analytics and Measurement</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-share-alt"></i>
           <span>Social Media Marketing</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-envelope"></i>
           <span>Email Marketing</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-shopping-cart"></i>
           <span>Make the Sale</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-school"></i>
           <span>Inclusive Education</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-venus-mars"></i>
           <span>Gender in Language Education</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-child"></i>
           <span>Supporting Children's Mental Health and Well-being</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-users-cog"></i>
           <span>Leadership and Followership</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-star"></i>
           <span>Effective Leadership</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-comments"></i>
           <span>Effective Communication in the Workplace</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-chalkboard"></i>
           <span>Effective Presentations</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-user-friends"></i>
           <span>Professional Networking for Career Growth</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-users"></i>
           <span>Working in Teams</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-hands-helping"></i>
           <span>Working in the Voluntary Sector</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-robot"></i>
           <span>Job Search with AI</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-balance-scale"></i>
           <span>Becoming an Ethical Researcher</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-gavel"></i>
           <span>Introduction to Human Rights Standards</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-shield-alt"></i>
           <span>Child Protection Advocacy</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-book"></i>
           <span>Child Rights Toolkit</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-briefcase"></i>
           <span>English for Career Development</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-plane"></i>
           <span>English for Tourism Professionals</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-desktop"></i>
           <span>Digital Skills: Succeeding in a Digital World</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-users"></i>
           <span>Introduction to Social Sciences</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-user-friends"></i>
           <span>Diversity and Inclusion in the Workplace</span>
         </div>
-
-        <!-- Technology -->
         <div class="cert-item-card">
           <i class="fab fa-google text-blue"></i>
           <span>Google Digital Marketing & E-Commerce (2025)</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-laptop-code"></i>
           <span>I-Office Computer (2019)</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-chalkboard-teacher"></i>
           <span>Mastering E-Learning Designs for Modern Educators (2025)</span>
         </div>
-
-        <!-- Professional Development -->
         <div class="cert-item-card">
           <i class="fas fa-chart-line"></i>
           <span>Career Advancement (2024)</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-heart"></i>
           <span>Stress Management and Self-Care (2025)</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-globe"></i>
           <span>Localization in Humanitarian Aid (2025)</span>
         </div>
-
         <div class="cert-item-card">
           <i class="fas fa-coins"></i>
           <span>Financial Literacy (2018)</span>
@@ -1662,88 +1481,74 @@
     </section>
 
     <!-- Portfolio Filter Showcase Grid -->
-<section id="portfolio" class="container-box scroll-reveal">
-  <div class="section-title">
-    <h2>Portfolio Showcase</h2>
-    <div class="title-line"></div>
-  </div>
-  <div class="portfolio-filters">
-    <button class="filter-btn" data-filter="teaching">Teaching</button>
-    <button class="filter-btn" data-filter="media">Media & Content</button>
-    <button class="filter-btn active" data-filter="all">All Projects</button>
-  </div>
-  <div class="portfolio-grid">
-    
-  <!-- ITEM 1 (2026) - Media & Content -->
-    <div class="portfolio-item" data-category="media" onclick="openModal('modal-p3')">
-      <!-- REPLACE with your actual image file (e.g., info_graphic.jpg) -->
-      <img src="1vp.png" alt="Content Video Creation" onerror="this.src='https://via.placeholder.com/400x300?text=English+Infographic'">
-      <div class="portfolio-overlay">
-        <h4>AI Knowledgeble Conent Creation</h4>
-        <p>2026 • Video Editing .</p>
+    <section id="portfolio" class="container-box scroll-reveal">
+      <div class="section-title">
+        <h2>Portfolio Showcase</h2>
+        <div class="title-line"></div>
       </div>
-    </div> 
+      <div class="portfolio-filters">
+        <button class="filter-btn" data-filter="teaching">Teaching</button>
+        <button class="filter-btn" data-filter="media">Media & Content</button>
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+      </div>
+      <div class="portfolio-grid">
+        
+        <div class="portfolio-item" data-category="media" onclick="openModal('modal-p2')">
+          <img src="1vp.png" alt="Content Video Creation" onerror="this.src='https://via.placeholder.com/400x300?text=English+Infographic'">
+          <div class="portfolio-overlay">
+            <h4>AI Knowledgeable Content Creation</h4>
+            <p>2026 • Video Editing</p>
+          </div>
+        </div> 
 
-    <!-- ITEM 2 (2024) - Teaching -->
-    <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p3')">
-      <!-- REPLACE with your actual image file (e.g., class_launch.jpg) -->
-      <img src="2p.jpg" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
-      <div class="portfolio-overlay">
-        <h4>English Online Class</h4>
-        <p>Inclusive and Supportive class with mutiple joyful activities.</p>
-      </div>
-    </div>
+        <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p1')">
+          <img src="2p.jpg" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
+          <div class="portfolio-overlay">
+            <h4>English Online Class</h4>
+            <p>Inclusive and Supportive class with multiple joyful activities.</p>
+          </div>
+        </div>
 
-    <!-- ITEM 3 (2025) - Media & Content -->
-    <div class="portfolio-item" data-category="media" onclick="openModal('modal-p3')">
-      <!-- REPLACE with your actual image file (e.g., video_edit.jpg) -->
-      <img src="2vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
-      <div class="portfolio-overlay">
-        <h4>AI-Assisted Educational Media</h4>
-        <p>2025 • AI Generative Content and CapCut Edition.</p>
-      </div>
-    </div>
+        <div class="portfolio-item" data-category="media" onclick="openModal('modal-p2')">
+          <img src="2vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
+          <div class="portfolio-overlay">
+            <h4>AI-Assisted Educational Media</h4>
+            <p>2025 • AI Generative Content and CapCut Edition</p>
+          </div>
+        </div>
 
-    <!-- ITEM 4 (2024) - Teaching -->
-    <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p4')">
-      <!-- REPLACE with your actual image file (e.g., online_class.jpg) -->
-      <img src="1p.jpg" alt="Online English Class" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
-      <div class="portfolio-overlay">
-        <h4>English Online Class</h4>
-        <p>Student-centered online language instruction architectures via Zoom</p>
-      </div>
-    </div>
+        <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p1')">
+          <img src="1p.jpg" alt="Online English Class" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
+          <div class="portfolio-overlay">
+            <h4>English Online Class</h4>
+            <p>Student-centered online language instruction architectures via Zoom</p>
+          </div>
+        </div>
 
-    <!-- ITEM 5 (2025) - Media & Content -->
-    <div class="portfolio-item" data-category="media" onclick="openModal('modal-p3')">
-      <!-- REPLACE with your actual image file (e.g., video_edit.jpg) -->
-      <img src="3vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
-      <div class="portfolio-overlay">
-        <h4>AI-Assisted Educational Media</h4>
-        <p>2024 • AI Generative Content and CapCut Edition.</p>
-      </div>
-    </div>
+        <div class="portfolio-item" data-category="media" onclick="openModal('modal-p2')">
+          <img src="3vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
+          <div class="portfolio-overlay">
+            <h4>AI-Assisted Educational Media</h4>
+            <p>2024 • AI Generative Content and CapCut Edition</p>
+          </div>
+        </div>
 
-<!-- ITEM 6 (2023) - Teaching -->
-    <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p4')">
-      <!-- REPLACE with your actual image file (e.g., online_class.jpg) -->
-      <img src="3p.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
-      <div class="portfolio-overlay">
-        <h4>Onsite Class</h4>
-        <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
-      </div>
-    </div>
+        <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p1')">
+          <img src="3p.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
+          <div class="portfolio-overlay">
+            <h4>Onsite Class</h4>
+            <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
+          </div>
+        </div>
 
-    <!-- ITEM 7 (2025) - Media & Content -->
-    <div class="portfolio-item" data-category="media" onclick="openModal('modal-p3')">
-      <!-- REPLACE with your actual image file (e.g., video_edit.jpg) -->
-      <img src="4vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
-      <div class="portfolio-overlay">
-        <h4>AI-Assisted Educational Media</h4>
-        <p>2026 • AI Generative Content and CapCut Edition.</p>
-      </div>
-    </div>
- 
+        <div class="portfolio-item" data-category="media" onclick="openModal('modal-p2')">
+          <img src="4vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
+          <div class="portfolio-overlay">
+            <h4>AI-Assisted Educational Media</h4>
+            <p>2026 • AI Generative Content and CapCut Edition</p>
+          </div>
+        </div>
+     
       </div>
     </section>
 
@@ -1771,20 +1576,15 @@
 
     <!-- Contact Section -->
     <section id="contact" class="picto-contact-section scroll-reveal">
-      
-      <!-- Top Title Block inside the Purple Background -->
       <div class="contact-header-bg">
         <h2 class="contact-main-title">Connect with Me</h2>
         <p class="contact-subtitle">Have a project, a job opening, or just want to say hello? Drop me a message below!</p>
       </div>
 
-      <!-- Lower Split Area containing Form and Info -->
       <div class="contact-split-container">
         <div class="contact-grid-wrapper">
-          
-          <!-- Left Side: Mock Browser Form Window -->
+          <!-- Left Side: Form Window -->
           <form class="mock-browser-window" action="https://formspree.io/f/mqereerd" method="POST">
-            <!-- Window Control Header Bar -->
             <div class="browser-header">
               <div class="browser-controls">
                 <span>&minus;</span>
@@ -1793,7 +1593,6 @@
               </div>
             </div>
             
-            <!-- Form Content Fields Area -->
             <div class="browser-body">
               <div class="form-row">
                 <label for="name">Your Name:</label>
@@ -1816,7 +1615,7 @@
             </div>
           </form>
 
-          <!-- Right Side: Clean Contact Info & Socials -->
+          <!-- Right Side: Contact Info & Socials -->
           <div class="contact-info-panel">
             <div class="info-list">
               <div class="info-item">
@@ -1833,7 +1632,6 @@
               </div>
             </div>
 
-            <!-- Horizontal Social Icons Row -->
             <div class="info-social-row">
               <a href="https://www.linkedin.com/in/win-moe-73b006395" target="_blank" aria-label="LinkedIn">
                 <i class="fab fa-linkedin-in"></i>
@@ -1852,7 +1650,6 @@
               </a>
             </div>
           </div>
-
         </div>
       </div>
     </section>
@@ -1970,7 +1767,7 @@
         });
       });
 
-      // --- Viewport Intersection Observer (Counters & Progress Bars) ---
+      // --- Viewport Intersection Observer ---
       const counters = document.querySelectorAll(".counter");
       const progressBars = document.querySelectorAll(".progress");
       const revealElements = document.querySelectorAll(".scroll-reveal");
