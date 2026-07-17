@@ -1658,9 +1658,9 @@
     <div class="title-line"></div>
   </div>
   <div class="portfolio-filters">
-    <button class="filter-btn active" data-filter="all">All Projects</button>
     <button class="filter-btn" data-filter="teaching">Teaching</button>
     <button class="filter-btn" data-filter="media">Media & Content</button>
+    <button class="filter-btn active" data-filter="all">All Projects</button>
   </div>
   <div class="portfolio-grid">
     
