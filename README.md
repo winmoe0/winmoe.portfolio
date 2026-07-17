@@ -156,11 +156,11 @@
     }
 
     .picto-nav-links {
-      display: flex;
-      align-items: center;
-      list-style: none;
-      gap: 35px;
-    }
+  display: flex;
+  align-items: center; /* Forces every navigation item onto the exact same horizontal baseline */
+  list-style: none;
+  gap: 35px;
+}
 
     .picto-nav-links a {
       text-decoration: none;
