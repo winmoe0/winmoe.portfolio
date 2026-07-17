@@ -155,10 +155,10 @@
       font-weight: 600;
     }
 
- /* --- Updated Clean Navbar Alignment --- */
+ /* --- Ultra-Straight Navbar Alignment --- */
 .picto-nav-links {
   display: flex;
-  align-items: center; 
+  align-items: center; /* Locks every menu element to the absolute horizontal center axis */
   list-style: none;
   gap: 35px;
   padding: 0;
@@ -168,18 +168,20 @@
 .picto-nav-links li {
   display: flex;
   align-items: center;
+  height: 40px; /* Gives every single list item a rigid, identical layout box */
 }
 
 /* --- Identical Base Links --- */
 .picto-nav-links a {
   text-decoration: none;
   color: var(--text-muted);
-  font-weight: 500;       /* Base weight is identical for all links */
-  font-size: 0.95em;      /* Base size is identical for all links */
+  font-weight: 500;       
+  font-size: 0.95em;      
   display: flex;       
   align-items: center;  
-  line-height: 1;      
-  transition: transform 0.2s ease, color 0.2s ease; /* Smooth growing effect */
+  line-height: 1;      /* Strips hidden text box spacing variances */
+  height: 100%;        /* Forces the link text to occupy the full 40px vertical block */
+  transition: transform 0.2s ease, color 0.2s ease; 
 }
 
 /* --- Interactive Hover State (Grows slightly bigger on touch) --- */
@@ -188,14 +190,17 @@
   transform: scale(1.1);  /* Grows text by 10% smoothly without moving the line */
 }
 
-/* --- Keep the contact button clean and aligned --- */
+/* --- Button Link Alignment Fix --- */
 .picto-nav-links a.nav-contact-btn {
   background: var(--primary-color);
   color: white;
-  padding: 10px 24px;   
+  padding: 0 24px;       /* Removed top/bottom padding completely to stop layout shifting */
+  height: 38px;          /* Sets a perfect explicit height for the button box */
   border-radius: 8px;
   font-weight: 500;
-  line-height: 1;
+  display: inline-flex;
+  align-items: center;   /* Centers text inside the button container */
+  line-height: 1;       
 }
 
 .picto-nav-links a.nav-contact-btn:hover {
@@ -203,6 +208,7 @@
   transform: scale(1.05); /* Scales the button safely on hover */
 }
 
+/* --- Moon Icon Button Alignment Fix --- */
 .theme-btn {
   background: none; 
   border: none;
@@ -211,9 +217,10 @@
   cursor: pointer; 
   transition: color var(--transition-speed);
   display: flex;
-  align-items: center;  /* Centers the moon icon perfectly inside the button container */
-  line-height: 1;
+  align-items: center;   /* Centers the moon icon perfectly inside the axis */
+  height: 38px;          /* Matches the explicit height of the contact button */
   padding: 0;
+  margin-left: 15px;
 }
 
     .hamburger {
