@@ -155,53 +155,63 @@
       font-weight: 600;
     }
 
-    .picto-nav-links {
-      display: flex;
-      align-items: center;
-      list-style: none;
-      gap: 35px;
-      padding: 0;
-      margin: 0;
-    }
+    /* --- Updated Clean Navbar Alignment --- */
+.picto-nav-links {
+  display: flex;
+  align-items: center; 
+  list-style: none;
+  gap: 35px;
+  padding: 0;
+  margin: 0;
+}
 
-    .picto-nav-links li {
-      display: flex;
-      align-items: center;
-    }
+.picto-nav-links li {
+  display: flex;
+  align-items: center;
+  height: 100%; /* Ensures identical baseline height context */
+}
 
-    .picto-nav-links a {
-      text-decoration: none;
-      color: var(--text-muted);
-      font-weight: 500;
-      font-size: 0.92em;
-      transition: color 0.25s ease;
-      display: inline-flex;
-      align-items: center;
-    }
+.picto-nav-links a {
+  text-decoration: none;
+  color: var(--text-muted);
+  font-weight: 500;
+  font-size: 0.92em;
+  transition: color 0.25s ease;
+  display: flex;       
+  align-items: center;  
+  line-height: 1;      /* Forces text box area to sit flat */
+}
 
-    .picto-nav-links a:hover, .picto-nav-links a.active {
-      color: var(--text-main);
-    }
+.picto-nav-links a:hover, .picto-nav-links a.active {
+  color: var(--text-main);
+}
 
-    .picto-nav-links a.nav-contact-btn {
-      background: var(--primary-color);
-      color: white;
-      padding: 10px 24px;
-      border-radius: 8px;
-      font-weight: 500;
-      transition: background-color 0.25s ease;
-    }
+.picto-nav-links a.nav-contact-btn {
+  background: var(--primary-color);
+  color: white;
+  padding: 12px 24px;   /* Adjusted padding to center text beautifully */
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.25s ease;
+  line-height: 1;       
+}
 
-    .picto-nav-links a.nav-contact-btn:hover {
-      background: var(--primary-hover);
-    }
+.picto-nav-links a.nav-contact-btn:hover {
+  background: var(--primary-hover);
+}
 
-    .theme-btn {
-      background: none; border: none;
-      color: var(--text-main); font-size: 1.2em;
-      cursor: pointer; transition: color var(--transition-speed);
-      margin-left: 15px;
-    }
+.theme-btn {
+  background: none; 
+  border: none;
+  color: var(--text-main); 
+  font-size: 1.2em;
+  cursor: pointer; 
+  transition: color var(--transition-speed);
+  display: flex;
+  align-items: center;  /* Centers the moon icon perfectly inside the button container */
+  line-height: 1;
+  padding: 0;
+}
 
     .hamburger {
       display: none; flex-direction: column; gap: 5px; cursor: pointer;
