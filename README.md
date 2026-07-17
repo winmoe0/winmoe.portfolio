@@ -155,7 +155,7 @@
       font-weight: 600;
     }
 
-    /* --- Updated Clean Navbar Alignment --- */
+ /* --- Updated Clean Navbar Alignment --- */
 .picto-nav-links {
   display: flex;
   align-items: center; 
@@ -168,36 +168,39 @@
 .picto-nav-links li {
   display: flex;
   align-items: center;
-  height: 100%; /* Ensures identical baseline height context */
 }
 
-picto-nav-links a {
+/* --- Identical Base Links --- */
+.picto-nav-links a {
   text-decoration: none;
   color: var(--text-muted);
-  font-weight: 500;
-  font-size: 0.92em;
-  transition: color 0.25s ease;
-  
-  /* ADD THESE TWO LINES HERE: */
-  display: flex; 
-  align-items: center;
-}
-.picto-nav-links a:hover, .picto-nav-links a.active {
-  color: var(--text-main);
+  font-weight: 500;       /* Base weight is identical for all links */
+  font-size: 0.95em;      /* Base size is identical for all links */
+  display: flex;       
+  align-items: center;  
+  line-height: 1;      
+  transition: transform 0.2s ease, color 0.2s ease; /* Smooth growing effect */
 }
 
+/* --- Interactive Hover State (Grows slightly bigger on touch) --- */
+.picto-nav-links a:hover {
+  color: var(--text-main);
+  transform: scale(1.1);  /* Grows text by 10% smoothly without moving the line */
+}
+
+/* --- Keep the contact button clean and aligned --- */
 .picto-nav-links a.nav-contact-btn {
   background: var(--primary-color);
   color: white;
-  padding: 12px 24px;   /* Adjusted padding to center text beautifully */
+  padding: 10px 24px;   
   border-radius: 8px;
   font-weight: 500;
-  transition: background-color 0.25s ease;
-  line-height: 1;       
+  line-height: 1;
 }
 
 .picto-nav-links a.nav-contact-btn:hover {
   background: var(--primary-hover);
+  transform: scale(1.05); /* Scales the button safely on hover */
 }
 
 .theme-btn {
