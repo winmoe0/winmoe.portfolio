@@ -1665,7 +1665,7 @@
   <div class="portfolio-grid">
     
   <!-- ITEM 1 (2026) - Media & Content -->
-    <div class="portfolio-item" data-category="media" onclick="openModal('modal-p1')">
+    <div class="portfolio-item" data-category="media" onclick="openModal('modal-p3')">
       <!-- REPLACE with your actual image file (e.g., info_graphic.jpg) -->
       <img src="1vp.png" alt="Content Video Creation" onerror="this.src='https://via.placeholder.com/400x300?text=English+Infographic'">
       <div class="portfolio-overlay">
@@ -1675,7 +1675,7 @@
     </div> 
 
     <!-- ITEM 2 (2024) - Teaching -->
-    <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p2')">
+    <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p3')">
       <!-- REPLACE with your actual image file (e.g., class_launch.jpg) -->
       <img src="2p.jpg" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
       <div class="portfolio-overlay">
