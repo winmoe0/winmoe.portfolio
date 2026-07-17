@@ -171,17 +171,17 @@
   height: 100%; /* Ensures identical baseline height context */
 }
 
-.picto-nav-links a {
+picto-nav-links a {
   text-decoration: none;
   color: var(--text-muted);
   font-weight: 500;
   font-size: 0.92em;
   transition: color 0.25s ease;
-  display: flex;       
-  align-items: center;  
-  line-height: 1;      /* Forces text box area to sit flat */
+  
+  /* ADD THESE TWO LINES HERE: */
+  display: flex; 
+  align-items: center;
 }
-
 .picto-nav-links a:hover, .picto-nav-links a.active {
   color: var(--text-main);
 }
