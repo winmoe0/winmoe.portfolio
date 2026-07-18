@@ -1610,6 +1610,14 @@
         <p>The best Presenter at English Communication Program, Paypa University</p>
       </div>
     </div>
+
+    <div class="portfolio-item" data-category="Award">
+      <img src="A4.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <div class="portfolio-overlay">
+        <h4>Award</h4>
+        <p>Outstanding Award 2024, Paypa University</p>
+      </div>
+    </div>
     
   </div>
 </section>
