@@ -1509,7 +1509,8 @@
   <div class="portfolio-filters">
     <button class="filter-btn" data-filter="teaching">Teaching</button>
     <button class="filter-btn" data-filter="media">Media & Content</button>
-     <button class="filter-btn" data-filter="media">Awards & Recognitions</button>
+    <!-- FIXED LINE BELOW: Changed data-filter to "Award" -->
+    <button class="filter-btn" data-filter="Award">Awards & Recognitions</button>
     <button class="filter-btn active" data-filter="all">All Projects</button>
   </div>
   <div class="portfolio-grid">
@@ -1586,7 +1587,7 @@
       </div>
     </div>
 
-<div class="portfolio-item" data-category="Award">
+    <div class="portfolio-item" data-category="Award">
       <img src="R1.png" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
       <div class="portfolio-overlay">
         <h4>Award</h4>
