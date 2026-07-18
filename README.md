@@ -1509,6 +1509,7 @@
   <div class="portfolio-filters">
     <button class="filter-btn" data-filter="teaching">Teaching</button>
     <button class="filter-btn" data-filter="media">Media & Content</button>
+     <button class="filter-btn" data-filter="media">Awards & Recognitions</button>
     <button class="filter-btn active" data-filter="all">All Projects</button>
   </div>
   <div class="portfolio-grid">
@@ -1584,7 +1585,15 @@
         <p>2026 • AI Generative Content and CapCut Edition</p>
       </div>
     </div>
- 
+
+<div class="portfolio-item" data-category="media">
+      <img src="R1.png" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <div class="portfolio-overlay">
+        <h4>Award</h4>
+        <p>PYU Go Green: Video Contest_Winner</p>
+      </div>
+    </div>
+    
   </div>
 </section>
 
