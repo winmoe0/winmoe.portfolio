@@ -1516,7 +1516,7 @@
   <div class="portfolio-grid">
     
     <div class="portfolio-item" data-category="teaching">
-      <img src="4p.png" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
+      <img src="T4.png" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
       <div class="portfolio-overlay">
         <h4>English Level 4: Online Class</h4>
         <p>Practicing in English Speaking with Tongue Twisters</p>
@@ -1524,7 +1524,7 @@
     </div>
 
     <div class="portfolio-item" data-category="teaching">
-      <img src="5p.png" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
+      <img src="T5.png" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
       <div class="portfolio-overlay">
         <h4>Level 4: English Online Class</h4>
         <p>Making a conversation in English and Reading</p>
@@ -1532,7 +1532,7 @@
     </div>
 
     <div class="portfolio-item" data-category="teaching">
-      <img src="2p.jpg" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
+      <img src="T2.jpg" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
       <div class="portfolio-overlay">
         <h4>English Online Class</h4>
         <p>Inclusive and Supportive class with multiple joyful activities.</p>
@@ -1540,7 +1540,7 @@
     </div>
 
     <div class="portfolio-item" data-category="teaching">
-      <img src="1p.jpg" alt="Online English Class" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
+      <img src="T1.jpg" alt="Online English Class" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
       <div class="portfolio-overlay">
         <h4>English Online Class</h4>
         <p>Student-centered online language instruction architectures via Zoom</p>
@@ -1548,7 +1548,7 @@
     </div>
 
     <div class="portfolio-item" data-category="teaching">
-      <img src="3p.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
+      <img src="T3.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
       <div class="portfolio-overlay">
         <h4>Onsite Class</h4>
         <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
@@ -1588,7 +1588,7 @@
     </div>
 
     <div class="portfolio-item" data-category="Award">
-      <img src="R1.png" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <img src="R1.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
       <div class="portfolio-overlay">
         <h4>Award</h4>
         <p>PYU Go Green: Video Contest_Winner</p>
