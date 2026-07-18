@@ -1586,7 +1586,7 @@
       </div>
     </div>
 
-<div class="portfolio-item" data-category="media">
+<div class="portfolio-item" data-category="Award">
       <img src="R1.png" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
       <div class="portfolio-overlay">
         <h4>Award</h4>
