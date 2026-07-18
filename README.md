@@ -1501,94 +1501,92 @@
     </section>
 
     <!-- Portfolio Filter Showcase Grid -->
-    <section id="portfolio" class="container-box scroll-reveal">
-      <div class="section-title">
-        <h2>Portfolio Showcase</h2>
-        <div class="title-line"></div>
+<section id="portfolio" class="container-box scroll-reveal">
+  <div class="section-title">
+    <h2>Portfolio Showcase</h2>
+    <div class="title-line"></div>
+  </div>
+  <div class="portfolio-filters">
+    <button class="filter-btn" data-filter="teaching">Teaching</button>
+    <button class="filter-btn" data-filter="media">Media & Content</button>
+    <button class="filter-btn active" data-filter="all">All Projects</button>
+  </div>
+  <div class="portfolio-grid">
+    
+    <div class="portfolio-item" data-category="teaching">
+      <img src="4p.png" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
+      <div class="portfolio-overlay">
+        <h4>English Level 4: Online Class</h4>
+        <p>Practicing in English Speaking with Tongue Twisters</p>
       </div>
-      <div class="portfolio-filters">
-        <button class="filter-btn" data-filter="teaching">Teaching</button>
-        <button class="filter-btn" data-filter="media">Media & Content</button>
-        <button class="filter-btn active" data-filter="all">All Projects</button>
+    </div>
+
+    <div class="portfolio-item" data-category="teaching">
+      <img src="5p.png" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
+      <div class="portfolio-overlay">
+        <h4>Level 4: English Online Class</h4>
+        <p>Making a conversation in English and Reading</p>
       </div>
-      <div class="portfolio-grid">
-        
+    </div>
 
-        <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p2')">
-          <img src="4p.png" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
-          <div class="portfolio-overlay">
-            <h4>English Level 4: Online Class</h4>
-            <p>Practicing in English Speaking with Tongue Twisters</p>
-          </div>
-        </div>
-
-        <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p1')">
-          <img src="5p.png" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
-          <div class="portfolio-overlay">
-            <h4>Level 4: English Online Class</h4>
-            <p>Making a conversation in English and Reading</p>
-          </div>
-        </div>
-
-        <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p2')">
-          <img src="2p.jpg" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
-          <div class="portfolio-overlay">
-            <h4>English Online Class</h4>
-            <p>Inclusive and Supportive class with multiple joyful activities.</p>
-          </div>
-        </div>
-
-        <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p1')">
-          <img src="1p.jpg" alt="Online English Class" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
-          <div class="portfolio-overlay">
-            <h4>English Online Class</h4>
-            <p>Student-centered online language instruction architectures via Zoom</p>
-          </div>
-        </div>
-
-        <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p1')">
-          <img src="3p.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
-          <div class="portfolio-overlay">
-            <h4>Onsite Class</h4>
-            <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
-          </div>
-        </div>
-
-         <div class="portfolio-item" data-category="media" onclick="openModal('modal-p2')">
-          <img src="2vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
-          <div class="portfolio-overlay">
-            <h4>AI-Assisted Educational Media</h4>
-            <p>2025 • AI Generative Content and CapCut Edition</p>
-          </div>
-        </div>
-
-<div class="portfolio-item" data-category="media" onclick="openModal('modal-p1')">
-          <img src="1vp.png" alt="Content Video Creation" onerror="this.src='https://via.placeholder.com/400x300?text=English+Infographic'">
-          <div class="portfolio-overlay">
-            <h4>AI Knowledgeable Content Creation</h4>
-            <p>2026 • Video Editing</p>
-          </div>
-        </div> 
-        
-
-        <div class="portfolio-item" data-category="media" onclick="openModal('modal-p2')">
-          <img src="3vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
-          <div class="portfolio-overlay">
-            <h4>AI-Assisted Educational Media</h4>
-            <p>2024 • AI Generative Content and CapCut Edition</p>
-          </div>
-        </div>
-
-        <div class="portfolio-item" data-category="media" onclick="openModal('modal-p1')">
-          <img src="4vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
-          <div class="portfolio-overlay">
-            <h4>AI-Assisted Educational Media</h4>
-            <p>2026 • AI Generative Content and CapCut Edition</p>
-          </div>
-        </div>
-     
+    <div class="portfolio-item" data-category="teaching">
+      <img src="2p.jpg" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
+      <div class="portfolio-overlay">
+        <h4>English Online Class</h4>
+        <p>Inclusive and Supportive class with multiple joyful activities.</p>
       </div>
-    </section>
+    </div>
+
+    <div class="portfolio-item" data-category="teaching">
+      <img src="1p.jpg" alt="Online English Class" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
+      <div class="portfolio-overlay">
+        <h4>English Online Class</h4>
+        <p>Student-centered online language instruction architectures via Zoom</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="teaching">
+      <img src="3p.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
+      <div class="portfolio-overlay">
+        <h4>Onsite Class</h4>
+        <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="media">
+      <img src="2vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
+      <div class="portfolio-overlay">
+        <h4>AI-Assisted Educational Media</h4>
+        <p>2025 • AI Generative Content and CapCut Edition</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="media">
+      <img src="1vp.png" alt="Content Video Creation" onerror="this.src='https://via.placeholder.com/400x300?text=English+Infographic'">
+      <div class="portfolio-overlay">
+        <h4>AI Knowledgeable Content Creation</h4>
+        <p>2026 • Video Editing</p>
+      </div>
+    </div> 
+
+    <div class="portfolio-item" data-category="media">
+      <img src="3vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
+      <div class="portfolio-overlay">
+        <h4>AI-Assisted Educational Media</h4>
+        <p>2024 • AI Generative Content and CapCut Edition</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="media">
+      <img src="4vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
+      <div class="portfolio-overlay">
+        <h4>AI-Assisted Educational Media</h4>
+        <p>2026 • AI Generative Content and CapCut Edition</p>
+      </div>
+    </div>
+ 
+  </div>
+</section>
 
     <!-- Academic Research Section Focus -->
     <section id="research" class="container-box scroll-reveal">
