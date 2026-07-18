@@ -1591,7 +1591,23 @@
       <img src="A1.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
       <div class="portfolio-overlay">
         <h4>Award</h4>
-        <p>PYU Go Green: Video Contest_Winner</p>
+        <p>PYU Go Green: Video Contest_Prize</p>
+      </div>
+    </div>
+
+     <div class="portfolio-item" data-category="Award">
+      <img src="A2.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <div class="portfolio-overlay">
+        <h4>Award</h4>
+        <p>Video Contest of My Major: My Program Of Payap_Winner</p>
+      </div>
+    </div>
+
+     <div class="portfolio-item" data-category="Award">
+      <img src="A3.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <div class="portfolio-overlay">
+        <h4>Award</h4>
+        <p>Payap Outstanding Award 2024</p>
       </div>
     </div>
     
