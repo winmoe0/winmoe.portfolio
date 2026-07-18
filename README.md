@@ -1516,7 +1516,7 @@
   <div class="portfolio-grid">
     
     <div class="portfolio-item" data-category="teaching">
-     <img src="T4.png" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
+     <img src="T4.PNG" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
       <div class="portfolio-overlay">
         <h4>English Level 4: Online Class</h4>
         <p>Practicing in English Speaking with Tongue Twisters</p>
@@ -1524,7 +1524,7 @@
     </div>
 
     <div class="portfolio-item" data-category="teaching">
-      <img src="T5.png" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
+      <img src="T5.PNG" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
       <div class="portfolio-overlay">
         <h4>Level 4: English Online Class</h4>
         <p>Making a conversation in English and Reading</p>
