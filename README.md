@@ -1618,6 +1618,30 @@
         <p>Outstanding Award 2024, Paypa University</p>
       </div>
     </div>
+
+    <div class="portfolio-item" data-category="Award">
+      <img src="A5.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <div class="portfolio-overlay">
+        <h4>Award</h4>
+        <p>Outstanding Award 2023, Mon National College, Myanamar</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="Award">
+      <img src="A6.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <div class="portfolio-overlay">
+        <h4>Award</h4>
+        <p>The Talent Show, Paypa University</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="Award">
+      <img src="A7.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <div class="portfolio-overlay">
+        <h4>Award</h4>
+        <p>Master of Ceremony MC at International Day 2026, Paypa University</p>
+      </div>
+    </div>
     
   </div>
 </section>
