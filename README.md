@@ -1513,27 +1513,28 @@
       </div>
       <div class="portfolio-grid">
         
-        <div class="portfolio-item" data-category="media" onclick="openModal('modal-p2')">
-          <img src="1vp.png" alt="Content Video Creation" onerror="this.src='https://via.placeholder.com/400x300?text=English+Infographic'">
+
+        <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p2')">
+          <img src="4p.jpg" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
           <div class="portfolio-overlay">
-            <h4>AI Knowledgeable Content Creation</h4>
-            <p>2026 • Video Editing</p>
+            <h4>English Level 4: Online Class</h4>
+            <p>Practicing in English Speaking with Tongue Twisters</p>
           </div>
-        </div> 
+        </div>
 
         <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p1')">
+          <img src="5p.jpg" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
+          <div class="portfolio-overlay">
+            <h4>Level 4: English Online Class</h4>
+            <p>Making a conversation in English and Reading</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="teaching" onclick="openModal('modal-p2')">
           <img src="2p.jpg" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
           <div class="portfolio-overlay">
             <h4>English Online Class</h4>
             <p>Inclusive and Supportive class with multiple joyful activities.</p>
-          </div>
-        </div>
-
-        <div class="portfolio-item" data-category="media" onclick="openModal('modal-p2')">
-          <img src="2vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
-          <div class="portfolio-overlay">
-            <h4>AI-Assisted Educational Media</h4>
-            <p>2025 • AI Generative Content and CapCut Edition</p>
           </div>
         </div>
 
@@ -1546,10 +1547,10 @@
         </div>
 
         <div class="portfolio-item" data-category="media" onclick="openModal('modal-p2')">
-          <img src="3vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
+          <img src="2vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
           <div class="portfolio-overlay">
             <h4>AI-Assisted Educational Media</h4>
-            <p>2024 • AI Generative Content and CapCut Edition</p>
+            <p>2025 • AI Generative Content and CapCut Edition</p>
           </div>
         </div>
 
@@ -1558,6 +1559,22 @@
           <div class="portfolio-overlay">
             <h4>Onsite Class</h4>
             <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
+          </div>
+        </div>
+
+<div class="portfolio-item" data-category="media" onclick="openModal('modal-p2')">
+          <img src="1vp.png" alt="Content Video Creation" onerror="this.src='https://via.placeholder.com/400x300?text=English+Infographic'">
+          <div class="portfolio-overlay">
+            <h4>AI Knowledgeable Content Creation</h4>
+            <p>2026 • Video Editing</p>
+          </div>
+        </div> 
+
+        <div class="portfolio-item" data-category="media" onclick="openModal('modal-p1')">
+          <img src="3vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
+          <div class="portfolio-overlay">
+            <h4>AI-Assisted Educational Media</h4>
+            <p>2024 • AI Generative Content and CapCut Edition</p>
           </div>
         </div>
 
