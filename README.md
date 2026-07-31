@@ -155,73 +155,69 @@
       font-weight: 600;
     }
 
- /* --- Ultra-Straight Navbar Alignment --- */
-.picto-nav-links {
-  display: flex;
-  align-items: center; /* Locks every menu element to the absolute horizontal center axis */
-  list-style: none;
-  gap: 35px;
-  padding: 0;
-  margin: 0;
-}
+    /* --- Ultra-Straight Navbar Alignment --- */
+    .picto-nav-links {
+      display: flex;
+      align-items: center; 
+      list-style: none;
+      gap: 35px;
+      padding: 0;
+      margin: 0;
+    }
 
-.picto-nav-links li {
-  display: flex;
-  align-items: center;
-  height: 40px; /* Gives every single list item a rigid, identical layout box */
-}
+    .picto-nav-links li {
+      display: flex;
+      align-items: center;
+      height: 40px; 
+    }
 
-/* --- Identical Base Links --- */
-.picto-nav-links a {
-  text-decoration: none;
-  color: var(--text-muted);
-  font-weight: 500;       
-  font-size: 0.95em;      
-  display: flex;       
-  align-items: center;  
-  line-height: 1;      /* Strips hidden text box spacing variances */
-  height: 100%;        /* Forces the link text to occupy the full 40px vertical block */
-  transition: transform 0.2s ease, color 0.2s ease; 
-}
+    .picto-nav-links a {
+      text-decoration: none;
+      color: var(--text-muted);
+      font-weight: 500;       
+      font-size: 0.95em;      
+      display: flex;       
+      align-items: center;  
+      line-height: 1;      
+      height: 100%;        
+      transition: transform 0.2s ease, color 0.2s ease; 
+    }
 
-/* --- Interactive Hover State (Grows slightly bigger on touch) --- */
-.picto-nav-links a:hover {
-  color: var(--text-main);
-  transform: scale(1.1);  /* Grows text by 10% smoothly without moving the line */
-}
+    .picto-nav-links a:hover {
+      color: var(--text-main);
+      transform: scale(1.1);  
+    }
 
-/* --- Button Link Alignment Fix --- */
-.picto-nav-links a.nav-contact-btn {
-  background: var(--primary-color);
-  color: white;
-  padding: 0 24px;       /* Removed top/bottom padding completely to stop layout shifting */
-  height: 38px;          /* Sets a perfect explicit height for the button box */
-  border-radius: 8px;
-  font-weight: 500;
-  display: inline-flex;
-  align-items: center;   /* Centers text inside the button container */
-  line-height: 1;       
-}
+    .picto-nav-links a.nav-contact-btn {
+      background: var(--primary-color);
+      color: white;
+      padding: 0 24px;       
+      height: 38px;          
+      border-radius: 8px;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;   
+      line-height: 1;       
+    }
 
-.picto-nav-links a.nav-contact-btn:hover {
-  background: var(--primary-hover);
-  transform: scale(1.05); /* Scales the button safely on hover */
-}
+    .picto-nav-links a.nav-contact-btn:hover {
+      background: var(--primary-hover);
+      transform: scale(1.05); 
+    }
 
-/* --- Moon Icon Button Alignment Fix --- */
-.theme-btn {
-  background: none; 
-  border: none;
-  color: var(--text-main); 
-  font-size: 1.2em;
-  cursor: pointer; 
-  transition: color var(--transition-speed);
-  display: flex;
-  align-items: center;   /* Centers the moon icon perfectly inside the axis */
-  height: 38px;          /* Matches the explicit height of the contact button */
-  padding: 0;
-  margin-left: 15px;
-}
+    .theme-btn {
+      background: none; 
+      border: none;
+      color: var(--text-main); 
+      font-size: 1.2em;
+      cursor: pointer; 
+      transition: color var(--transition-speed);
+      display: flex;
+      align-items: center;   
+      height: 38px;          
+      padding: 0;
+      margin-left: 15px;
+    }
 
     .hamburger {
       display: none; flex-direction: column; gap: 5px; cursor: pointer;
@@ -441,14 +437,183 @@
     .portfolio-overlay h4 { color: white; font-size: 1.2em; margin-bottom: 4px; }
     .portfolio-overlay p { color: rgba(255,255,255,0.8); font-size: 0.85em; }
 
-    /* --- Research Section --- */
-    .research-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 16px; padding: 40px; transition: background var(--transition-speed); }
-    .research-header { display: flex; align-items: center; gap: 20px; margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 20px; }
-    .research-header i { font-size: 2.5em; color: var(--primary-color); }
-    .research-header h3 { font-size: 1.5em; line-height: 1.4; }
-    .research-body p { color: var(--text-muted); line-height: 1.6; margin-bottom: 20px; }
-    .research-details { display: flex; flex-direction: column; gap: 12px; }
-    .research-details span { font-size: 0.95em; line-height: 1.5; }
+    /* --- Enhanced Research Section Grid & Cards --- */
+    .research-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .research-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: 35px;
+      position: relative;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.02);
+    }
+
+    .research-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 15px 35px rgba(147, 51, 234, 0.08);
+    }
+
+    .research-badge {
+      position: absolute;
+      top: 25px;
+      right: 25px;
+      background: rgba(147, 51, 234, 0.1);
+      color: var(--primary-color);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.8em;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .research-badge.secondary {
+      background: rgba(0, 180, 216, 0.1);
+      color: var(--secondary-color);
+    }
+
+    .research-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 20px;
+      padding-right: 140px; 
+    }
+
+    .research-icon {
+      font-size: 2em;
+      color: var(--primary-color);
+      background: rgba(147, 51, 234, 0.08);
+      width: 55px;
+      height: 55px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .research-title-meta h3 {
+      font-size: 1.35em;
+      color: var(--text-main);
+      line-height: 1.3;
+      margin-bottom: 4px;
+    }
+
+    .research-subtitle {
+      font-size: 0.95em;
+      color: var(--secondary-color);
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+
+    .research-author-tag {
+      font-size: 0.85em;
+      color: var(--text-muted);
+    }
+
+    .abstract-text {
+      color: var(--text-muted);
+      line-height: 1.65;
+      margin-bottom: 20px;
+      font-size: 0.95em;
+    }
+
+    .research-details {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      background: rgba(0, 0, 0, 0.02);
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+      margin-bottom: 25px;
+    }
+
+    [data-theme="dark"] .research-details {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    .detail-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 0.9em;
+      line-height: 1.5;
+    }
+
+    .detail-item i {
+      color: var(--primary-color);
+      margin-top: 3px;
+      flex-shrink: 0;
+    }
+
+    /* Research Footer Action Buttons */
+    .research-footer {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .btn-research-pdf {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--primary-color);
+      color: white;
+      text-decoration: none;
+      padding: 10px 22px;
+      border-radius: 8px;
+      font-size: 0.9em;
+      font-weight: 600;
+      transition: all 0.25s ease;
+    }
+
+    .btn-research-pdf:hover {
+      background: var(--primary-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(147, 51, 234, 0.25);
+    }
+
+    .btn-research-view {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: transparent;
+      color: var(--text-main);
+      border: 1px solid var(--border-color);
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-size: 0.9em;
+      font-weight: 500;
+      transition: all 0.25s ease;
+    }
+
+    .btn-research-view:hover {
+      background: var(--border-color);
+      color: var(--primary-color);
+    }
+
+    .paper-status-tag {
+      font-size: 0.85em;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
 
     /* --- Premium Picto Contact Section Styles --- */
     .picto-contact-section {
@@ -758,6 +923,18 @@
         justify-content: center;
         gap: 20px;
       }
+      .research-header {
+        flex-direction: column;
+        padding-right: 0;
+        gap: 15px;
+      }
+      .research-badge {
+        position: relative;
+        top: 0;
+        right: 0;
+        align-self: flex-start;
+        margin-bottom: 15px;
+      }
     }
 
     @media (max-width: 576px) {
@@ -767,12 +944,6 @@
       .contact-main-title { font-size: 2.2em; }
       .portfolio-grid { grid-template-columns: 1fr; }
     }
-
-    /* --- Modal Overlay Design --- */
-    .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); backdrop-filter: blur(4px); z-index: 2000; display: flex; justify-content: center; align-items: center; opacity: 0; visibility: hidden; transition: all 0.3s ease; }
-    .modal-overlay.active { opacity: 1; visibility: visible; }
-    .modal-card { background: var(--card-bg); padding: 40px; border-radius: 16px; max-width: 500px; width: 90%; position: relative; box-shadow: 0 10px 30px rgba(0,0,0,0.1); color: var(--text-main); }
-    .close-modal { position: absolute; top: 20px; right: 25px; font-size: 2em; cursor: pointer; color: var(--text-muted); }
 
     /* --- Premium Picto Footer Styles --- */
     .picto-footer { margin-top: 80px; width: 100%; }
@@ -809,7 +980,7 @@
         <span class="logo-badge">W</span> Win Moe
       </div>
       <ul class="picto-nav-links">
-        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#qualifications">Qualifications</a></li>
         <li><a href="#experience">Experience</a></li>
@@ -1501,150 +1672,149 @@
     </section>
 
     <!-- Portfolio Filter Showcase Grid -->
-<section id="portfolio" class="container-box scroll-reveal">
-  <div class="section-title">
-    <h2>Portfolio Showcase</h2>
-    <div class="title-line"></div>
-  </div>
-  <div class="portfolio-filters">
-    <button class="filter-btn" data-filter="teaching">Teaching</button>
-    <button class="filter-btn" data-filter="media">Media & Content</button>
-    <!-- FIXED LINE BELOW: Changed data-filter to "Award" -->
-    <button class="filter-btn" data-filter="Award">Awards & Recognitions</button>
-    <button class="filter-btn active" data-filter="all">All Projects</button>
-  </div>
-  <div class="portfolio-grid">
-    
-    <div class="portfolio-item" data-category="teaching">
-     <img src="T4.PNG" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
-      <div class="portfolio-overlay">
-        <h4>English Level 4: Online Class</h4>
-        <p>Practicing in English Speaking with Tongue Twisters</p>
+    <section id="portfolio" class="container-box scroll-reveal">
+      <div class="section-title">
+        <h2>Portfolio Showcase</h2>
+        <div class="title-line"></div>
       </div>
-    </div>
+      <div class="portfolio-filters">
+        <button class="filter-btn" data-filter="teaching">Teaching</button>
+        <button class="filter-btn" data-filter="media">Media & Content</button>
+        <button class="filter-btn" data-filter="Award">Awards & Recognitions</button>
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+      </div>
+      <div class="portfolio-grid">
+        
+        <div class="portfolio-item" data-category="teaching">
+          <img src="T4.PNG" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
+          <div class="portfolio-overlay">
+            <h4>English Level 4: Online Class</h4>
+            <p>Practicing in English Speaking with Tongue Twisters</p>
+          </div>
+        </div>
 
-    <div class="portfolio-item" data-category="teaching">
-      <img src="T5.PNG" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
-      <div class="portfolio-overlay">
-        <h4>Level 4: English Online Class</h4>
-        <p>Making a conversation in English and Reading</p>
-      </div>
-    </div>
+        <div class="portfolio-item" data-category="teaching">
+          <img src="T5.PNG" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
+          <div class="portfolio-overlay">
+            <h4>Level 4: English Online Class</h4>
+            <p>Making a conversation in English and Reading</p>
+          </div>
+        </div>
 
-    <div class="portfolio-item" data-category="teaching">
-      <img src="T2.jpg" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
-      <div class="portfolio-overlay">
-        <h4>English Online Class</h4>
-        <p>Inclusive and Supportive class with multiple joyful activities.</p>
-      </div>
-    </div>
+        <div class="portfolio-item" data-category="teaching">
+          <img src="T2.jpg" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
+          <div class="portfolio-overlay">
+            <h4>English Online Class</h4>
+            <p>Inclusive and Supportive class with multiple joyful activities.</p>
+          </div>
+        </div>
 
-    <div class="portfolio-item" data-category="teaching">
-      <img src="T1.jpg" alt="Online English Class" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
-      <div class="portfolio-overlay">
-        <h4>English Online Class</h4>
-        <p>Student-centered online language instruction architectures via Zoom</p>
-      </div>
-    </div>
+        <div class="portfolio-item" data-category="teaching">
+          <img src="T1.jpg" alt="Online English Class" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
+          <div class="portfolio-overlay">
+            <h4>English Online Class</h4>
+            <p>Student-centered online language instruction architectures via Zoom</p>
+          </div>
+        </div>
 
-    <div class="portfolio-item" data-category="teaching">
-      <img src="T3.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
-      <div class="portfolio-overlay">
-        <h4>Onsite Class</h4>
-        <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
-      </div>
-    </div>
+        <div class="portfolio-item" data-category="teaching">
+          <img src="T3.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
+          <div class="portfolio-overlay">
+            <h4>Onsite Class</h4>
+            <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
+          </div>
+        </div>
 
-    <div class="portfolio-item" data-category="media">
-      <img src="2vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
-      <div class="portfolio-overlay">
-        <h4>AI-Assisted Educational Media</h4>
-        <p>2025 • AI Generative Content and CapCut Edition</p>
-      </div>
-    </div>
+        <div class="portfolio-item" data-category="media">
+          <img src="2vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
+          <div class="portfolio-overlay">
+            <h4>AI-Assisted Educational Media</h4>
+            <p>2025 • AI Generative Content and CapCut Edition</p>
+          </div>
+        </div>
 
-    <div class="portfolio-item" data-category="media">
-      <img src="1vp.png" alt="Content Video Creation" onerror="this.src='https://via.placeholder.com/400x300?text=English+Infographic'">
-      <div class="portfolio-overlay">
-        <h4>AI Knowledgeable Content Creation</h4>
-        <p>2026 • Video Editing</p>
-      </div>
-    </div> 
+        <div class="portfolio-item" data-category="media">
+          <img src="1vp.png" alt="Content Video Creation" onerror="this.src='https://via.placeholder.com/400x300?text=English+Infographic'">
+          <div class="portfolio-overlay">
+            <h4>AI Knowledgeable Content Creation</h4>
+            <p>2026 • Video Editing</p>
+          </div>
+        </div> 
 
-    <div class="portfolio-item" data-category="media">
-      <img src="3vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
-      <div class="portfolio-overlay">
-        <h4>AI-Assisted Educational Media</h4>
-        <p>2024 • AI Generative Content and CapCut Edition</p>
-      </div>
-    </div>
+        <div class="portfolio-item" data-category="media">
+          <img src="3vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
+          <div class="portfolio-overlay">
+            <h4>AI-Assisted Educational Media</h4>
+            <p>2024 • AI Generative Content and CapCut Edition</p>
+          </div>
+        </div>
 
-    <div class="portfolio-item" data-category="media">
-      <img src="4vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
-      <div class="portfolio-overlay">
-        <h4>AI-Assisted Educational Media</h4>
-        <p>2026 • AI Generative Content and CapCut Edition</p>
-      </div>
-    </div>
+        <div class="portfolio-item" data-category="media">
+          <img src="4vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
+          <div class="portfolio-overlay">
+            <h4>AI-Assisted Educational Media</h4>
+            <p>2026 • AI Generative Content and CapCut Edition</p>
+          </div>
+        </div>
 
-    <div class="portfolio-item" data-category="Award">
-      <img src="A1.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
-      <div class="portfolio-overlay">
-        <h4>Award</h4>
-        <p>PYU Go Green: Video Contest_Prize</p>
-      </div>
-    </div>
+        <div class="portfolio-item" data-category="Award">
+          <img src="A1.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+          <div class="portfolio-overlay">
+            <h4>Award</h4>
+            <p>PYU Go Green: Video Contest_Prize</p>
+          </div>
+        </div>
 
-     <div class="portfolio-item" data-category="Award">
-      <img src="A2.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
-      <div class="portfolio-overlay">
-        <h4>Award</h4>
-        <p>Video Contest of My Major: My Program Of Payap_Winner</p>
-      </div>
-    </div>
+        <div class="portfolio-item" data-category="Award">
+          <img src="A2.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+          <div class="portfolio-overlay">
+            <h4>Award</h4>
+            <p>Video Contest of My Major: My Program Of Payap_Winner</p>
+          </div>
+        </div>
 
-     <div class="portfolio-item" data-category="Award">
-      <img src="A3.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
-      <div class="portfolio-overlay">
-        <h4>Award</h4>
-        <p>The best Presenter at English Communication Program, Paypa University</p>
-      </div>
-    </div>
+        <div class="portfolio-item" data-category="Award">
+          <img src="A3.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+          <div class="portfolio-overlay">
+            <h4>Award</h4>
+            <p>The best Presenter at English Communication Program, Payap University</p>
+          </div>
+        </div>
 
-    <div class="portfolio-item" data-category="Award">
-      <img src="A4.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
-      <div class="portfolio-overlay">
-        <h4>Award</h4>
-        <p>Outstanding Award 2024, Paypa University</p>
-      </div>
-    </div>
+        <div class="portfolio-item" data-category="Award">
+          <img src="A4.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+          <div class="portfolio-overlay">
+            <h4>Award</h4>
+            <p>Outstanding Award 2024, Payap University</p>
+          </div>
+        </div>
 
-    <div class="portfolio-item" data-category="Award">
-      <img src="A5.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
-      <div class="portfolio-overlay">
-        <h4>Award</h4>
-        <p>Outstanding Award 2023, Mon National College, Myanamar</p>
-      </div>
-    </div>
+        <div class="portfolio-item" data-category="Award">
+          <img src="A5.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+          <div class="portfolio-overlay">
+            <h4>Award</h4>
+            <p>Outstanding Award 2023, Mon National College, Myanmar</p>
+          </div>
+        </div>
 
-    <div class="portfolio-item" data-category="Award">
-      <img src="A6.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
-      <div class="portfolio-overlay">
-        <h4>Award</h4>
-        <p>The Talent Show, Paypa University</p>
-      </div>
-    </div>
+        <div class="portfolio-item" data-category="Award">
+          <img src="A6.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+          <div class="portfolio-overlay">
+            <h4>Award</h4>
+            <p>The Talent Show, Payap University</p>
+          </div>
+        </div>
 
-    <div class="portfolio-item" data-category="Award">
-      <img src="A7.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
-      <div class="portfolio-overlay">
-        <h4>Award</h4>
-        <p>Master of Ceremony MC at International Day 2026, Paypa University</p>
+        <div class="portfolio-item" data-category="Award">
+          <img src="A7.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+          <div class="portfolio-overlay">
+            <h4>Award</h4>
+            <p>Master of Ceremony MC at International Day 2026, Payap University</p>
+          </div>
+        </div>
+
       </div>
-    </div>
-    
-  </div>
-</section>
+    </section>
 
     <!-- Academic Research Section Focus -->
     <section id="research" class="container-box scroll-reveal">
@@ -1652,19 +1822,109 @@
         <h2>Academic Research Focus</h2>
         <div class="title-line"></div>
       </div>
-      <div class="research-card">
-        <div class="research-header">
-          <i class="fas fa-book-reader"></i>
-          <h3>Academic Challenges among English Communication Arts Students at Payap University</h3>
-        </div>
-        <div class="research-body">
-          <p><strong>Abstract:</strong> Evaluating transactional linguistic barriers, adjustment timelines, and institutional delivery friction vectors facing international academic cohorts adjusting to premium English communication requirements within modern university modules.</p>
-          <div class="research-details">
-            <span><strong>Objectives:</strong> Isolate core socio-linguistic blocks impacting academic fluency.</span>
-            <span><strong>Methods:</strong> Integrated mixed-method structural interviews, cohort questionnaires, and qualitative metrics.</span>
-            <span><strong>Findings:</strong> Data highlights strategic technology integration and structural peer-to-peer communication matrices drastically optimize comprehension and confidence levels.</span>
+
+      <!-- Multi-Paper Research Grid Layout -->
+      <div class="research-grid">
+
+        <!-- RESEARCH PAPER 1: Educational Migration & Cultural Adaptation -->
+        <article class="research-card">
+          <div class="research-badge">
+            <i class="fas fa-file-pdf"></i> PDF Available
           </div>
-        </div>
+          
+          <div class="research-header">
+            <div class="research-icon">
+              <i class="fas fa-globe-asia"></i>
+            </div>
+            <div class="research-title-meta">
+              <h3>Educational Migration and Cultural Adaptation</h3>
+              <p class="research-subtitle">Experiences of Myanmar Students in Chiang Mai, Thailand</p>
+              <div class="research-author-tag">
+                <span><i class="fas fa-user-edit"></i> Mr. Win Moe</span> • 
+                <span><i class="fas fa-university"></i> National University of Zoland</span> • 
+                <span><i class="far fa-calendar-alt"></i> July 2026</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="research-body">
+            <p class="abstract-text">
+              <strong>Abstract:</strong> This study explores the experiences of educational migration and cultural adaptation among Myanmar students studying in Chiang Mai, Thailand following political instability and educational disruptions in Myanmar[cite: 1]. Utilizing a mixed-methods approach ($N=20$ survey, $N=5$ qualitative interviews), it identifies key migration drivers, adaptation challenges like language barriers, and strategies students use to maintain their Myanmar cultural identity while integrating into Thai university life[cite: 1].
+            </p>
+            
+            <div class="research-details">
+              <div class="detail-item">
+                <i class="fas fa-bullseye"></i>
+                <span><strong>Objectives:</strong> Identify factors influencing educational migration, analyze cultural/academic adjustment challenges, and examine heritage identity maintenance[cite: 1].</span>
+              </div>
+              <div class="detail-item">
+                <i class="fas fa-vial"></i>
+                <span><strong>Methods:</strong> Mixed-method design combining Google Forms questionnaires ($N=20$) and semi-structured interviews ($N=5$) with thematic analysis[cite: 1].</span>
+              </div>
+              <div class="detail-item">
+                <i class="fas fa-check-circle"></i>
+                <span><strong>Key Findings:</strong> Political instability (45%) and affordability (50%) drive migration[cite: 1]; students overcome language barriers (70%) through social support while preserving native identity via cultural hybridity[cite: 1].</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Action Row: PDF Download & Preview Links -->
+          <div class="research-footer">
+            <a href="Myanmar Migrate Student.pdf" download="Educational_Migration_and_Cultural_Adaptation_WinMoe.pdf" class="btn-research-pdf">
+              <i class="fas fa-download"></i> Download Full Paper (PDF)
+            </a>
+            <a href="Myanmar Migrate Student.pdf" target="_blank" rel="noopener noreferrer" class="btn-research-view" aria-label="View PDF in browser">
+              <i class="fas fa-external-link-alt"></i> Preview PDF
+            </a>
+          </div>
+        </article>
+
+        <!-- RESEARCH PAPER 2: Payap University Academic Challenges -->
+        <article class="research-card">
+          <div class="research-badge secondary">
+            <i class="fas fa-graduation-cap"></i> Institutional Case Study
+          </div>
+          
+          <div class="research-header">
+            <div class="research-icon">
+              <i class="fas fa-book-reader"></i>
+            </div>
+            <div class="research-title-meta">
+              <h3>Academic Challenges among English Communication Arts Students</h3>
+              <p class="research-subtitle">Payap University Cohort Study</p>
+              <div class="research-author-tag">
+                <span><i class="fas fa-user-edit"></i> Win Moe</span> • 
+                <span><i class="fas fa-university"></i> Payap University</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="research-body">
+            <p class="abstract-text">
+              <strong>Abstract:</strong> Evaluates transactional linguistic barriers, adjustment timelines, and institutional delivery friction vectors facing international academic cohorts adjusting to premium English communication requirements within modern university modules.
+            </p>
+            
+            <div class="research-details">
+              <div class="detail-item">
+                <i class="fas fa-bullseye"></i>
+                <span><strong>Objectives:</strong> Isolate core socio-linguistic blocks impacting academic fluency in cross-cultural classrooms.</span>
+              </div>
+              <div class="detail-item">
+                <i class="fas fa-vial"></i>
+                <span><strong>Methods:</strong> Integrated mixed-method structural interviews, cohort questionnaires, and qualitative metrics.</span>
+              </div>
+              <div class="detail-item">
+                <i class="fas fa-check-circle"></i>
+                <span><strong>Key Findings:</strong> Strategic technology integration and structured peer-to-peer communication matrices optimize comprehension and student confidence.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="research-footer">
+            <span class="paper-status-tag"><i class="fas fa-clock"></i> PDF Publication Pending</span>
+          </div>
+        </article>
+
       </div>
     </section>
 
@@ -1771,23 +2031,6 @@
  
   <!-- Scroll-to-Top Global Interactive Button -->
   <button id="scroll-top" aria-label="Scroll to top" class="scroll-top-btn"><i class="fas fa-chevron-up"></i></button>
-
-  <!-- Interactive Project Modals Architecture -->
-  <div id="modal-p1" class="modal-overlay" onclick="closeModal('modal-p1')">
-    <div class="modal-card" onclick="event.stopPropagation()">
-      <span class="close-modal" onclick="closeModal('modal-p1')">&times;</span>
-      <h3>Poy English Online Launch</h3>
-      <p style="margin-top: 15px; line-height: 1.6; color: #555;">Detailed documentation concerning curriculum build paths, student enrollment funnels, and performance outputs tracking online educational platforms.</p>
-    </div>
-  </div>
-    
-  <div id="modal-p2" class="modal-overlay" onclick="closeModal('modal-p2')">
-    <div class="modal-card" onclick="event.stopPropagation()">
-      <span class="close-modal" onclick="closeModal('modal-p2')">&times;</span>
-      <h3>Language Graphic Campaign</h3>
-      <p style="margin-top: 15px; line-height: 1.6; color: #555;">Exhibiting detailed layouts of instructional templates, video editing passes created in CapCut/Premiere Pro, and interactive assets.</p>
-    </div>
-  </div>
 
   <!-- Integrated Operational JavaScript -->
   <script>
@@ -1905,8 +2148,4 @@
       });
       scrollTopBtn.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
     });
-
-    // --- Modal Management Global Hooks ---
-    function openModal(id) { document.getElementById(id).classList.add("active"); }
-    function closeModal(id) { document.getElementById(id).classList.remove("active"); }
   </script>
