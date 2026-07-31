@@ -2091,6 +2091,59 @@
   </div>
 </article>
 
+<!-- RESEARCH PAPER 6: Gender Roles and Cultural Change among the Mon Community -->
+<article class="research-card">
+  <div class="research-badge">
+    <i class="fas fa-file-pdf"></i> PDF Available
+  </div>
+  
+  <div class="research-header">
+    <div class="research-icon">
+      <i class="fas fa-users-slash"></i>
+    </div>
+    <div class="research-title-meta">
+      <h3>Gender Roles and Cultural Change among the Mon Community</h3>
+      <p class="research-subtitle">Case Study in Wang Ka, Sangkhlaburi, Thailand</p>
+      <div class="research-author-tag">
+        <span><i class="fas fa-user-edit"></i> Mr. Win Moe</span> • 
+        <span><i class="fas fa-university"></i> National University of Zoland (DSSS-101: Cultural Perspectives)</span> • 
+        <span><i class="far fa-calendar-alt"></i> April 2026</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="research-body">
+    <p class="abstract-text">
+      <strong>Abstract:</strong> This anthropological study explores how traditional gender expectations are structured, preserved, and adapted among the Mon community along the Thai-Myanmar border. Utilizing secondary qualitative ethnographic data supplemented by local resident interviews, the paper evaluates gendered labor divisions in Buddhist rituals, women as heritage preservers, and expanding economic opportunities driven by tourism around the Mon Bridge.
+    </p>
+    
+    <div class="research-details">
+      <div class="detail-item">
+        <i class="fas fa-bullseye"></i>
+        <span><strong>Objectives:</strong> Analyze gendered responsibilities in ritual life, examine women's roles in linguistic/cultural preservation, and evaluate adaptive continuity.</span>
+      </div>
+      <div class="detail-item">
+        <i class="fas fa-vial"></i>
+        <span><strong>Methods:</strong> Qualitative thematic analysis combining secondary ethnographic source analysis with local informal resident interviews.</span>
+      </div>
+      <div class="detail-item">
+        <i class="fas fa-check-circle"></i>
+        <span><strong>Key Findings:</strong> Ritual life reinforces gendered structures, women serve as primary domestic preservers of Mon language[cite: 6], while tourism and education expand female public and economic roles without sacrificing cultural identity[cite: 6].</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Action Row: Local Download & Direct Preview Links -->
+  <div class="research-footer">
+    <a href="Paper6.pdf" download="Gender_Roles_Mon_Community_WinMoe.pdf" class="btn-research-pdf">
+      <i class="fas fa-download"></i> Download Full Paper (PDF)
+    </a>
+    <a href="Paper6.pdf" target="_blank" rel="noopener noreferrer" class="btn-research-view" aria-label="View PDF in browser">
+      <i class="fas fa-external-link-alt"></i> Preview PDF
+    </a>
+  </div>
+</article>
+
       </div>
     </section>
 
