@@ -2038,6 +2038,59 @@
   </div>
 </article>
 
+<!-- RESEARCH PAPER 5: Digital Distraction in the Classroom -->
+<article class="research-card">
+  <div class="research-badge">
+    <i class="fas fa-file-pdf"></i> PDF Available
+  </div>
+  
+  <div class="research-header">
+    <div class="research-icon">
+      <i class="fas fa-mobile-alt"></i>
+    </div>
+    <div class="research-title-meta">
+      <h3>Digital Distraction in the Classroom</h3>
+      <p class="research-subtitle">Its Impact on Class Participation Among International College Students at Payap University</p>
+      <div class="research-author-tag">
+        <span><i class="fas fa-user-edit"></i> Mr. Win Moe</span> • 
+        <span><i class="fas fa-university"></i> Payap University (IEC 493: Selected Topics)</span> • 
+        <span><i class="far fa-calendar-alt"></i> November 2025</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="research-body">
+    <p class="abstract-text">
+      <strong>Abstract:</strong> This Selected Topics study (IEC 493) investigates how off-task mobile technology and digital distraction influence classroom engagement across five academic programs at Payap University's International College. Employing a mixed-methods approach ($N=10$ survey, $N=5$ interviews), it balances the dual role of smartphones/laptops as both sources of non-academic distraction and essential learning tools for international students.
+    </p>
+    
+    <div class="research-details">
+      <div class="detail-item">
+        <i class="fas fa-bullseye"></i>
+        <span><strong>Objectives:</strong> Identify major sources of digital distraction, evaluate impacts on willingness to participate, and investigate student/instructor mitigation strategies.</span>
+      </div>
+      <div class="detail-item">
+        <i class="fas fa-vial"></i>
+        <span><strong>Methods:</strong> Mixed-method design combining structured Google Forms questionnaires ($N=10$) and in-depth thematic qualitative interviews ($N=5$).</span>
+      </div>
+      <div class="detail-item">
+        <i class="fas fa-check-circle"></i>
+        <span><strong>Key Findings:</strong> Social notifications distract 70% of students and reduce participation (60%); however, 80% utilize devices for translation/research, favoring self-regulation over strict bans.</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Action Row: Local Download & Direct Preview Links -->
+  <div class="research-footer">
+    <a href="Paper5.pdf" download="Digital_Distraction_In_Classroom_WinMoe.pdf" class="btn-research-pdf">
+      <i class="fas fa-download"></i> Download Full Paper (PDF)
+    </a>
+    <a href="Paper5.pdf" target="_blank" rel="noopener noreferrer" class="btn-research-view" aria-label="View PDF in browser">
+      <i class="fas fa-external-link-alt"></i> Preview PDF
+    </a>
+  </div>
+</article>
+
       </div>
     </section>
 
