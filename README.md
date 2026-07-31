@@ -1880,6 +1880,58 @@
         </article>
 
         <!-- RESEARCH PAPER 2: Payap University Academic Challenges -->
+<article class="research-card">
+  <div class="research-badge">
+    <i class="fas fa-file-pdf"></i> PDF Available
+  </div>
+  
+  <div class="research-header">
+    <div class="research-icon">
+      <i class="fas fa-book-reader"></i>
+    </div>
+    <div class="research-title-meta">
+      <h3>Academic Challenges among English Communication Arts Students</h3>
+      <p class="research-subtitle">Payap University Cohort Study</p>
+      <div class="research-author-tag">
+        <span><i class="fas fa-user-edit"></i> Win Moe</span> • 
+        <span><i class="fas fa-university"></i> Payap University</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="research-body">
+    <p class="abstract-text">
+      <strong>Abstract:</strong> Evaluates transactional linguistic barriers, adjustment timelines, and institutional delivery friction vectors facing international academic cohorts adjusting to premium English communication requirements within modern university modules.
+    </p>
+    
+    <div class="research-details">
+      <div class="detail-item">
+        <i class="fas fa-bullseye"></i>
+        <span><strong>Objectives:</strong> Isolate core socio-linguistic blocks impacting academic fluency in cross-cultural classrooms.</span>
+      </div>
+      <div class="detail-item">
+        <i class="fas fa-vial"></i>
+        <span><strong>Methods:</strong> Integrated mixed-method structural interviews, cohort questionnaires, and qualitative metrics.</span>
+      </div>
+      <div class="detail-item">
+        <i class="fas fa-check-circle"></i>
+        <span><strong>Key Findings:</strong> Strategic technology integration and structured peer-to-peer communication matrices optimize comprehension and student confidence.</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Action Row: PDF Download & Google Drive Preview -->
+  <div class="research-footer">
+    <a href="Paper2.pdf" download="Academic_Challenges_WinMoe.pdf" class="btn-research-pdf">
+      <i class="fas fa-download"></i> Download Full Paper (PDF)
+    </a>
+    <a href="https://drive.google.com/file/d/18jfIPvjjY4TsJDaNw9bIQ-WxpyzaJRi7/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-research-view" aria-label="View PDF in browser">
+      <i class="fas fa-external-link-alt"></i> Preview PDF
+    </a>
+  </div>
+</article>
+
+        <!-- RESEARCH PAPER 3: Payap University Academic Challenges -->
         <article class="research-card">
           <div class="research-badge secondary">
             <i class="fas fa-graduation-cap"></i> Institutional Case Study
