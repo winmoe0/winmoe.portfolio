@@ -1985,6 +1985,59 @@
   </div>
 </article>
 
+<!-- RESEARCH PAPER 4: Effectiveness of Online Learning at Mon National College -->
+<article class="research-card">
+  <div class="research-badge">
+    <i class="fas fa-file-pdf"></i> PDF Available
+  </div>
+  
+  <div class="research-header">
+    <div class="research-icon">
+      <i class="fas fa-laptop-house"></i>
+    </div>
+    <div class="research-title-meta">
+      <h3>Evaluating the Effectiveness of Online Learning on Academic Performance</h3>
+      <p class="research-subtitle">Mon National College Capstone Research Project</p>
+      <div class="research-author-tag">
+        <span><i class="fas fa-user-edit"></i> Mr. Win Moe</span> • 
+        <span><i class="fas fa-university"></i> Mon National College (EDT 206: Capstone Project)</span> • 
+        <span><i class="far fa-calendar-alt"></i> April 2024</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="research-body">
+    <p class="abstract-text">
+      <strong>Abstract:</strong> This Capstone Research Project evaluates the impact of online learning on the academic performance and achievement of Mon National College students post-pandemic. Utilizing a mixed-method design ($N=40$ stratified survey, $N=5$ qualitative interviews), the paper explores flexibility, technological infrastructure constraints, instructor support, and the mediating role of collaborative learning in digital education.
+    </p>
+    
+    <div class="research-details">
+      <div class="detail-item">
+        <i class="fas fa-bullseye"></i>
+        <span><strong>Objectives:</strong> Examine online learning effectiveness, identify key influencing factors, and evaluate the overall impact on student achievement.</span>
+      </div>
+      <div class="detail-item">
+        <i class="fas fa-vial"></i>
+        <span><strong>Methods:</strong> Mixed-methods combining stratified Likert-scale questionnaires ($N=40$) and thematic semi-structured interviews ($N=5$)[cite: 4].</span>
+      </div>
+      <div class="detail-item">
+        <i class="fas fa-check-circle"></i>
+        <span><strong>Key Findings:</strong> Online education offers scheduling flexibility[cite: 4], but success relies heavily on stable internet, student motivation[cite: 4], and active peer collaboration which significantly boosts engagement[cite: 4].</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Action Row: Local Download & Direct Preview Links -->
+  <div class="research-footer">
+    <a href="Paper4.pdf" download="Effectiveness_of_Online_Learning_MNC_WinMoe.pdf" class="btn-research-pdf">
+      <i class="fas fa-download"></i> Download Full Paper (PDF)
+    </a>
+    <a href="Paper4.pdf" target="_blank" rel="noopener noreferrer" class="btn-research-view" aria-label="View PDF in browser">
+      <i class="fas fa-external-link-alt"></i> Preview PDF
+    </a>
+  </div>
+</article>
+
       </div>
     </section>
 
