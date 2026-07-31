@@ -1932,6 +1932,59 @@
   </div>
 </article>
 
+<!-- RESEARCH PAPER 3: Academic Challenges Faced by ECA Students -->
+<article class="research-card">
+  <div class="research-badge">
+    <i class="fas fa-file-pdf"></i> PDF Available
+  </div>
+  
+  <div class="research-header">
+    <div class="research-icon">
+      <i class="fas fa-user-graduate"></i>
+    </div>
+    <div class="research-title-meta">
+      <h3>Academic Challenges Faced by English Communication Arts Students</h3>
+      <p class="research-subtitle">International College, Payap University Study</p>
+      <div class="research-author-tag">
+        <span><i class="fas fa-user-edit"></i> Mr. Win Moe</span> • 
+        <span><i class="fas fa-university"></i> Payap University (IEC 342: Research Methods)</span> • 
+        <span><i class="far fa-calendar-alt"></i> November 2025</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="research-body">
+    <p class="abstract-text">
+      <strong>Abstract:</strong> This study investigates the primary academic stressors and coping mechanisms of English Communication Arts (ECA) students at Payap University. Utilizing a mixed-methods approach ($N=15$ survey, $N=4$ interviews), the research highlights challenges in workload management, instructional clarity, and cross-cultural group project coordination.
+    </p>
+    
+    <div class="research-details">
+      <div class="detail-item">
+        <i class="fas fa-bullseye"></i>
+        <span><strong>Objectives:</strong> Identify specific academic stress vectors among international ECA students and evaluate student coping strategies.</span>
+      </div>
+      <div class="detail-item">
+        <i class="fas fa-vial"></i>
+        <span><strong>Methods:</strong> Mixed-methods design using Google Forms survey questionnaires ($N=15$) and multi-lingual qualitative interviews ($N=4$).</span>
+      </div>
+      <div class="detail-item">
+        <i class="fas fa-check-circle"></i>
+        <span><strong>Key Findings:</strong> Heavy course workloads, ambiguous lecturer instructions (33.3%), and group project frictions (46.7%) drive stress[cite: 3]; students adapt via AI tools (80%), digital schedules (66.7%), and peer support[cite: 3].</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Action Row: Local Download & Direct Preview Links -->
+  <div class="research-footer">
+    <a href="Paper3.pdf" download="Academic_Challenges_ECA_WinMoe.pdf" class="btn-research-pdf">
+      <i class="fas fa-download"></i> Download Full Paper (PDF)
+    </a>
+    <a href="Paper3.pdf" target="_blank" rel="noopener noreferrer" class="btn-research-view" aria-label="View PDF in browser">
+      <i class="fas fa-external-link-alt"></i> Preview PDF
+    </a>
+  </div>
+</article>
+
       </div>
     </section>
 
