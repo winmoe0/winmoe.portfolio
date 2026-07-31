@@ -1873,7 +1873,7 @@
             <a href="Paper1.pdf" download="Educational_Migration_and_Cultural_Adaptation_WinMoe.pdf" class="btn-research-pdf">
               <i class="fas fa-download"></i> Download Full Paper (PDF)
             </a>
-            <a href="https://drive.google.com/file/d/1lsmXCLcwIUpELOBtkBOOKrM96QZWDVJZ/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-research-view" aria-label="View PDF in browser">
+            <a href="Paper1.pdf" target="_blank" rel="noopener noreferrer" class="btn-research-view" aria-label="View PDF in browser">
   <i class="fas fa-external-link-alt"></i> Preview PDF
 </a>
           </div>
@@ -1926,7 +1926,7 @@
     <a href="Paper2.pdf" download="Mon_Content_Creators_Facebook_WinMoe.pdf" class="btn-research-pdf">
       <i class="fas fa-download"></i> Download Full Paper (PDF)
     </a>
-    <a href="https://drive.google.com/file/d/18jfIPvjjY4TsJDaNw9bIQ-WxpyzaJRi7/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-research-view" aria-label="View PDF in browser">
+    <a href="Paper2.pdf" target="_blank" rel="noopener noreferrer" class="btn-research-view" aria-label="View PDF in browser">
       <i class="fas fa-external-link-alt"></i> Preview PDF
     </a>
   </div>
