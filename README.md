@@ -1870,12 +1870,12 @@
 
           <!-- Action Row: PDF Download & Preview Links -->
           <div class="research-footer">
-            <a href="Myanmar Migrate Student.pdf" download="Educational_Migration_and_Cultural_Adaptation_WinMoe.pdf" class="btn-research-pdf">
+            <a href="Paper1.pdf" download="Educational_Migration_and_Cultural_Adaptation_WinMoe.pdf" class="btn-research-pdf">
               <i class="fas fa-download"></i> Download Full Paper (PDF)
             </a>
-            <a href="Myanmar Migrate Student.pdf" target="_blank" rel="noopener noreferrer" class="btn-research-view" aria-label="View PDF in browser">
-              <i class="fas fa-external-link-alt"></i> Preview PDF
-            </a>
+            <a href="https://drive.google.com/file/d/1lsmXCLcwIUpELOBtkBOOKrM96QZWDVJZ/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-research-view" aria-label="View PDF in browser">
+  <i class="fas fa-external-link-alt"></i> Preview PDF
+</a>
           </div>
         </article>
 
