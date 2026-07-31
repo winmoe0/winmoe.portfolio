@@ -393,15 +393,87 @@
     .timeline-card h4 { font-size: 0.95em; color: var(--secondary-color); font-weight: 500; margin-bottom: 10px; }
     .timeline-card p { font-size: 0.9em; color: var(--text-muted); line-height: 1.5; }
 
-    /* --- Skills Matrix Mechanics --- */
-    .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; }
-    .skills-category { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 16px; padding: 30px; transition: background var(--transition-speed); }
-    .skills-category h3 { font-size: 1.3em; margin-bottom: 25px; color: var(--primary-color); display: flex; align-items: center; gap: 10px; }
-    .skill-item { margin-bottom: 20px; }
-    .skill-info { display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 0.9em; font-weight: 500; }
-    .progress-bar { width: 100%; height: 6px; background-color: var(--border-color); border-radius: 3px; overflow: hidden; }
-    .progress { height: 100%; background: linear-gradient(90deg, var(--primary-color), var(--secondary-color)); width: 0; transition: width 1.5s cubic-bezier(0.1, 1, 0.1, 1); }
+    /* --- Professional Skills Layout (No Percentages) --- */
+.skills-grid { 
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+  gap: 40px; 
+}
 
+.skills-category { 
+  background: var(--card-bg); 
+  border: 1px solid var(--border-color); 
+  border-radius: 16px; 
+  padding: 30px; 
+  transition: background var(--transition-speed); 
+}
+
+.skills-category h3 { 
+  font-size: 1.3em; 
+  margin-bottom: 25px; 
+  color: var(--primary-color); 
+  display: flex; 
+  align-items: center; 
+  gap: 10px; 
+}
+
+.pro-skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.pro-skill-badge {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 20px;
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+  transition: all 0.3s ease;
+}
+
+[data-theme="dark"] .pro-skill-badge {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.pro-skill-badge:hover {
+  transform: translateX(6px);
+  border-color: var(--primary-color);
+  box-shadow: 0 6px 20px rgba(147, 51, 234, 0.08);
+}
+
+.pro-skill-badge i {
+  font-size: 1.4em;
+  color: var(--primary-color);
+  background: rgba(147, 51, 234, 0.1);
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.pro-skill-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.pro-skill-text strong {
+  font-size: 0.98em;
+  color: var(--text-main);
+  font-weight: 600;
+}
+
+.pro-skill-text span {
+  font-size: 0.82em;
+  color: var(--text-muted);
+  line-height: 1.3;
+}
     /* --- Certifications Strip --- */
     .certs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 15px; }
     .cert-item-card { background: var(--card-bg); border: 1px solid var(--border-color); padding: 16px 20px; border-radius: 8px; display: flex; align-items: center; gap: 15px; font-size: 0.9em; font-weight: 500; transition: background var(--transition-speed); }
@@ -1341,124 +1413,109 @@
       </div>
     </section>
       
-    <!-- Skills Section -->
-    <section id="skills" class="container-box scroll-reveal">
-      <div class="section-title">
-        <h2>Professional Skills</h2>
-        <div class="title-line"></div>
-      </div>
+    <!-- Professional Skills Section -->
+<section id="skills" class="container-box scroll-reveal">
+  <div class="section-title">
+    <h2>Professional Skills</h2>
+    <div class="title-line"></div>
+  </div>
 
-      <div class="skills-grid">
-        <!-- Teaching Skills -->
-        <div class="skills-category">
-          <h3><i class="fas fa-chalkboard-teacher"></i> Teaching & Education</h3>
-          <div class="skill-item">
-            <div class="skill-info">
-              <span>Lesson Planning & Instruction</span>
-              <span>95%</span>
-            </div>
-            <div class="progress-bar">
-              <div class="progress" data-width="95%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-info">
-              <span>Classroom Management</span>
-              <span>92%</span>
-            </div>
-            <div class="progress-bar">
-              <div class="progress" data-width="92%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-info">
-              <span>Curriculum Development</span>
-              <span>90%</span>
-            </div>
-            <div class="progress-bar">
-              <div class="progress" data-width="90%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-info">
-              <span>Online Teaching</span>
-              <span>96%</span>
-            </div>
-            <div class="progress-bar">
-              <div class="progress" data-width="96%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-info">
-              <span>Student Assessment & Feedback</span>
-              <span>90%</span>
-            </div>
-            <div class="progress-bar">
-              <div class="progress" data-width="90%"></div>
-            </div>
+  <div class="skills-grid">
+    <!-- Category 1: Teaching & Pedagogy -->
+    <div class="skills-category">
+      <h3><i class="fas fa-chalkboard-teacher"></i> Teaching & Pedagogy</h3>
+      
+      <div class="pro-skills-list">
+        <div class="pro-skill-badge">
+          <i class="fas fa-book-open"></i>
+          <div class="pro-skill-text">
+            <strong>Lesson Planning & Instruction</strong>
+            <span>Communicative Language Teaching & Task-Based Methods</span>
           </div>
         </div>
 
-        <!-- Digital Skills -->
-        <div class="skills-category">
-          <h3><i class="fas fa-laptop-code"></i> Digital & Creative Skills</h3>
-          <div class="skill-item">
-            <div class="skill-info">
-              <span>Canva & Graphic Design</span>
-              <span>95%</span>
-            </div>
-            <div class="progress-bar">
-              <div class="progress" data-width="95%"></div>
-            </div>
+        <div class="pro-skill-badge">
+          <i class="fas fa-users-cog"></i>
+          <div class="pro-skill-text">
+            <strong>Classroom Management</strong>
+            <span>Inclusive Environment & Student-Centered Focus</span>
           </div>
-          <div class="skill-item">
-            <div class="skill-info">
-              <span>Video Editing (CapCut & Premiere Pro)</span>
-              <span>90%</span>
-            </div>
-            <div class="progress-bar">
-              <div class="progress" data-width="90%"></div>
-            </div>
+        </div>
+
+        <div class="pro-skill-badge">
+          <i class="fas fa-layer-group"></i>
+          <div class="pro-skill-text">
+            <strong>Curriculum Development</strong>
+            <span>Syllabus Design & Materials Adaptation</span>
           </div>
-          <div class="skill-item">
-            <div class="skill-info">
-              <span>Zoom & Google Workspace</span>
-              <span>95%</span>
-            </div>
-            <div class="progress-bar">
-              <div class="progress" data-width="95%"></div>
-            </div>
+        </div>
+
+        <div class="pro-skill-badge">
+          <i class="fas fa-laptop-house"></i>
+          <div class="pro-skill-text">
+            <strong>Online & Blended Learning</strong>
+            <span>Synchronous & Asynchronous Teaching Architecture</span>
           </div>
-          <div class="skill-item">
-            <div class="skill-info">
-              <span>Content Creation & Social Media</span>
-              <span>94%</span>
-            </div>
-            <div class="progress-bar">
-              <div class="progress" data-width="94%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-info">
-              <span>Photography</span>
-              <span>85%</span>
-            </div>
-            <div class="progress-bar">
-              <div class="progress" data-width="85%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-info">
-              <span>AI Tools for Education</span>
-              <span>90%</span>
-            </div>
-            <div class="progress-bar">
-              <div class="progress" data-width="90%"></div>
-            </div>
+        </div>
+
+        <div class="pro-skill-badge">
+          <i class="fas fa-clipboard-check"></i>
+          <div class="pro-skill-text">
+            <strong>Student Assessment & Feedback</strong>
+            <span>Formative & Summative Performance Evaluation</span>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+
+    <!-- Category 2: Digital & Creative Technologies -->
+    <div class="skills-category">
+      <h3><i class="fas fa-laptop-code"></i> Digital & Media Production</h3>
+      
+      <div class="pro-skills-list">
+        <div class="pro-skill-badge">
+          <i class="fas fa-palette"></i>
+          <div class="pro-skill-text">
+            <strong>Canva & Graphic Design</strong>
+            <span>Educational Infographics & Brand Assets</span>
+          </div>
+        </div>
+
+        <div class="pro-skill-badge">
+          <i class="fas fa-film"></i>
+          <div class="pro-skill-text">
+            <strong>Video Editing & Post-Production</strong>
+            <span>CapCut & Premiere Pro (Short-Form / Tutorials)</span>
+          </div>
+        </div>
+
+        <div class="pro-skill-badge">
+          <i class="fas fa-robot"></i>
+          <div class="pro-skill-text">
+            <strong>AI Tools for Education</strong>
+            <span>Generative Learning Materials & AI-Assisted Workflows</span>
+          </div>
+        </div>
+
+        <div class="pro-skill-badge">
+          <i class="fas fa-share-alt"></i>
+          <div class="pro-skill-text">
+            <strong>Content Strategy & Social Media</strong>
+            <span>Educational Outreach & Community Management</span>
+          </div>
+        </div>
+
+        <div class="pro-skill-badge">
+          <i class="fas fa-desktop"></i>
+          <div class="pro-skill-text">
+            <strong>E-Learning Tools & LMS</strong>
+            <span>Zoom, Google Workspace & Virtual Collaboration</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
     <!-- Professional Certifications Grid -->
     <section id="certifications" class="container-box scroll-reveal">
