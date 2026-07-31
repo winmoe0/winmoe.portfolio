@@ -1879,7 +1879,7 @@
           </div>
         </article>
 
-        <!-- RESEARCH PAPER 2: Payap University Academic Challenges -->
+     <!-- RESEARCH PAPER 2: Mon Content Creators on Facebook -->
 <article class="research-card">
   <div class="research-badge">
     <i class="fas fa-file-pdf"></i> PDF Available
@@ -1887,42 +1887,43 @@
   
   <div class="research-header">
     <div class="research-icon">
-      <i class="fas fa-book-reader"></i>
+      <i class="fas fa-desktop"></i>
     </div>
     <div class="research-title-meta">
-      <h3>Academic Challenges among English Communication Arts Students</h3>
-      <p class="research-subtitle">Payap University Cohort Study</p>
+      <h3>Creating Content, Building Audiences, Earning Income</h3>
+      <p class="research-subtitle">Challenges and Opportunities for Mon Content Creators on Facebook</p>
       <div class="research-author-tag">
-        <span><i class="fas fa-user-edit"></i> Win Moe</span> • 
-        <span><i class="fas fa-university"></i> Payap University</span>
+        <span><i class="fas fa-user-edit"></i> Mr. Win Moe</span> • 
+        <span><i class="fas fa-university"></i> Payap University (Department of English Communication Arts)</span> • 
+        <span><i class="far fa-calendar-alt"></i> April 2026</span>
       </div>
     </div>
   </div>
 
   <div class="research-body">
     <p class="abstract-text">
-      <strong>Abstract:</strong> Evaluates transactional linguistic barriers, adjustment timelines, and institutional delivery friction vectors facing international academic cohorts adjusting to premium English communication requirements within modern university modules.
+      <strong>Abstract:</strong> This Independent Study (IEC 491) examines how Mon content creators utilize Facebook for digital content creation, audience engagement, and monetization[cite: 2]. Utilizing a mixed-method design ($N=30$ survey, $N=3$ qualitative interviews)[cite: 2], the paper explores digital entrepreneurship, cultural representation, algorithmic visibility challenges, and financial stability in the creator economy[cite: 2].
     </p>
     
     <div class="research-details">
       <div class="detail-item">
         <i class="fas fa-bullseye"></i>
-        <span><strong>Objectives:</strong> Isolate core socio-linguistic blocks impacting academic fluency in cross-cultural classrooms.</span>
+        <span><strong>Objectives:</strong> Analyze content production practices, evaluate audience engagement strategies, and investigate monetization challenges/opportunities[cite: 2].</span>
       </div>
       <div class="detail-item">
         <i class="fas fa-vial"></i>
-        <span><strong>Methods:</strong> Integrated mixed-method structural interviews, cohort questionnaires, and qualitative metrics.</span>
+        <span><strong>Methods:</strong> Mixed-methods combining structured Google Forms questionnaires ($N=30$) and in-depth thematic interviews ($N=3$)[cite: 2].</span>
       </div>
       <div class="detail-item">
         <i class="fas fa-check-circle"></i>
-        <span><strong>Key Findings:</strong> Strategic technology integration and structured peer-to-peer communication matrices optimize comprehension and student confidence.</span>
+        <span><strong>Key Findings:</strong> 87% plan content and 90% prioritize engagement for visibility[cite: 2]; 75% use monetization tools, but only 30% achieve stable income due to algorithm changes (82%) and burnout (68%)[cite: 2].</span>
       </div>
     </div>
   </div>
 
-  <!-- Action Row: PDF Download & Google Drive Preview -->
+  <!-- Action Row: Local Download & Google Drive Preview -->
   <div class="research-footer">
-    <a href="Paper2.pdf" download="Academic_Challenges_WinMoe.pdf" class="btn-research-pdf">
+    <a href="Paper2.pdf" download="Mon_Content_Creators_Facebook_WinMoe.pdf" class="btn-research-pdf">
       <i class="fas fa-download"></i> Download Full Paper (PDF)
     </a>
     <a href="https://drive.google.com/file/d/18jfIPvjjY4TsJDaNw9bIQ-WxpyzaJRi7/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-research-view" aria-label="View PDF in browser">
@@ -1930,52 +1931,6 @@
     </a>
   </div>
 </article>
-
-        <!-- RESEARCH PAPER 3: Payap University Academic Challenges -->
-        <article class="research-card">
-          <div class="research-badge secondary">
-            <i class="fas fa-graduation-cap"></i> Institutional Case Study
-          </div>
-          
-          <div class="research-header">
-            <div class="research-icon">
-              <i class="fas fa-book-reader"></i>
-            </div>
-            <div class="research-title-meta">
-              <h3>Academic Challenges among English Communication Arts Students</h3>
-              <p class="research-subtitle">Payap University Cohort Study</p>
-              <div class="research-author-tag">
-                <span><i class="fas fa-user-edit"></i> Win Moe</span> • 
-                <span><i class="fas fa-university"></i> Payap University</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="research-body">
-            <p class="abstract-text">
-              <strong>Abstract:</strong> Evaluates transactional linguistic barriers, adjustment timelines, and institutional delivery friction vectors facing international academic cohorts adjusting to premium English communication requirements within modern university modules.
-            </p>
-            
-            <div class="research-details">
-              <div class="detail-item">
-                <i class="fas fa-bullseye"></i>
-                <span><strong>Objectives:</strong> Isolate core socio-linguistic blocks impacting academic fluency in cross-cultural classrooms.</span>
-              </div>
-              <div class="detail-item">
-                <i class="fas fa-vial"></i>
-                <span><strong>Methods:</strong> Integrated mixed-method structural interviews, cohort questionnaires, and qualitative metrics.</span>
-              </div>
-              <div class="detail-item">
-                <i class="fas fa-check-circle"></i>
-                <span><strong>Key Findings:</strong> Strategic technology integration and structured peer-to-peer communication matrices optimize comprehension and student confidence.</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="research-footer">
-            <span class="paper-status-tag"><i class="fas fa-clock"></i> PDF Publication Pending</span>
-          </div>
-        </article>
 
       </div>
     </section>
