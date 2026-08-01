@@ -1793,6 +1793,7 @@
       <div class="portfolio-filters">
         <button class="filter-btn" data-filter="teaching">Teaching</button>
         <button class="filter-btn" data-filter="media">Media & Content</button>
+         <button class="filter-btn" data-filter="media">Volunteering & Community Service</button>
         <button class="filter-btn" data-filter="Award">Awards & Recognitions</button>
         <button class="filter-btn active" data-filter="all">All Projects</button>
       </div>
@@ -1893,6 +1894,31 @@
             <p>The best Presenter at English Communication Program, Payap University</p>
           </div>
         </div>
+
+        <!-- VOLUNTEERING & COMMUNITY SERVICE ITEMS -->
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V1.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+1'">
+      <div class="portfolio-overlay">
+        <h4>Community Outreach & Volunteering</h4>
+        <p>Educational support & youth development initiatives</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V2.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+2'">
+      <div class="portfolio-overlay">
+        <h4>Humanitarian & Community Service</h4>
+        <p>G60–99 Mon Charity & local outreach programs</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V3.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <div class="portfolio-overlay">
+        <h4>Intercultural University Volunteering</h4>
+        <p>Student engagement & event coordination</p>
+      </div>
+    </div>
 
         <div class="portfolio-item" data-category="Award">
           <img src="A4.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
