@@ -2257,6 +2257,59 @@
   </div>
 </article>
 
+<!-- RESEARCH PAPER 7: Malaria Prevalence in Nyi Sar -->
+<article class="research-card">
+  <div class="research-badge">
+    <i class="fas fa-file-pdf"></i> PDF Available
+  </div>
+  
+  <div class="research-header">
+    <div class="research-icon">
+      <i class="fas fa-notes-medical"></i>
+    </div>
+    <div class="research-title-meta">
+      <h3>A Multidimensional Examination of Malaria Prevalence</h3>
+      <p class="research-subtitle">Comparative Study of Mon National High School and Mon National College Students in Nyi Sar</p>
+      <div class="research-author-tag">
+        <span><i class="fas fa-user-edit"></i> Mr. Win Moe</span> • 
+        <span><i class="fas fa-university"></i> Mon National College (GEN-104: Research Methodology)</span> • 
+        <span><i class="far fa-calendar-alt"></i> September 2023</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="research-body">
+    <p class="abstract-text">
+      <strong>Abstract:</strong> This research project examines the environmental, socioeconomic, and behavioral factors driving malaria infection rates among students in Nyi Sar, Myanmar. Utilizing a mixed-methods design ($N=40$ stratified survey, $N=8$ qualitative interviews), the study compares infection trends between High School and College cohorts to inform school-based health education and vector control programs.
+    </p>
+    
+    <div class="research-details">
+      <div class="detail-item">
+        <i class="fas fa-bullseye"></i>
+        <span><strong>Objectives:</strong> Measure malaria prevalence differences, evaluate environmental exposure vectors (forests/streams), and assess preventive ITN usage.</span>
+      </div>
+      <div class="detail-item">
+        <i class="fas fa-vial"></i>
+        <span><strong>Methods:</strong> Mixed-methods combining structured questionnaires ($N=40$) and semi-structured qualitative interviews ($N=8$).</span>
+      </div>
+      <div class="detail-item">
+        <i class="fas fa-check-circle"></i>
+        <span><strong>Key Findings:</strong> High school students experienced higher malaria rates (75%) than college students (45%), driven by proximity to forest breeding sites (70%), limited financial resources for repellents (55%), and inconsistent bed net usage (42%).</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Action Row: Local Download & Direct Preview Links -->
+  <div class="research-footer">
+    <a href="Paper7.pdf" download="Malaria_Prevalence_Nyi_Sar_WinMoe.pdf" class="btn-research-pdf">
+      <i class="fas fa-download"></i> Download Full Paper (PDF)
+    </a>
+    <a href="Paper7.pdf" target="_blank" rel="noopener noreferrer" class="btn-research-view" aria-label="View PDF in browser">
+      <i class="fas fa-external-link-alt"></i> Preview PDF
+    </a>
+  </div>
+</article>
+
       </div>
     </section>
 
