@@ -1899,6 +1899,170 @@
       </div>
     </div>
 
+       <div class="portfolio-item" data-category="volunteer">
+      <img src="V4.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+1'">
+      <div class="portfolio-overlay">
+        <h4>Community Outreach & Volunteering</h4>
+        <p>Educational support & youth development initiatives</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V5.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+2'">
+      <div class="portfolio-overlay">
+        <h4>Humanitarian & Community Service</h4>
+        <p>G60–99 Mon Charity & local outreach programs</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V6.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <div class="portfolio-overlay">
+        <h4>Intercultural University Volunteering</h4>
+        <p>Student engagement & event coordination</p>
+      </div>
+    </div>
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V7.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+1'">
+      <div class="portfolio-overlay">
+        <h4>Community Outreach & Volunteering</h4>
+        <p>Educational support & youth development initiatives</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V8.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+2'">
+      <div class="portfolio-overlay">
+        <h4>Humanitarian & Community Service</h4>
+        <p>G60–99 Mon Charity & local outreach programs</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V9.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <div class="portfolio-overlay">
+        <h4>Intercultural University Volunteering</h4>
+        <p>Student engagement & event coordination</p>
+      </div>
+    </div>
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V10.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+1'">
+      <div class="portfolio-overlay">
+        <h4>Community Outreach & Volunteering</h4>
+        <p>Educational support & youth development initiatives</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V11.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+2'">
+      <div class="portfolio-overlay">
+        <h4>Humanitarian & Community Service</h4>
+        <p>G60–99 Mon Charity & local outreach programs</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V12.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <div class="portfolio-overlay">
+        <h4>Intercultural University Volunteering</h4>
+        <p>Student engagement & event coordination</p>
+      </div>
+    </div>
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V13.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+1'">
+      <div class="portfolio-overlay">
+        <h4>Community Outreach & Volunteering</h4>
+        <p>Educational support & youth development initiatives</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V14.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+2'">
+      <div class="portfolio-overlay">
+        <h4>Humanitarian & Community Service</h4>
+        <p>G60–99 Mon Charity & local outreach programs</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V15.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <div class="portfolio-overlay">
+        <h4>Intercultural University Volunteering</h4>
+        <p>Student engagement & event coordination</p>
+      </div>
+    </div>
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V16.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+1'">
+      <div class="portfolio-overlay">
+        <h4>Community Outreach & Volunteering</h4>
+        <p>Educational support & youth development initiatives</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V17.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+2'">
+      <div class="portfolio-overlay">
+        <h4>Humanitarian & Community Service</h4>
+        <p>G60–99 Mon Charity & local outreach programs</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V18.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <div class="portfolio-overlay">
+        <h4>Intercultural University Volunteering</h4>
+        <p>Student engagement & event coordination</p>
+      </div>
+    </div>
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V19.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+1'">
+      <div class="portfolio-overlay">
+        <h4>Community Outreach & Volunteering</h4>
+        <p>Educational support & youth development initiatives</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V20.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+2'">
+      <div class="portfolio-overlay">
+        <h4>Humanitarian & Community Service</h4>
+        <p>G60–99 Mon Charity & local outreach programs</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V21.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <div class="portfolio-overlay">
+        <h4>Intercultural University Volunteering</h4>
+        <p>Student engagement & event coordination</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V22.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <div class="portfolio-overlay">
+        <h4>Intercultural University Volunteering</h4>
+        <p>Student engagement & event coordination</p>
+      </div>
+    </div>
+    
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V23.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <div class="portfolio-overlay">
+        <h4>Intercultural University Volunteering</h4>
+        <p>Student engagement & event coordination</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V24.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <div class="portfolio-overlay">
+        <h4>Intercultural University Volunteering</h4>
+        <p>Student engagement & event coordination</p>
+      </div>
+    </div>
+ 
+
     <!-- PRACTICAL ACTIVITY & PROJECT ITEMS -->
     <div class="portfolio-item" data-category="Activity">
       <img src="Ac1.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+1'">
