@@ -1784,118 +1784,97 @@
       </div>
     </section>
 
-    <!-- Portfolio Filter Showcase Grid -->
-    <section id="portfolio" class="container-box scroll-reveal">
-      <div class="section-title">
-        <h2>Portfolio Showcase</h2>
-        <div class="title-line"></div>
+   <!-- Portfolio Filter Showcase Grid -->
+<section id="portfolio" class="container-box scroll-reveal">
+  <div class="section-title">
+    <h2>Portfolio Showcase</h2>
+    <div class="title-line"></div>
+  </div>
+  <div class="portfolio-filters">
+    <button class="filter-btn" data-filter="teaching">Teaching</button>
+    <button class="filter-btn" data-filter="media">Media & Content</button>
+    <button class="filter-btn" data-filter="volunteer">Volunteering & Community Service</button>
+    <button class="filter-btn" data-filter="Activity">Practical Activity and Project</button>
+    <button class="filter-btn" data-filter="Award">Awards & Recognitions</button>
+    <button class="filter-btn active" data-filter="all">All Projects</button>
+  </div>
+  <div class="portfolio-grid">
+    
+    <!-- TEACHING ITEMS -->
+    <div class="portfolio-item" data-category="teaching">
+      <img src="T4.PNG" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
+      <div class="portfolio-overlay">
+        <h4>English Level 4: Online Class</h4>
+        <p>Practicing in English Speaking with Tongue Twisters</p>
       </div>
-      <div class="portfolio-filters">
-        <button class="filter-btn" data-filter="teaching">Teaching</button>
-        <button class="filter-btn" data-filter="media">Media & Content</button>
-         <button class="filter-btn" data-filter="media">Volunteering & Community Service</button>
-        <button class="filter-btn" data-filter="Award">Awards & Recognitions</button>
-        <button class="filter-btn active" data-filter="all">All Projects</button>
+    </div>
+
+    <div class="portfolio-item" data-category="teaching">
+      <img src="T5.PNG" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
+      <div class="portfolio-overlay">
+        <h4>Level 4: English Online Class</h4>
+        <p>Making a conversation in English and Reading</p>
       </div>
-      <div class="portfolio-grid">
-        
-        <div class="portfolio-item" data-category="teaching">
-          <img src="T4.PNG" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
-          <div class="portfolio-overlay">
-            <h4>English Level 4: Online Class</h4>
-            <p>Practicing in English Speaking with Tongue Twisters</p>
-          </div>
-        </div>
+    </div>
 
-        <div class="portfolio-item" data-category="teaching">
-          <img src="T5.PNG" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
-          <div class="portfolio-overlay">
-            <h4>Level 4: English Online Class</h4>
-            <p>Making a conversation in English and Reading</p>
-          </div>
-        </div>
+    <div class="portfolio-item" data-category="teaching">
+      <img src="T2.jpg" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
+      <div class="portfolio-overlay">
+        <h4>English Online Class</h4>
+        <p>Inclusive and Supportive class with multiple joyful activities.</p>
+      </div>
+    </div>
 
-        <div class="portfolio-item" data-category="teaching">
-          <img src="T2.jpg" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
-          <div class="portfolio-overlay">
-            <h4>English Online Class</h4>
-            <p>Inclusive and Supportive class with multiple joyful activities.</p>
-          </div>
-        </div>
+    <div class="portfolio-item" data-category="teaching">
+      <img src="T1.jpg" alt="Online English Class" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
+      <div class="portfolio-overlay">
+        <h4>English Online Class</h4>
+        <p>Student-centered online language instruction architectures via Zoom</p>
+      </div>
+    </div>
 
-        <div class="portfolio-item" data-category="teaching">
-          <img src="T1.jpg" alt="Online English Class" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
-          <div class="portfolio-overlay">
-            <h4>English Online Class</h4>
-            <p>Student-centered online language instruction architectures via Zoom</p>
-          </div>
-        </div>
+    <div class="portfolio-item" data-category="teaching">
+      <img src="T3.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
+      <div class="portfolio-overlay">
+        <h4>Onsite Class</h4>
+        <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
+      </div>
+    </div>
 
-        <div class="portfolio-item" data-category="teaching">
-          <img src="T3.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
-          <div class="portfolio-overlay">
-            <h4>Onsite Class</h4>
-            <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
-          </div>
-        </div>
+    <!-- MEDIA ITEMS -->
+    <div class="portfolio-item" data-category="media">
+      <img src="2vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
+      <div class="portfolio-overlay">
+        <h4>AI-Assisted Educational Media</h4>
+        <p>2025 • AI Generative Content and CapCut Edition</p>
+      </div>
+    </div>
 
-        <div class="portfolio-item" data-category="media">
-          <img src="2vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
-          <div class="portfolio-overlay">
-            <h4>AI-Assisted Educational Media</h4>
-            <p>2025 • AI Generative Content and CapCut Edition</p>
-          </div>
-        </div>
+    <div class="portfolio-item" data-category="media">
+      <img src="1vp.png" alt="Content Video Creation" onerror="this.src='https://via.placeholder.com/400x300?text=English+Infographic'">
+      <div class="portfolio-overlay">
+        <h4>AI Knowledgeable Content Creation</h4>
+        <p>2026 • Video Editing</p>
+      </div>
+    </div> 
 
-        <div class="portfolio-item" data-category="media">
-          <img src="1vp.png" alt="Content Video Creation" onerror="this.src='https://via.placeholder.com/400x300?text=English+Infographic'">
-          <div class="portfolio-overlay">
-            <h4>AI Knowledgeable Content Creation</h4>
-            <p>2026 • Video Editing</p>
-          </div>
-        </div> 
+    <div class="portfolio-item" data-category="media">
+      <img src="3vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
+      <div class="portfolio-overlay">
+        <h4>AI-Assisted Educational Media</h4>
+        <p>2024 • AI Generative Content and CapCut Edition</p>
+      </div>
+    </div>
 
-        <div class="portfolio-item" data-category="media">
-          <img src="3vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
-          <div class="portfolio-overlay">
-            <h4>AI-Assisted Educational Media</h4>
-            <p>2024 • AI Generative Content and CapCut Edition</p>
-          </div>
-        </div>
+    <div class="portfolio-item" data-category="media">
+      <img src="4vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
+      <div class="portfolio-overlay">
+        <h4>AI-Assisted Educational Media</h4>
+        <p>2026 • AI Generative Content and CapCut Edition</p>
+      </div>
+    </div>
 
-        <div class="portfolio-item" data-category="media">
-          <img src="4vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
-          <div class="portfolio-overlay">
-            <h4>AI-Assisted Educational Media</h4>
-            <p>2026 • AI Generative Content and CapCut Edition</p>
-          </div>
-        </div>
-
-        <div class="portfolio-item" data-category="Award">
-          <img src="A1.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
-          <div class="portfolio-overlay">
-            <h4>Award</h4>
-            <p>PYU Go Green: Video Contest_Prize</p>
-          </div>
-        </div>
-
-        <div class="portfolio-item" data-category="Award">
-          <img src="A2.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
-          <div class="portfolio-overlay">
-            <h4>Award</h4>
-            <p>Video Contest of My Major: My Program Of Payap_Winner</p>
-          </div>
-        </div>
-
-        <div class="portfolio-item" data-category="Award">
-          <img src="A3.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
-          <div class="portfolio-overlay">
-            <h4>Award</h4>
-            <p>The best Presenter at English Communication Program, Payap University</p>
-          </div>
-        </div>
-
-        <!-- VOLUNTEERING & COMMUNITY SERVICE ITEMS -->
+    <!-- VOLUNTEERING & COMMUNITY SERVICE ITEMS -->
     <div class="portfolio-item" data-category="volunteer">
       <img src="V1.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+1'">
       <div class="portfolio-overlay">
@@ -1920,40 +1899,90 @@
       </div>
     </div>
 
-        <div class="portfolio-item" data-category="Award">
-          <img src="A4.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
-          <div class="portfolio-overlay">
-            <h4>Award</h4>
-            <p>Outstanding Award 2024, Payap University</p>
-          </div>
-        </div>
-
-        <div class="portfolio-item" data-category="Award">
-          <img src="A5.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
-          <div class="portfolio-overlay">
-            <h4>Award</h4>
-            <p>Outstanding Award 2023, Mon National College, Myanmar</p>
-          </div>
-        </div>
-
-        <div class="portfolio-item" data-category="Award">
-          <img src="A6.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
-          <div class="portfolio-overlay">
-            <h4>Award</h4>
-            <p>The Talent Show, Payap University</p>
-          </div>
-        </div>
-
-        <div class="portfolio-item" data-category="Award">
-          <img src="A7.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
-          <div class="portfolio-overlay">
-            <h4>Award</h4>
-            <p>Master of Ceremony MC at International Day 2026, Payap University</p>
-          </div>
-        </div>
-
+    <!-- PRACTICAL ACTIVITY & PROJECT ITEMS -->
+    <div class="portfolio-item" data-category="Activity">
+      <img src="Ac1.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+1'">
+      <div class="portfolio-overlay">
+        <h4>Practical Activity & Academic Project</h4>
+        <p>Hands-on educational workshop & team collaboration</p>
       </div>
-    </section>
+    </div>
+
+    <div class="portfolio-item" data-category="Activity">
+      <img src="Ac2.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+2'">
+      <div class="portfolio-overlay">
+        <h4>Interactive Learning Project</h4>
+        <p>Educational technology implementation & practical tasks</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="Activity">
+      <img src="Ac3.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+3'">
+      <div class="portfolio-overlay">
+        <h4>Field Activity & Applied Project</h4>
+        <p>Real-world project execution & communicative activities</p>
+      </div>
+    </div>
+
+    <!-- AWARDS & RECOGNITION ITEMS -->
+    <div class="portfolio-item" data-category="Award">
+      <img src="A1.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <div class="portfolio-overlay">
+        <h4>Award</h4>
+        <p>PYU Go Green: Video Contest_Prize</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="Award">
+      <img src="A2.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <div class="portfolio-overlay">
+        <h4>Award</h4>
+        <p>Video Contest of My Major: My Program Of Payap_Winner</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="Award">
+      <img src="A3.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <div class="portfolio-overlay">
+        <h4>Award</h4>
+        <p>The best Presenter at English Communication Program, Payap University</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="Award">
+      <img src="A4.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <div class="portfolio-overlay">
+        <h4>Award</h4>
+        <p>Outstanding Award 2024, Payap University</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="Award">
+      <img src="A5.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <div class="portfolio-overlay">
+        <h4>Award</h4>
+        <p>Outstanding Award 2023, Mon National College, Myanmar</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="Award">
+      <img src="A6.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <div class="portfolio-overlay">
+        <h4>Award</h4>
+        <p>The Talent Show, Payap University</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="Award">
+      <img src="A7.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <div class="portfolio-overlay">
+        <h4>Award</h4>
+        <p>Master of Ceremony MC at International Day 2026, Payap University</p>
+      </div>
+    </div>
+
+  </div>
+</section>
 
     <!-- Academic Research Section Focus -->
     <section id="research" class="container-box scroll-reveal">
