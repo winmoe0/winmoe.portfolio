@@ -539,6 +539,20 @@
     .portfolio-filters { display: flex; justify-content: center; gap: 15px; margin-bottom: 35px; flex-wrap: wrap; }
     .filter-btn { padding: 8px 20px; border-radius: 20px; border: 1px solid var(--border-color); background: transparent; color: var(--text-main); cursor: pointer; transition: all var(--transition-speed); font-size: 0.9em; }
     .filter-btn.active, .filter-btn:hover { background-color: var(--primary-color); color: white; border-color: var(--primary-color); }
+
+    .portfolio-note {
+    max-width: 900px;
+    margin: 16px auto 28px;
+    padding: 12px 20px;
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+    text-align: center;
+    font-style: italic;
+    border-left: 4px solid var(--primary-color);
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 8px;
+}
     
     .portfolio-grid {
       display: grid;
@@ -1788,8 +1802,12 @@
 <section id="portfolio" class="container-box scroll-reveal">
   <div class="section-title">
     <h2>Portfolio Showcase</h2>
+    <p class="portfolio-note">
+    I am grateful to the professors, teachers, colleagues, students, and friends who have been part of the learning, teaching, research, and volunteer experiences featured in this portfolio. The photographs are shared to highlight meaningful experiences and collaborations and are not intended to identify individuals.
+</p>
     <div class="title-line"></div>
   </div>
+  
   <div class="portfolio-filters">
     <button class="filter-btn" data-filter="teaching">Teaching</button>
     <button class="filter-btn" data-filter="media">Media & Content</button>
