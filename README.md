@@ -1981,6 +1981,46 @@
       </div>
     </div>
 
+        <div class="portfolio-item" data-category="Award">
+      <img src="A8.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <div class="portfolio-overlay">
+        <h4>Graduated Associate of Arts in Education in Teaching</h4>
+        <p>Mon National College, 2024</p>
+      </div>
+    </div>
+
+     <div class="portfolio-item" data-category="Award">
+      <img src="A9.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <div class="portfolio-overlay">
+        <h4>The Best Presenter at English Communication Seminar, 2025</h4>
+        <p>The International College, Payap University</p>
+      </div>
+    </div>
+
+     <div class="portfolio-item" data-category="Award">
+      <img src="A10.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <div class="portfolio-overlay">
+        <h4>Appreciation of Participation at EC Seminar, 2024</h4>
+        <p>The International College, Payap University</p>
+      </div>
+    </div>
+
+     <div class="portfolio-item" data-category="Award">
+      <img src="A11.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <div class="portfolio-overlay">
+        <h4>Second Prize, The Whole English Program </h4>
+        <p>Mon National Education Committee (MNEC),2023</p>
+      </div>
+    </div>
+
+ <div class="portfolio-item" data-category="Award">
+      <img src="A12.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <div class="portfolio-overlay">
+        <h4>Second Prize,Writing Novel Competition</h4>
+        <p>Mon National College, 2024</p>
+      </div>
+    </div>
+
   </div>
 </section>
 
