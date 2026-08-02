@@ -2088,6 +2088,143 @@
       </div>
     </div>
 
+
+    <div class="portfolio-item" data-category="Activity">
+      <img src="Ac4.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+1'">
+      <div class="portfolio-overlay">
+        <h4>Practical Activity & Academic Project</h4>
+        <p>Hands-on educational workshop & team collaboration</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="Activity">
+      <img src="Ac5.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+2'">
+      <div class="portfolio-overlay">
+        <h4>Interactive Learning Project</h4>
+        <p>Educational technology implementation & practical tasks</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="Activity">
+      <img src="Ac6.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+3'">
+      <div class="portfolio-overlay">
+        <h4>Field Activity & Applied Project</h4>
+        <p>Real-world project execution & communicative activities</p>
+      </div>
+    </div>
+
+     <div class="portfolio-item" data-category="Activity">
+      <img src="Ac7.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+1'">
+      <div class="portfolio-overlay">
+        <h4>Practical Activity & Academic Project</h4>
+        <p>Hands-on educational workshop & team collaboration</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="Activity">
+      <img src="Ac8.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+2'">
+      <div class="portfolio-overlay">
+        <h4>Interactive Learning Project</h4>
+        <p>Educational technology implementation & practical tasks</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="Activity">
+      <img src="Ac9.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+3'">
+      <div class="portfolio-overlay">
+        <h4>Field Activity & Applied Project</h4>
+        <p>Real-world project execution & communicative activities</p>
+      </div>
+    </div>
+
+     <div class="portfolio-item" data-category="Activity">
+      <img src="Ac10.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+1'">
+      <div class="portfolio-overlay">
+        <h4>Practical Activity & Academic Project</h4>
+        <p>Hands-on educational workshop & team collaboration</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="Activity">
+      <img src="Ac11.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+2'">
+      <div class="portfolio-overlay">
+        <h4>Interactive Learning Project</h4>
+        <p>Educational technology implementation & practical tasks</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="Activity">
+      <img src="Ac12.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+3'">
+      <div class="portfolio-overlay">
+        <h4>Field Activity & Applied Project</h4>
+        <p>Real-world project execution & communicative activities</p>
+      </div>
+    </div>
+
+     <div class="portfolio-item" data-category="Activity">
+      <img src="Ac13.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+1'">
+      <div class="portfolio-overlay">
+        <h4>Practical Activity & Academic Project</h4>
+        <p>Hands-on educational workshop & team collaboration</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="Activity">
+      <img src="Ac14.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+2'">
+      <div class="portfolio-overlay">
+        <h4>Interactive Learning Project</h4>
+        <p>Educational technology implementation & practical tasks</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="Activity">
+      <img src="Ac15.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+3'">
+      <div class="portfolio-overlay">
+        <h4>Field Activity & Applied Project</h4>
+        <p>Real-world project execution & communicative activities</p>
+      </div>
+    </div>
+
+     <div class="portfolio-item" data-category="Activity">
+      <img src="Ac16.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+1'">
+      <div class="portfolio-overlay">
+        <h4>Practical Activity & Academic Project</h4>
+        <p>Hands-on educational workshop & team collaboration</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="Activity">
+      <img src="Ac17.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+2'">
+      <div class="portfolio-overlay">
+        <h4>Interactive Learning Project</h4>
+        <p>Educational technology implementation & practical tasks</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="Activity">
+      <img src="Ac18.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+3'">
+      <div class="portfolio-overlay">
+        <h4>Field Activity & Applied Project</h4>
+        <p>Real-world project execution & communicative activities</p>
+      </div>
+    </div>
+
+     <div class="portfolio-item" data-category="Activity">
+      <img src="Ac19.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+1'">
+      <div class="portfolio-overlay">
+        <h4>Practical Activity & Academic Project</h4>
+        <p>Hands-on educational workshop & team collaboration</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="Activity">
+      <img src="Ac20.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+2'">
+      <div class="portfolio-overlay">
+        <h4>Interactive Learning Project</h4>
+        <p>Educational technology implementation & practical tasks</p>
+      </div>
+    </div>
+
     <!-- AWARDS & RECOGNITION ITEMS -->
     <div class="portfolio-item" data-category="Award">
       <img src="A1.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
