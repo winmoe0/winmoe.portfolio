@@ -1823,7 +1823,7 @@
       <img src="T4.PNG" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
       <div class="portfolio-overlay">
         <h4>English Level 4: Online Class</h4>
-        <p>Practicing in English Speaking with Tongue Twisters</p>
+        <p>Practicing and Writing in English </p>
       </div>
     </div>
 
@@ -1831,23 +1831,23 @@
       <img src="T5.PNG" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
       <div class="portfolio-overlay">
         <h4>Level 4: English Online Class</h4>
-        <p>Making a conversation in English and Reading</p>
+        <p>Reading and Practicing Tongue Twister to Improve Speaking Skills</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="teaching">
       <img src="T2.jpg" alt="English Online Class" onerror="this.src='https://via.placeholder.com/400x300?text=Poy+English+Launch'">
       <div class="portfolio-overlay">
-        <h4>English Online Class</h4>
-        <p>Inclusive and Supportive class with multiple joyful activities.</p>
+        <h4>English Online Foundation Class</h4>
+        <p>Inclusive and Supportive class with multiple joyful activities</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="teaching">
       <img src="T1.jpg" alt="Online English Class" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
       <div class="portfolio-overlay">
-        <h4>English Online Class</h4>
-        <p>Student-centered online language instruction architectures via Zoom</p>
+        <h4>English Online Level 1 Class</h4>
+        <p>Student Presentation and Giving Feedback to Improve English Skills</p>
       </div>
     </div>
 
@@ -1871,23 +1871,23 @@
       <img src="T7.png" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
       <div class="portfolio-overlay">
         <h4>Onsite Class</h4>
-        <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
+        <p>Teaching English Tenses and Creating Inclusive Classroom</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="teaching">
       <img src="T8.png" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
       <div class="portfolio-overlay">
-        <h4>Onsite Class</h4>
-        <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
+        <h4> English Level 2 Online Class</h4>
+        <p>Teacher Allows Students to Practice English Speaking by Joyful Activites</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="teaching">
       <img src="T9.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
       <div class="portfolio-overlay">
-        <h4>Onsite Class</h4>
-        <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
+        <h4>Upper Intermediate Class</h4>
+        <p>Encouraging Students to Read a Long Tongue Twister Sentences in Order to Improve English Fluency</p>
       </div>
     </div>
 
@@ -1895,7 +1895,7 @@
       <img src="T10.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
       <div class="portfolio-overlay">
         <h4>Onsite Class</h4>
-        <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
+        <p>Using Story-telling Approach that Helps Students Engaged</p>
       </div>
     </div>
 
@@ -1911,14 +1911,14 @@
       <img src="T12.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
       <div class="portfolio-overlay">
         <h4>Onsite Class</h4>
-        <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
+        <p>Using Collaborating Teaching Method that Allows Students to Work in Group and Share Their Works Into the Class</p>
       </div>
     </div>
 <div class="portfolio-item" data-category="teaching">
       <img src="T13.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
       <div class="portfolio-overlay">
         <h4>Onsite Class</h4>
-        <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
+        <p>Using Formative Assessment During the Class that Allows Students to Share and Speak in the Class</p>
       </div>
     </div>
 
@@ -1926,7 +1926,7 @@
       <img src="T14.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
       <div class="portfolio-overlay">
         <h4>Onsite Class</h4>
-        <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
+        <p>Support Group Work Activities and Share into the Class that Build Their Confidence and Collaboration</p>
       </div>
     </div>
     
@@ -1968,253 +1968,246 @@
     <div class="portfolio-item" data-category="volunteer">
       <img src="V1.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+1'">
       <div class="portfolio-overlay">
-        <h4>Community Outreach & Volunteering</h4>
-        <p>Educational support & youth development initiatives</p>
+        <h4>Open House 2026, Payap University</h4>
+        <p>Video Graphing and Content Creation</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="volunteer">
       <img src="V2.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+2'">
       <div class="portfolio-overlay">
-        <h4>Humanitarian & Community Service</h4>
-        <p>G60–99 Mon Charity & local outreach programs</p>
+        <h4>International Day 2026, Payap University</h4>
+        <p>Master of Ceremony (MC) with a Friend</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="volunteer">
       <img src="V3.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
       <div class="portfolio-overlay">
-        <h4>Intercultural University Volunteering</h4>
-        <p>Student engagement & event coordination</p>
+        <h4>Public Relations Department, Payap University</h4>
+        <p>Volunteering as Video Grapher and Video Editing</p>
       </div>
     </div>
 
        <div class="portfolio-item" data-category="volunteer">
       <img src="V4.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+1'">
       <div class="portfolio-overlay">
-        <h4>Community Outreach & Volunteering</h4>
-        <p>Educational support & youth development initiatives</p>
+        <h4>Mon Community Conference 2022, Nyi Sar, Ye Town, Myanmar</h4>
+        <p>Community Outreach & Participation</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="volunteer">
       <img src="V5.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+2'">
       <div class="portfolio-overlay">
-        <h4>Humanitarian & Community Service</h4>
-        <p>G60–99 Mon Charity & local outreach programs</p>
+        <h4>Chinese GED Students, Payap University</h4>
+        <p>Creating an Interested Activity and Leading the Session</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="volunteer">
       <img src="V6.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
       <div class="portfolio-overlay">
-        <h4>Intercultural University Volunteering</h4>
-        <p>Student engagement & event coordination</p>
+        <h4>Chinese GED Students, Payap University</h4>
+        <p>Creating an Interested Activity and Leading the Session</p>
       </div>
     </div>
     <div class="portfolio-item" data-category="volunteer">
       <img src="V7.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+1'">
       <div class="portfolio-overlay">
-        <h4>Community Outreach & Volunteering</h4>
-        <p>Educational support & youth development initiatives</p>
+        <h4>International School Students, Chiang Mai</h4>
+        <p>Observing International School Students and Communicating with Diverse Students</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="volunteer">
-      <img src="V8.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+2'">
+      <img src="V8.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
       <div class="portfolio-overlay">
-        <h4>Humanitarian & Community Service</h4>
-        <p>G60–99 Mon Charity & local outreach programs</p>
+        <h4>Football Match, Mon National College, Myanmar</h4>
+        <p>Serving As an Announcer, 2024</p>
+      </div>
+    </div>
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V9.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+1'">
+      <div class="portfolio-overlay">
+        <h4>Community Outreach & Participation</h4>
+        <p>Participating in the chanting of the Dhammacakkappavattana Sutta</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="volunteer">
-      <img src="V9.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <img src="V10.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+2'">
       <div class="portfolio-overlay">
-        <h4>Intercultural University Volunteering</h4>
-        <p>Student engagement & event coordination</p>
-      </div>
-    </div>
-    <div class="portfolio-item" data-category="volunteer">
-      <img src="V10.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+1'">
-      <div class="portfolio-overlay">
-        <h4>Community Outreach & Volunteering</h4>
-        <p>Educational support & youth development initiatives</p>
+        <h4>College Sport Competition</h4>
+        <p>Volunteering As An Announcer for Sport Competition, Mon National College</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="volunteer">
-      <img src="V11.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+2'">
+      <img src="V11.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
       <div class="portfolio-overlay">
-        <h4>Humanitarian & Community Service</h4>
-        <p>G60–99 Mon Charity & local outreach programs</p>
+        <h4>Parami University's Commencement and Conversation Program 2025</h4>
+        <p>Contributing As a Speaker</p>
+      </div>
+    </div>
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V12.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+1'">
+      <div class="portfolio-overlay">
+        <h4>Community Outreach & Volunteering at Ban San Sai School, Chiang Rai</h4>
+        <p>Educational support & youth development initiatives, 2024</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="volunteer">
-      <img src="V12.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <img src="V13.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+2'">
       <div class="portfolio-overlay">
-        <h4>Intercultural University Volunteering</h4>
-        <p>Student engagement & event coordination</p>
-      </div>
-    </div>
-    <div class="portfolio-item" data-category="volunteer">
-      <img src="V13.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+1'">
-      <div class="portfolio-overlay">
-        <h4>Community Outreach & Volunteering</h4>
-        <p>Educational support & youth development initiatives</p>
+        <h4>International Day, Tonkla School, Chiang Mai</h4>
+        <p>Bringing Myanmar Traditional Game and Leading The Activities for Tonkla Students</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="volunteer">
-      <img src="V14.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+2'">
+      <img src="V14.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
       <div class="portfolio-overlay">
-        <h4>Humanitarian & Community Service</h4>
-        <p>G60–99 Mon Charity & local outreach programs</p>
+        <h4>Open House 2025, Payap University</h4>
+        <p>Performance Volunteering to Show Up Mon Traditional Dance from Myanmar </p>
+      </div>
+    </div>
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V15.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+1'">
+      <div class="portfolio-overlay">
+        <h4>Payap Dormitory Open House 2025</h4>
+        <p>Performance Volunteering to Show Up Mon Traditional Dance from Myanmar</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="volunteer">
-      <img src="V15.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <img src="V16.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+2'">
       <div class="portfolio-overlay">
-        <h4>Intercultural University Volunteering</h4>
-        <p>Student engagement & event coordination</p>
-      </div>
-    </div>
-    <div class="portfolio-item" data-category="volunteer">
-      <img src="V16.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+1'">
-      <div class="portfolio-overlay">
-        <h4>Community Outreach & Volunteering</h4>
-        <p>Educational support & youth development initiatives</p>
+        <h4>International Day 2025, Payap University</h4>
+        <p>Video Graphing and Content Creation</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="volunteer">
-      <img src="V17.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+2'">
+      <img src="V17.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
       <div class="portfolio-overlay">
-        <h4>Humanitarian & Community Service</h4>
-        <p>G60–99 Mon Charity & local outreach programs</p>
+        <h4>Youth Leadership Training, JCI</h4>
+        <p>Participating in the Youth Leadership Training and Sharing Knowledge with Others</p>
+      </div>
+    </div>
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V18.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+1'">
+      <div class="portfolio-overlay">
+        <h4>Volunteering For Photographs, Payap University</h4>
+        <p>Educational support & development initiatives</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="volunteer">
-      <img src="V18.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <img src="V19.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+2'">
       <div class="portfolio-overlay">
-        <h4>Intercultural University Volunteering</h4>
-        <p>Student engagement & event coordination</p>
-      </div>
-    </div>
-    <div class="portfolio-item" data-category="volunteer">
-      <img src="V19.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+1'">
-      <div class="portfolio-overlay">
-        <h4>Community Outreach & Volunteering</h4>
-        <p>Educational support & youth development initiatives</p>
+        <h4>English Communication Arts Program, Payap University</h4>
+        <p>Educational support & development initiatives</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="volunteer">
-      <img src="V20.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+2'">
+      <img src="V20.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
       <div class="portfolio-overlay">
-        <h4>Humanitarian & Community Service</h4>
-        <p>G60–99 Mon Charity & local outreach programs</p>
+        <h4>Community Outreach and Volunteering, 2024</h4>
+        <p>Volunteering at Chiang Mai Lantern Craft Festival</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="volunteer">
       <img src="V21.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
       <div class="portfolio-overlay">
-        <h4>Intercultural University Volunteering</h4>
-        <p>Student engagement & event coordination</p>
-      </div>
-    </div>
-
-    <div class="portfolio-item" data-category="volunteer">
-      <img src="V22.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
-      <div class="portfolio-overlay">
-        <h4>Intercultural University Volunteering</h4>
-        <p>Student engagement & event coordination</p>
+        <h4>English Communication Arts Program Seminar, Payap Unviersity</h4>
+        <p>Participating in Singing Performance</p>
       </div>
     </div>
     
     <div class="portfolio-item" data-category="volunteer">
-      <img src="V23.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <img src="V22.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
       <div class="portfolio-overlay">
-        <h4>Intercultural University Volunteering</h4>
-        <p>Student engagement & event coordination</p>
+        <h4>Sport Competition, Mon National College</h4>
+        <p>Involving As A Performer to Open Ceremony</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="volunteer">
-      <img src="V24.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <img src="V23.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
       <div class="portfolio-overlay">
-        <h4>Intercultural University Volunteering</h4>
-        <p>Student engagement & event coordination</p>
+        <h4>Community Outreach and Volunteering</h4>
+        <p>Volunteering Work at Mon National College</p>
       </div>
     </div>
 
  <div class="portfolio-item" data-category="volunteer">
+      <img src="V24.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <div class="portfolio-overlay">
+        <h4>Mon Youth Day 2024, Mon National Education Committee</h4>
+        <p>Volunteering in Singing Performance</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
       <img src="V25.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
       <div class="portfolio-overlay">
-        <h4>Intercultural University Volunteering</h4>
-        <p>Student engagement & event coordination</p>
+        <h4>College Contribution, Payap University</h4>
+        <p>Sharing Experience About Scholarship</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="volunteer">
       <img src="V26.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
       <div class="portfolio-overlay">
-        <h4>Intercultural University Volunteering</h4>
-        <p>Student engagement & event coordination</p>
+        <h4>Mon Youth Day 2024, Mon National Education Committee</h4>
+        <p>Giving A Motivational Speech</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="volunteer">
       <img src="V27.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
       <div class="portfolio-overlay">
-        <h4>Intercultural University Volunteering</h4>
-        <p>Student engagement & event coordination</p>
-      </div>
-    </div>
-
-    <div class="portfolio-item" data-category="volunteer">
-      <img src="V28.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
-      <div class="portfolio-overlay">
-        <h4>Intercultural University Volunteering</h4>
-        <p>Student engagement & event coordination</p>
+        <h4>Master of Ceremony, Mon National College</h4>
+        <p>Being MC for School Activities</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="volunteer">
       <img src="V29.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
       <div class="portfolio-overlay">
-        <h4>Intercultural University Volunteering</h4>
-        <p>Student engagement & event coordination</p>
+        <h4>Mon Community Conference 2022, Myanmar</h4>
+        <p>Volunteering in Mon Traditional Dance</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="volunteer">
       <img src="V30.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
       <div class="portfolio-overlay">
-        <h4>Intercultural University Volunteering</h4>
-        <p>Student engagement & event coordination</p>
+        <h4>Mon Community Conference 2022, Myanmar</h4>
+        <p>Participating in Singing Performance</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="volunteer">
       <img src="V31.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
       <div class="portfolio-overlay">
-        <h4>Intercultural University Volunteering</h4>
-        <p>Student engagement & event coordination</p>
+        <h4>Star and Moon Competition, Payap University, 2024</h4>
+        <p>Participating As International College Volunteer</p>
       </div>
     </div>
 
-    <div class="portfolio-item" data-category="volunteer">
+     <div class="portfolio-item" data-category="volunteer">
       <img src="V32.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
       <div class="portfolio-overlay">
-        <h4>Intercultural University Volunteering</h4>
-        <p>Student engagement & event coordination</p>
+        <h4>Multiculturalism Event, Payap University, 2024</h4>
+        <p>Participating in Singing Performance</p>
       </div>
     </div>
+
 
     <!-- PRACTICAL ACTIVITY & PROJECT ITEMS -->
     <div class="portfolio-item" data-category="Activity">
