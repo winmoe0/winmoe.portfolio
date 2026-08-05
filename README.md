@@ -2376,21 +2376,21 @@
 
           <div class="research-body">
             <p class="abstract-text">
-              <strong>Abstract:</strong> This study explores the experiences of educational migration and cultural adaptation among Myanmar students studying in Chiang Mai, Thailand following political instability and educational disruptions in Myanmar[cite: 1]. Utilizing a mixed-methods approach ($N=20$ survey, $N=5$ qualitative interviews), it identifies key migration drivers, adaptation challenges like language barriers, and strategies students use to maintain their Myanmar cultural identity while integrating into Thai university life[cite: 1].
+              <strong>Abstract:</strong> This study explores educational migration and cultural adaptation among Myanmar students studying in Chiang Mai, Thailand. Using mixed methods, data were collected from 20 survey participants and five interviewees. The findings show that political instability, scholarships, affordable education, and safety motivated migration. Although students experienced language and cultural challenges, most adapted successfully through social support while maintaining their Myanmar cultural identity and achieving personal growth and academic development.
             </p>
             
             <div class="research-details">
               <div class="detail-item">
                 <i class="fas fa-bullseye"></i>
-                <span><strong>Objectives:</strong> Identify factors influencing educational migration, analyze cultural/academic adjustment challenges, and examine heritage identity maintenance[cite: 1].</span>
+                <span><strong>Objectives:</strong> To examine educational migration, cultural adaptation, challenges, and identity maintenance among Myanmar students in Chiang Mai.</span>
               </div>
               <div class="detail-item">
                 <i class="fas fa-vial"></i>
-                <span><strong>Methods:</strong> Mixed-method design combining Google Forms questionnaires ($N=20$) and semi-structured interviews ($N=5$) with thematic analysis[cite: 1].</span>
+                <span><strong>Methods:</strong> Mixed-methods research using surveys with 20 students and interviews with five participants in Chiang Mai.</span>
               </div>
               <div class="detail-item">
                 <i class="fas fa-check-circle"></i>
-                <span><strong>Key Findings:</strong> Political instability (45%) and affordability (50%) drive migration[cite: 1]; students overcome language barriers (70%) through social support while preserving native identity via cultural hybridity[cite: 1].</span>
+                <span><strong>Key Findings:</strong> Political instability and affordable education motivated migration. Despite language and cultural challenges, students adapted successfully through support networks while preserving Myanmar cultural identity and experiencing significant personal growth.</span>
               </div>
             </div>
           </div>
@@ -2429,21 +2429,21 @@
 
   <div class="research-body">
     <p class="abstract-text">
-      <strong>Abstract:</strong> This Independent Study (IEC 491) examines how Mon content creators utilize Facebook for digital content creation, audience engagement, and monetization[cite: 2]. Utilizing a mixed-method design ($N=30$ survey, $N=3$ qualitative interviews)[cite: 2], the paper explores digital entrepreneurship, cultural representation, algorithmic visibility challenges, and financial stability in the creator economy[cite: 2].
+      <strong>Abstract:</strong> This study explores how Mon content creators use Facebook to create content, build audiences, and generate income. Using a mixed-methods approach, survey and interview data examined content creation practices, audience engagement, monetization strategies, and challenges. The findings indicate that strategic content planning, audience interaction, and cultural promotion support creator success. However, algorithm changes, competition, unstable income, and time constraints remain major barriers to sustainable digital entrepreneurship for Mon creators..
     </p>
     
     <div class="research-details">
       <div class="detail-item">
         <i class="fas fa-bullseye"></i>
-        <span><strong>Objectives:</strong> Analyze content production practices, evaluate audience engagement strategies, and investigate monetization challenges/opportunities[cite: 2].</span>
+        <span><strong>Objectives:</strong> To examine Facebook content creation, audience engagement, income generation, and challenges among Mon content creators.</span>
       </div>
       <div class="detail-item">
         <i class="fas fa-vial"></i>
-        <span><strong>Methods:</strong> Mixed-methods combining structured Google Forms questionnaires ($N=30$) and in-depth thematic interviews ($N=3$)[cite: 2].</span>
+        <span><strong>Methods:</strong> Mixed-methods research using questionnaires with 30 Mon content creators and interviews with three selected participants.</span>
       </div>
       <div class="detail-item">
         <i class="fas fa-check-circle"></i>
-        <span><strong>Key Findings:</strong> 87% plan content and 90% prioritize engagement for visibility[cite: 2]; 75% use monetization tools, but only 30% achieve stable income due to algorithm changes (82%) and burnout (68%)[cite: 2].</span>
+        <span><strong>Key Findings:</strong> Strategic content planning, audience engagement, and cultural promotion improved visibility and growth. However, algorithm changes, competition, unstable income, financial constraints, and burnout limited long-term sustainability for Mon Facebook content creators.</span>
       </div>
     </div>
   </div>
@@ -2482,21 +2482,22 @@
 
   <div class="research-body">
     <p class="abstract-text">
-      <strong>Abstract:</strong> This study investigates the primary academic stressors and coping mechanisms of English Communication Arts (ECA) students at Payap University. Utilizing a mixed-methods approach ($N=15$ survey, $N=4$ interviews), the research highlights challenges in workload management, instructional clarity, and cross-cultural group project coordination.
+      <strong>Abstract:</strong>This study investigates the academic challenges faced by English Communication Arts students at the International College, Payap University. Using a mixed-methods approach, survey and interview data explored students’ experiences with workload, communication, and group projects. The findings indicate that heavy coursework, unclear lecturer instructions, and group coordination were major challenges. Students relied on time management, peer support, and online resources, while emphasizing the importance of clearer feedback and institutional support.
     </p>
     
     <div class="research-details">
       <div class="detail-item">
         <i class="fas fa-bullseye"></i>
-        <span><strong>Objectives:</strong> Identify specific academic stress vectors among international ECA students and evaluate student coping strategies.</span>
+        <span><strong>Objectives:</strong>To examine academic challenges and coping strategies among English Communication Arts students at Payap University.</span>
       </div>
       <div class="detail-item">
         <i class="fas fa-vial"></i>
-        <span><strong>Methods:</strong> Mixed-methods design using Google Forms survey questionnaires ($N=15$) and multi-lingual qualitative interviews ($N=4$).</span>
+        <span><strong>Methods:</strong> Mixed-methods research using surveys with 15 students and interviews with four English Communication Arts participants.</span>
       </div>
       <div class="detail-item">
         <i class="fas fa-check-circle"></i>
-        <span><strong>Key Findings:</strong> Heavy course workloads, ambiguous lecturer instructions (33.3%), and group project frictions (46.7%) drive stress[cite: 3]; students adapt via AI tools (80%), digital schedules (66.7%), and peer support[cite: 3].</span>
+        <span><strong>Key Findings:</strong> Heavy workload, unclear instructions, and group coordination caused academic stress. Students used time management, peer support, and online resources, but requested clearer lecturer feedback and stronger institutional academic support.
+</span>
       </div>
     </div>
   </div>
@@ -2535,21 +2536,23 @@
 
   <div class="research-body">
     <p class="abstract-text">
-      <strong>Abstract:</strong> This Capstone Research Project evaluates the impact of online learning on the academic performance and achievement of Mon National College students post-pandemic. Utilizing a mixed-method design ($N=40$ stratified survey, $N=5$ qualitative interviews), the paper explores flexibility, technological infrastructure constraints, instructor support, and the mediating role of collaborative learning in digital education.
+      <strong>Abstract:</strong> This study evaluates the effectiveness of online learning on the academic performance and achievement of Mon National College students. Using a mixed-methods approach, survey and interview data explored students’ learning experiences, influencing factors, and academic outcomes. The findings show that online learning provided flexibility and accessibility but was affected by internet connectivity, technological resources, motivation, and instructor support. Collaborative learning and effective teaching strategies enhanced student engagement and academic performance.
     </p>
     
     <div class="research-details">
       <div class="detail-item">
         <i class="fas fa-bullseye"></i>
-        <span><strong>Objectives:</strong> Examine online learning effectiveness, identify key influencing factors, and evaluate the overall impact on student achievement.</span>
+        <span><strong>Objectives:</strong> To evaluate online learning effectiveness and its impact on Mon National College students’ academic performance and achievement.</span>
       </div>
       <div class="detail-item">
         <i class="fas fa-vial"></i>
-        <span><strong>Methods:</strong> Mixed-methods combining stratified Likert-scale questionnaires ($N=40$) and thematic semi-structured interviews ($N=5$)[cite: 4].</span>
+        <span><strong>Methods:</strong> Mixed-methods research using questionnaires with 40 students and interviews with five Mon National College participants.
+</span>
       </div>
       <div class="detail-item">
         <i class="fas fa-check-circle"></i>
-        <span><strong>Key Findings:</strong> Online education offers scheduling flexibility[cite: 4], but success relies heavily on stable internet, student motivation[cite: 4], and active peer collaboration which significantly boosts engagement[cite: 4].</span>
+        <span><strong>Key Findings:</strong> Online learning improved flexibility and independent learning but faced technological and motivational challenges. Instructor support, collaborative learning, reliable internet, and active student engagement positively influenced academic performance and achievement.
+</span>
       </div>
     </div>
   </div>
@@ -2588,21 +2591,21 @@
 
   <div class="research-body">
     <p class="abstract-text">
-      <strong>Abstract:</strong> This Selected Topics study (IEC 493) investigates how off-task mobile technology and digital distraction influence classroom engagement across five academic programs at Payap University's International College. Employing a mixed-methods approach ($N=10$ survey, $N=5$ interviews), it balances the dual role of smartphones/laptops as both sources of non-academic distraction and essential learning tools for international students.
+      <strong>Abstract:</strong> This study investigates the impact of digital distraction on classroom participation among International College students at Payap University. Using a mixed-methods approach, survey and interview data examined students’ digital device use, sources of distraction, and learning experiences. The findings indicate that non-academic smartphone use reduced concentration and classroom participation, while responsible use of digital technology supported learning. The study recommends balanced technology-use policies and effective self-regulation strategies in classrooms.
     </p>
     
     <div class="research-details">
       <div class="detail-item">
         <i class="fas fa-bullseye"></i>
-        <span><strong>Objectives:</strong> Identify major sources of digital distraction, evaluate impacts on willingness to participate, and investigate student/instructor mitigation strategies.</span>
+        <span><strong>Objectives:</strong> To examine digital distraction and its impact on classroom participation among International College students at Payap University, Chiang Mai.</span>
       </div>
       <div class="detail-item">
         <i class="fas fa-vial"></i>
-        <span><strong>Methods:</strong> Mixed-method design combining structured Google Forms questionnaires ($N=10$) and in-depth thematic qualitative interviews ($N=5$).</span>
+        <span><strong>Methods:</strong> Mixed-methods research using surveys with ten students and interviews with five International College participants.</span>
       </div>
       <div class="detail-item">
         <i class="fas fa-check-circle"></i>
-        <span><strong>Key Findings:</strong> Social notifications distract 70% of students and reduce participation (60%); however, 80% utilize devices for translation/research, favoring self-regulation over strict bans.</span>
+        <span><strong>Key Findings:</strong> Non-academic smartphone use reduced concentration and classroom participation, while academic technology use supported learning. Students preferred responsible technology use, self-regulation, and balanced classroom policies instead of complete device bans.</span>
       </div>
     </div>
   </div>
@@ -2641,21 +2644,23 @@
 
   <div class="research-body">
     <p class="abstract-text">
-      <strong>Abstract:</strong> This anthropological study explores how traditional gender expectations are structured, preserved, and adapted among the Mon community along the Thai-Myanmar border. Utilizing secondary qualitative ethnographic data supplemented by local resident interviews, the paper evaluates gendered labor divisions in Buddhist rituals, women as heritage preservers, and expanding economic opportunities driven by tourism around the Mon Bridge.
+      <strong>Abstract:</strong>This study examines gender roles and cultural change among the Mon community in Wang Ka Village, Sangkhlaburi, Thailand. Using qualitative secondary data and two informal interviews, it explores how cultural traditions shape gender responsibilities and how modernization influences these roles. The findings show that ritual practices reinforce traditional gender divisions, while education and tourism expand women’s economic and public participation without weakening Mon cultural identity and community traditions.
     </p>
     
     <div class="research-details">
       <div class="detail-item">
         <i class="fas fa-bullseye"></i>
-        <span><strong>Objectives:</strong> Analyze gendered responsibilities in ritual life, examine women's roles in linguistic/cultural preservation, and evaluate adaptive continuity.</span>
+        <span><strong>Objectives:</strong> To examine gender roles and cultural change among the Mon community in Wang Ka Village, Thailand.
+</span>
       </div>
       <div class="detail-item">
         <i class="fas fa-vial"></i>
-        <span><strong>Methods:</strong> Qualitative thematic analysis combining secondary ethnographic source analysis with local informal resident interviews.</span>
+        <span><strong>Methods:</strong> Qualitative study using secondary literature, thematic analysis, and two informal interviews with Mon community residents.
+</span>
       </div>
       <div class="detail-item">
         <i class="fas fa-check-circle"></i>
-        <span><strong>Key Findings:</strong> Ritual life reinforces gendered structures, women serve as primary domestic preservers of Mon language[cite: 6], while tourism and education expand female public and economic roles without sacrificing cultural identity[cite: 6].</span>
+        <span><strong>Key Findings:</strong> Traditional rituals reinforced gender roles, while education and tourism expanded women’s participation. The Mon community adapted to social change while preserving cultural identity, traditions, language, and religious practices.</span>
       </div>
     </div>
   </div>
@@ -2694,21 +2699,21 @@
 
   <div class="research-body">
     <p class="abstract-text">
-      <strong>Abstract:</strong> This research project examines the environmental, socioeconomic, and behavioral factors driving malaria infection rates among students in Nyi Sar, Myanmar. Utilizing a mixed-methods design ($N=40$ stratified survey, $N=8$ qualitative interviews), the study compares infection trends between High School and College cohorts to inform school-based health education and vector control programs.
+      <strong>Abstract:</strong> This study examines malaria prevalence among students at Mon National High School and Mon National College in Nyi Sar, Myanmar. Using a mixed-methods approach, surveys and interviews explored environmental, socioeconomic, and behavioral factors associated with malaria infection. The findings reveal higher malaria prevalence among high school students, mainly due to environmental exposure, limited preventive resources, and lower health awareness. The study highlights the importance of health education and community-based malaria prevention.
     </p>
     
     <div class="research-details">
       <div class="detail-item">
         <i class="fas fa-bullseye"></i>
-        <span><strong>Objectives:</strong> Measure malaria prevalence differences, evaluate environmental exposure vectors (forests/streams), and assess preventive ITN usage.</span>
+        <span><strong>Objectives:</strong> To examine malaria prevalence and associated environmental, socioeconomic, and behavioral factors among students in Nyi Sar, Ye Town, Myanmar</span>
       </div>
       <div class="detail-item">
         <i class="fas fa-vial"></i>
-        <span><strong>Methods:</strong> Mixed-methods combining structured questionnaires ($N=40$) and semi-structured qualitative interviews ($N=8$).</span>
+        <span><strong>Methods:</strong> Mixed-methods research using surveys with 40 students and interviews with eight participants from two institutions.</span>
       </div>
       <div class="detail-item">
         <i class="fas fa-check-circle"></i>
-        <span><strong>Key Findings:</strong> High school students experienced higher malaria rates (75%) than college students (45%), driven by proximity to forest breeding sites (70%), limited financial resources for repellents (55%), and inconsistent bed net usage (42%).</span>
+        <span><strong>Key Findings:</strong> High school students experienced higher malaria prevalence due to environmental exposure, limited preventive resources, and lower health awareness. Improved education, community participation, and environmental management were recommended to reduce transmission.</span>
       </div>
     </div>
   </div>
