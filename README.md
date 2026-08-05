@@ -1604,6 +1604,18 @@
           <span>Teaching English to Young Learners (2026)</span>
         </div>
         <div class="cert-item-card">
+          <i class="fas fa-child"></i>
+          <span>Teaching for Career Development</span>
+        </div>
+        <div class="cert-item-card">
+          <i class="fas fa-child"></i>
+          <span>Teaching English Academic Writing to Speakers of Other Languages</span>
+        </div>
+        <div class="cert-item-card">
+          <i class="fas fa-child"></i>
+          <span>Teaching for Tourism Professionals</span>
+        </div>
+        <div class="cert-item-card">
           <i class="fas fa-hands-helping"></i>
           <span>Teaching English to Refugees and Displaced Learners</span>
         </div>
