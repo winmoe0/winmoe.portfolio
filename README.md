@@ -2213,15 +2213,15 @@
     <div class="portfolio-item" data-category="Activity">
       <img src="Ac1.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+1'">
       <div class="portfolio-overlay">
-        <h4>Practical Activity & Academic Project</h4>
-        <p>Hands-on educational workshop & team collaboration</p>
+        <h4>English Communication Arts Program Seminar, Payap University, 2025</h4>
+        <p>Presentation About Research Project</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="Activity">
       <img src="Ac2.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+2'">
       <div class="portfolio-overlay">
-        <h4>Interactive Learning Project</h4>
+        <h4>Field Activity at Chiang Mai News Studio</h4>
         <p>Educational technology implementation & practical tasks</p>
       </div>
     </div>
@@ -2229,7 +2229,7 @@
     <div class="portfolio-item" data-category="Activity">
       <img src="Ac3.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+3'">
       <div class="portfolio-overlay">
-        <h4>Field Activity & Applied Project</h4>
+        <h4>Field Activity & Applied Project at Chiang Mai News Studio</h4>
         <p>Real-world project execution & communicative activities</p>
       </div>
     </div>
@@ -2238,24 +2238,24 @@
     <div class="portfolio-item" data-category="Activity">
       <img src="Ac4.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+1'">
       <div class="portfolio-overlay">
-        <h4>Practical Activity & Academic Project</h4>
-        <p>Hands-on educational workshop & team collaboration</p>
+        <h4>Role-play Activity</h4>
+        <p>Mon National College, 2023</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="Activity">
       <img src="Ac5.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+2'">
       <div class="portfolio-overlay">
-        <h4>Interactive Learning Project</h4>
-        <p>Educational technology implementation & practical tasks</p>
+        <h4>International Day 2025, Tonkla School, Chiang Mai</h4>
+        <p>Real-world project execution & communicative activities</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="Activity">
       <img src="Ac6.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+3'">
       <div class="portfolio-overlay">
-        <h4>Field Activity & Applied Project</h4>
-        <p>Real-world project execution & communicative activities</p>
+        <h4>Mon Woman Day 2020</h4>
+        <p>Giving A Motivational Speech</p>
       </div>
     </div>
 
@@ -2271,7 +2271,7 @@
       <img src="Ac8.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+2'">
       <div class="portfolio-overlay">
         <h4>Interactive Learning Project</h4>
-        <p>Educational technology implementation & practical tasks</p>
+        <p>Hands-on educational workshop, team collaboration and practical tasks</p>
       </div>
     </div>
 
@@ -2294,71 +2294,55 @@
     <div class="portfolio-item" data-category="Activity">
       <img src="Ac11.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+2'">
       <div class="portfolio-overlay">
-        <h4>Interactive Learning Project</h4>
-        <p>Educational technology implementation & practical tasks</p>
-      </div>
-    </div>
-
-    <div class="portfolio-item" data-category="Activity">
-      <img src="Ac12.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+3'">
-      <div class="portfolio-overlay">
-        <h4>Field Activity & Applied Project</h4>
-        <p>Real-world project execution & communicative activities</p>
+        <h4>Class Leader, 2024</h4>
+        <p>Mon National College</p>
       </div>
     </div>
 
      <div class="portfolio-item" data-category="Activity">
       <img src="Ac13.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+1'">
       <div class="portfolio-overlay">
-        <h4>Practical Activity & Academic Project</h4>
-        <p>Hands-on educational workshop & team collaboration</p>
+        <h4>DISP, USAID Gathering, 2024</h4>
+        <p>Meeting and Greeting with New People</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="Activity">
       <img src="Ac14.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+2'">
       <div class="portfolio-overlay">
-        <h4>Interactive Learning Project</h4>
-        <p>Educational technology implementation & practical tasks</p>
+        <h4>English Communication Arts, Payap University</h4>
+        <p>Real-world project execution & communicative activities</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="Activity">
       <img src="Ac15.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+3'">
       <div class="portfolio-overlay">
-        <h4>Field Activity & Applied Project</h4>
-        <p>Real-world project execution & communicative activities</p>
-      </div>
-    </div>
-
-     <div class="portfolio-item" data-category="Activity">
-      <img src="Ac16.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+1'">
-      <div class="portfolio-overlay">
-        <h4>Practical Activity & Academic Project</h4>
-        <p>Hands-on educational workshop & team collaboration</p>
+        <h4>Public Speech Competition 2022</h4>
+        <p>Mon National Education Committee, Myanmar</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="Activity">
       <img src="Ac17.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+2'">
       <div class="portfolio-overlay">
-        <h4>Interactive Learning Project</h4>
-        <p>Educational technology implementation & practical tasks</p>
+        <h4>Story-telling and Interactive Teaching Project</h4>
+        <p>Educational implementation & practical tasks</p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="Activity">
       <img src="Ac18.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+3'">
       <div class="portfolio-overlay">
-        <h4>Field Activity & Applied Project</h4>
-        <p>Real-world project execution & communicative activities</p>
+        <h4>Teaching Practical</h4>
+        <p>Mon National College, 2023</p>
       </div>
     </div>
 
      <div class="portfolio-item" data-category="Activity">
       <img src="Ac19.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+1'">
       <div class="portfolio-overlay">
-        <h4>Practical Activity & Academic Project</h4>
+        <h4>Teaching Practical, Mon National College</h4>
         <p>Hands-on educational workshop & team collaboration</p>
       </div>
     </div>
@@ -2366,8 +2350,8 @@
     <div class="portfolio-item" data-category="Activity">
       <img src="Ac20.jpg" alt="Practical Activity and Project" onerror="this.src='https://via.placeholder.com/400x300?text=Practical+Activity+2'">
       <div class="portfolio-overlay">
-        <h4>Interactive Learning Project</h4>
-        <p>Educational technology implementation & practical tasks</p>
+        <h4>College Activity, Mon National College</h4>
+        <p>Master of Ceremony and Announcer </p>
       </div>
     </div>
 
@@ -2447,7 +2431,7 @@
      <div class="portfolio-item" data-category="Award">
       <img src="A10.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
       <div class="portfolio-overlay">
-        <h4>Appreciation of Participation at EC Seminar, 2024</h4>
+        <h4>Participation, English Communication Arts Seminar, 2024</h4>
         <p>The International College, Payap University</p>
       </div>
     </div>
@@ -2463,7 +2447,7 @@
  <div class="portfolio-item" data-category="Award">
       <img src="A12.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
       <div class="portfolio-overlay">
-        <h4>Second Prize,Writing Novel Competition</h4>
+        <h4>Second Prize, Writing Novel Competition</h4>
         <p>Mon National College, 2024</p>
       </div>
     </div>
@@ -2471,32 +2455,32 @@
  <div class="portfolio-item" data-category="Award">
       <img src="A13.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
       <div class="portfolio-overlay">
-        <h4>Second Prize,Writing Novel Competition</h4>
-        <p>Mon National College, 2024</p>
+        <h4>Active Student Prize, Financial Literacy Training </h4>
+        <p> Wide Horizon Myanmar, 2018</p></p>
       </div>
     </div>
 
     <div class="portfolio-item" data-category="Award">
       <img src="A14.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
       <div class="portfolio-overlay">
-        <h4>Second Prize,Writing Novel Competition</h4>
-        <p>Mon National College, 2024</p>
+        <h4>High School Completion</h4>
+        <p>Basic Education High School, Myanmar, 2018</p>
       </div>
     </div>
     
  <div class="portfolio-item" data-category="Award">
       <img src="A15.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
       <div class="portfolio-overlay">
-        <h4>Second Prize,Writing Novel Competition</h4>
-        <p>Mon National College, 2024</p>
+        <h4>Active Student Prize and Top 1</h4>
+        <p>High School, Myanmar, 2018</p>
       </div>
     </div>
 
    <div class="portfolio-item" data-category="Award">
       <img src="A16.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
       <div class="portfolio-overlay">
-        <h4>Second Prize,Writing Novel Competition</h4>
-        <p>Mon National College, 2024</p>
+        <h4>Top 1, English Program, 2023</h4>
+        <p>Mon National Educational Committee</p>
       </div>
     </div>
  
