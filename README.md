@@ -1859,6 +1859,78 @@
       </div>
     </div>
 
+    <div class="portfolio-item" data-category="teaching">
+      <img src="T6.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
+      <div class="portfolio-overlay">
+        <h4>Onsite Class</h4>
+        <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="teaching">
+      <img src="T7.png" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
+      <div class="portfolio-overlay">
+        <h4>Onsite Class</h4>
+        <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="teaching">
+      <img src="T8.png" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
+      <div class="portfolio-overlay">
+        <h4>Onsite Class</h4>
+        <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="teaching">
+      <img src="T9.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
+      <div class="portfolio-overlay">
+        <h4>Onsite Class</h4>
+        <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="teaching">
+      <img src="T10.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
+      <div class="portfolio-overlay">
+        <h4>Onsite Class</h4>
+        <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="teaching">
+      <img src="T11.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
+      <div class="portfolio-overlay">
+        <h4>Onsite Class</h4>
+        <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="teaching">
+      <img src="T12.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
+      <div class="portfolio-overlay">
+        <h4>Onsite Class</h4>
+        <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
+      </div>
+    </div>
+<div class="portfolio-item" data-category="teaching">
+      <img src="T13.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
+      <div class="portfolio-overlay">
+        <h4>Onsite Class</h4>
+        <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="teaching">
+      <img src="T14.jpg" alt="Onsite Class with 50 Students" onerror="this.src='https://via.placeholder.com/400x300?text=Online+Instruction'">
+      <div class="portfolio-overlay">
+        <h4>Onsite Class</h4>
+        <p>Using Story-telling approach and integrating teaching materials such as poster for visual</p>
+      </div>
+    </div>
+    
+
     <!-- MEDIA ITEMS -->
     <div class="portfolio-item" data-category="media">
       <img src="2vp.png" alt="AI Generative Content and CapCut Edition" onerror="this.src='https://via.placeholder.com/400x300?text=EthnoVerse+Media'">
@@ -2079,7 +2151,70 @@
         <p>Student engagement & event coordination</p>
       </div>
     </div>
- 
+
+ <div class="portfolio-item" data-category="volunteer">
+      <img src="V25.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <div class="portfolio-overlay">
+        <h4>Intercultural University Volunteering</h4>
+        <p>Student engagement & event coordination</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V26.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <div class="portfolio-overlay">
+        <h4>Intercultural University Volunteering</h4>
+        <p>Student engagement & event coordination</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V27.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <div class="portfolio-overlay">
+        <h4>Intercultural University Volunteering</h4>
+        <p>Student engagement & event coordination</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V28.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <div class="portfolio-overlay">
+        <h4>Intercultural University Volunteering</h4>
+        <p>Student engagement & event coordination</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V29.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <div class="portfolio-overlay">
+        <h4>Intercultural University Volunteering</h4>
+        <p>Student engagement & event coordination</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V30.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <div class="portfolio-overlay">
+        <h4>Intercultural University Volunteering</h4>
+        <p>Student engagement & event coordination</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V31.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <div class="portfolio-overlay">
+        <h4>Intercultural University Volunteering</h4>
+        <p>Student engagement & event coordination</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="volunteer">
+      <img src="V32.jpg" alt="Volunteering & Community Service" onerror="this.src='https://via.placeholder.com/400x300?text=Volunteering+Project+3'">
+      <div class="portfolio-overlay">
+        <h4>Intercultural University Volunteering</h4>
+        <p>Student engagement & event coordination</p>
+      </div>
+    </div>
 
     <!-- PRACTICAL ACTIVITY & PROJECT ITEMS -->
     <div class="portfolio-item" data-category="Activity">
@@ -2339,6 +2474,39 @@
         <p>Mon National College, 2024</p>
       </div>
     </div>
+    
+ <div class="portfolio-item" data-category="Award">
+      <img src="A13.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <div class="portfolio-overlay">
+        <h4>Second Prize,Writing Novel Competition</h4>
+        <p>Mon National College, 2024</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" data-category="Award">
+      <img src="A14.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <div class="portfolio-overlay">
+        <h4>Second Prize,Writing Novel Competition</h4>
+        <p>Mon National College, 2024</p>
+      </div>
+    </div>
+    
+ <div class="portfolio-item" data-category="Award">
+      <img src="A15.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <div class="portfolio-overlay">
+        <h4>Second Prize,Writing Novel Competition</h4>
+        <p>Mon National College, 2024</p>
+      </div>
+    </div>
+
+   <div class="portfolio-item" data-category="Award">
+      <img src="A16.jpg" alt="Awards & Recognitions" onerror="this.src='https://via.placeholder.com/400x300?text=Awards+Recognitions'">
+      <div class="portfolio-overlay">
+        <h4>Second Prize,Writing Novel Competition</h4>
+        <p>Mon National College, 2024</p>
+      </div>
+    </div>
+ 
 
   </div>
 </section>
