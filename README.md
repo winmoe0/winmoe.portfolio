@@ -1320,7 +1320,7 @@
 
         <div class="qual-card">
           <div class="qual-icon"><i class="fas fa-graduation-cap"></i></div>
-          <span class="qual-status">Expected Graduation Date: November 2027</span>
+          <span class="qual-status">Graduation: 2027</span>
           <h3>Bachelor of Arts in English Communication</h3>
           <p>The International College, Payap University, Chiang Mai. Developing expertise in English communication, intercultural communication, public speaking, and professional writing.</p>
         </div>
