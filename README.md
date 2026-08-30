@@ -1484,7 +1484,7 @@
             <div class="timeline-date">2025</div>
             <div class="timeline-card">
               <h3>Community Service Volunteer</h3>
-              <h4>Ban San San School, Chiang Mai</h4>
+              <h4>Ban San San School, Chiang Rai</h4>
               <p>Participated in a community outreach program organized by Payap University. Supported young learners through educational activities, creative art sessions, and donations while promoting an engaging and inclusive learning environment.</p>
             </div>
           </div>
