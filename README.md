@@ -1143,9 +1143,18 @@
       <div class="picto-hero-left">
         <h1 class="picto-greeting">Hello, I'm <br><span>Win Moe</span></h1>
         <h3 style="font-size: 1.2em; font-weight: 500; color: var(--primary-color); margin-bottom: 15px;">English Educator | Content Creator | Video Editor</h3>
+        
         <p class="picto-lead-text">
          I'm an English <span class="highlight-purple">Educator</span>, <span class="highlight-pink">Content Creator</span>, and Video Editor based in Chiang Mai, Thailand. Passionate about education and innovation, I create engaging learning experiences that combine communicative teaching, educational technology, and creative digital content. My mission is to empower learners with the confidence and skills they need to succeed in today's global world.
         </p>
+
+    <p class="availability-note">
+  <strong>Currently seeking:</strong> A <strong>4–6 month internship</strong>
+  beginning in <strong>January 2027</strong> as part of my Bachelor of Arts in
+  English Communication at the International College, Payap University. I am particularly interested in
+  <strong>English Teaching Intern</strong> and
+  <strong>Teaching Assistant</strong> opportunities.
+</p>
         
       <!-- Action Buttons Row -->
       <div class="hero-btn-group" style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap;">
@@ -1305,28 +1314,28 @@
         <div class="qual-card">
           <div class="qual-icon"><i class="fas fa-university"></i></div>
           <span class="qual-status gold">Candidate</span>
-          <h3>Master of Arts in Public Affairs</h3>
-          <p>Currently pursuing advanced studies in public policy, governance, leadership, and sustainable community development.</p>
+          <h3>Master of Arts in Public Affairs (Online)</h3>
+          <p>Currently pursuing advanced studies in public policy, governance, leadership, and sustainable community development at National University of Zoland.</p>
         </div>
 
         <div class="qual-card">
           <div class="qual-icon"><i class="fas fa-graduation-cap"></i></div>
-          <span class="qual-status">Current</span>
+          <span class="qual-status">Expected Graduation Date: November 2027</span>
           <h3>Bachelor of Arts in English Communication</h3>
-          <p>Payap University, Thailand. Developing expertise in English communication, intercultural communication, public speaking, and professional writing.</p>
+          <p>The International College, Payap University, Chiang Mai. Developing expertise in English communication, intercultural communication, public speaking, and professional writing.</p>
         </div>
 
         <div class="qual-card">
           <div class="qual-icon"><i class="fas fa-award"></i></div>
           <span class="qual-status complete">Graduated</span>
-          <h3>Associate Degree in Education</h3>
+          <h3>Associate Degree in Education in Teaching</h3>
           <p>Mon National College, Myanmar. Studied teaching methodologies, curriculum development, educational psychology, classroom management, and student assessment.</p>
         </div>
 
         <div class="qual-card">
           <div class="qual-icon"><i class="fas fa-file-alt"></i></div>
           <span class="qual-status complete">Graduated</span>
-          <h3>Diploma in Social Science</h3>
+          <h3>Diploma in Social Science Studies</h3>
           <p>National University of Zoland. Studied sociology, political science, community development, and social research.</p>
         </div>
 
