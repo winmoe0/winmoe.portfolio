@@ -1162,6 +1162,11 @@
         <a href="https://winmoe0.github.io" target="_blank" rel="noopener noreferrer" class="btn-picto-purple" style="margin-bottom: 0;">
           <i class="fab fa-github" style="margin-right: 8px;"></i> View My CV
         </a>
+        <a href="Resume_WinMoe.pdf" target="_blank" rel="noopener noreferrer"
+   class="btn-picto-purple"
+   style="margin-bottom: 0; font-size: 0.8em; padding: 8px 12px; margin-left: 5px;">
+  <i class="fas fa-download" style="margin-right: 5px;"></i> Download CV
+</a>
       </div>
 
         <!-- Counter Metric Nodes directly under introduction text -->
