@@ -1149,9 +1149,9 @@
         </p>
 
     <p class="availability-note">
-  <strong>Currently seeking:</strong> A <strong>4–6 month internship</strong>
+  <strong>Currently seeking:</strong> A <strong> 6 months internship</strong>
   beginning in <strong>January 2027</strong> as part of my Bachelor of Arts in
-  English Communication at the International College, Payap University. I am particularly interested in
+  English Communication at the International College, Payap University, Chiang Mai. I am particularly interested in
   <strong>English Teaching Intern</strong> and
   <strong>Teaching Assistant</strong> opportunities.
 </p>
