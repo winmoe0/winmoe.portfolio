@@ -1145,7 +1145,7 @@
         <h3 style="font-size: 1.2em; font-weight: 500; color: var(--primary-color); margin-bottom: 15px;">English Communication Student| Internship Candidate|</h3>
         
         <p class="picto-lead-text">
-         I'm currently a student studying English Communication Arts, English <span class="highlight-purple">Educator</span>, <span class="highlight-pink">Content Creator</span>, and Content Creator based in Chiang Mai, Thailand. Passionate about education and innovation, I create engaging learning experiences that combine communicative teaching, educational technology, and creative digital content. My mission is to empower learners with the confidence and skills they need to succeed in today's global world.
+         I'm currently a student studying English Communication Arts at the International College, Payap University in Chiang Mai, Thailand. Passionate about education and innovation, I create engaging learning experiences that combine communicative teaching, educational technology, and creative digital content. My mission is to empower learners with the confidence and skills they need to succeed in today's global world.
         </p>
 
     <p class="availability-note">
@@ -1162,7 +1162,7 @@
         <a href="https://winmoe0.github.io" target="_blank" rel="noopener noreferrer" class="btn-picto-purple" style="margin-bottom: 0;">
           <i class="fab fa-github" style="margin-right: 8px;"></i> View My CV
         </a>
-        <a href="Resume_Intern_WinMoe.pdf" target="_blank" rel="noopener noreferrer"
+        <a href="Resume_WinMoe.pdf" target="_blank" rel="noopener noreferrer"
    class="btn-picto-purple"
    style="margin-bottom: 0; font-size: 0.8em; padding: 8px 12px; margin-left: 5px;">
   <i class="fas fa-download" style="margin-right: 5px;"></i> Download CV
